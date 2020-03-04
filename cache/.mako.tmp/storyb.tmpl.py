@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1583346243.89368
+_modified_time = 1583347217.385785
 _enable_loop = True
 _template_filename = 'themes/custom/templates/storyb.tmpl'
 _template_uri = 'storyb.tmpl'
@@ -41,13 +41,13 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         post = context.get('post', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
-        enable_comments = context.get('enable_comments', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
         pheader = _mako_get_namespace(context, 'pheader')
         def content():
             return render_content(context._locals(__M_locals))
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -69,13 +69,13 @@ def render_content(context,**pageargs):
     try:
         post = context.get('post', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
-        enable_comments = context.get('enable_comments', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
         pheader = _mako_get_namespace(context, 'pheader')
         def content():
             return render_content(context)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        messages = context.get('messages', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('  \n    <div class="container">\n        <div class="row">\n            <!-- sidebar, which will move to the top on a small screen -->\n            <div class="col-sm-3">\n                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>\n            </div>\n            <div class="col-sm-9">\n                <article class="post-')
         __M_writer(str(post.meta('type')))
