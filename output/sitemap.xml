@@ -14,24 +14,16 @@
   <lastmod>2020-01-02T20:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/Examenes/col22.html</loc>
-  <lastmod>2020-02-04T16:40:00Z</lastmod>
- </url>
- <url>
   <loc>https://example.com/archive.html</loc>
   <lastmod>2020-03-02T21:47:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/</loc>
-  <lastmod>2020-03-02T21:50:00Z</lastmod>
+  <lastmod>2020-03-04T15:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/bib-fisicoquimica3/</loc>
   <lastmod>2020-01-13T02:10:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/bib-fq3/</loc>
-  <lastmod>2020-01-13T02:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/bib-matematica3/</loc>
@@ -46,20 +38,12 @@
   <lastmod>2020-01-13T02:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_bib-bib-matematica5/</loc>
-  <lastmod>2020-01-14T18:13:00Z</lastmod>
- </url>
- <url>
   <loc>https://example.com/categories/cat_energo/</loc>
   <lastmod>2020-03-02T21:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_fisicacontempo1/</loc>
   <lastmod>2020-02-07T20:11:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/cat_fisicoqiumica3/</loc>
-  <lastmod>2020-01-18T17:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/cat_fisicoquimica3/</loc>
@@ -72,10 +56,6 @@
  <url>
   <loc>https://example.com/categories/cat_matematica5/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/clases/</loc>
-  <lastmod>2020-01-16T20:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/categories/introducciones/</loc>
@@ -150,20 +130,12 @@
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-02-medida/</loc>
-  <lastmod>2020-01-16T19:37:00Z</lastmod>
- </url>
- <url>
   <loc>https://example.com/posts/cla-fisicoquimica3-2020-02-presentacion/</loc>
   <lastmod>2020-01-16T22:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/cla-fisicoquimica3-2020-03-guia/</loc>
   <lastmod>2020-01-18T17:14:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-03-medida/</loc>
-  <lastmod>2020-01-16T22:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/posts/cla-fisicoquimica3-2020-04-medida/</loc>
