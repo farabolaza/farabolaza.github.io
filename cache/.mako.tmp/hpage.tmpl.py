@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1583337271.081124
+_modified_time = 1583337486.2784653
 _enable_loop = True
 _template_filename = 'themes/custom/templates/hpage.tmpl'
 _template_uri = 'hpage.tmpl'
@@ -39,15 +39,15 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        enable_comments = context.get('enable_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
         messages = context.get('messages', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
+        comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context._locals(__M_locals))
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -67,15 +67,15 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        enable_comments = context.get('enable_comments', UNDEFINED)
         post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
         messages = context.get('messages', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
+        comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context)
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('  \n    <div class="container">\n        <div class="row">\n            <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->\n            <div class="col-sm-4">\n                <h5>\n                Próximos eventos\n                </h5>\n            \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="300" height="400" frameborder="0" scrolling="no"></iframe>\n                </div>\n            </div>\n            <div class="col-sm-8">\n                <article class="post-')
         __M_writer(str(post.meta('type')))
