@@ -6,163 +6,163 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
+  <loc>https://farabolaza.github.io/</loc>
   <lastmod>2020-02-04T14:34:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/2020/</loc>
+  <loc>https://farabolaza.github.io/2020/</loc>
   <lastmod>2020-01-02T20:47:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2020-03-02T21:47:00Z</lastmod>
+  <loc>https://farabolaza.github.io/archive.html</loc>
+  <lastmod>2020-03-04T15:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://farabolaza.github.io/categories/</loc>
   <lastmod>2020-03-04T15:17:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/bib-fisicoquimica3/</loc>
+  <loc>https://farabolaza.github.io/categories/bib-fisicoquimica3/</loc>
   <lastmod>2020-01-13T02:10:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/bib-matematica3/</loc>
+  <loc>https://farabolaza.github.io/categories/bib-matematica3/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/bib-matematica5/</loc>
+  <loc>https://farabolaza.github.io/categories/bib-matematica5/</loc>
   <lastmod>2020-01-14T18:22:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/bib/</loc>
+  <loc>https://farabolaza.github.io/categories/bib/</loc>
   <lastmod>2020-01-13T02:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_energo/</loc>
+  <loc>https://farabolaza.github.io/categories/cat_energo/</loc>
   <lastmod>2020-03-02T21:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_fisicacontempo1/</loc>
+  <loc>https://farabolaza.github.io/categories/cat_fisicacontempo1/</loc>
   <lastmod>2020-02-07T20:11:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_fisicoquimica3/</loc>
+  <loc>https://farabolaza.github.io/categories/cat_fisicoquimica3/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_matematica3/</loc>
+  <loc>https://farabolaza.github.io/categories/cat_matematica3/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/cat_matematica5/</loc>
+  <loc>https://farabolaza.github.io/categories/cat_matematica5/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/introducciones/</loc>
+  <loc>https://farabolaza.github.io/categories/introducciones/</loc>
   <lastmod>2020-01-14T20:17:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/plan-fisicoquimica3/</loc>
+  <loc>https://farabolaza.github.io/categories/plan-fisicoquimica3/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/plan-matematica3/</loc>
+  <loc>https://farabolaza.github.io/categories/plan-matematica3/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/plan-matematica5/</loc>
+  <loc>https://farabolaza.github.io/categories/plan-matematica5/</loc>
   <lastmod>2020-01-13T19:45:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/categories/plan/</loc>
+  <loc>https://farabolaza.github.io/categories/plan/</loc>
   <lastmod>2020-01-13T19:45:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://farabolaza.github.io/galleries/</loc>
   <lastmod>2020-01-02T18:05:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://farabolaza.github.io/listings/</loc>
   <lastmod>2020-01-02T18:05:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/</loc>
+  <loc>https://farabolaza.github.io/pages/</loc>
   <lastmod>2020-01-24T00:06:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/about-fede/</loc>
+  <loc>https://farabolaza.github.io/pages/about-fede/</loc>
   <lastmod>2020-01-15T18:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/cheatsheet/</loc>
+  <loc>https://farabolaza.github.io/pages/cheatsheet/</loc>
   <lastmod>2020-01-13T00:32:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/prog-fisicoquiimica3-2020/</loc>
+  <loc>https://farabolaza.github.io/pages/prog-fisicoquiimica3-2020/</loc>
   <lastmod>2020-01-24T00:06:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/</loc>
+  <loc>https://farabolaza.github.io/posts/</loc>
   <lastmod>2020-03-02T21:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/bib-fisicoquimica3-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/bib-fisicoquimica3-2020/</loc>
   <lastmod>2020-01-14T18:21:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/bib-matematica3-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/bib-matematica3-2020/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/bib-matematica5-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/bib-matematica5-2020/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-energo-2020-01-biomasa/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-energo-2020-01-biomasa/</loc>
   <lastmod>2020-03-02T21:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicacontempo1-2020-01-cuant-carga/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</loc>
   <lastmod>2020-02-07T20:11:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-01-intro/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-01-intro/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-02-presentacion/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-02-presentacion/</loc>
   <lastmod>2020-01-16T22:22:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-03-guia/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-03-guia/</loc>
   <lastmod>2020-01-18T17:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-fisicoquimica3-2020-04-medida/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</loc>
   <lastmod>2020-01-18T17:14:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-matematica3-2020-01-intro/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-matematica3-2020-01-intro/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/cla-matematica5-2020-01-intro/</loc>
+  <loc>https://farabolaza.github.io/posts/cla-matematica5-2020-01-intro/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/index-1.html</loc>
-  <lastmod>2020-03-02T21:50:00Z</lastmod>
+  <loc>https://farabolaza.github.io/posts/index-1.html</loc>
+  <lastmod>2020-03-04T15:50:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/plan-fisicoquimica3-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/plan-fisicoquimica3-2020/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/plan-matematica3-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/plan-matematica3-2020/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/posts/plan-matematica5-2020/</loc>
+  <loc>https://farabolaza.github.io/posts/plan-matematica5-2020/</loc>
   <lastmod>2020-01-13T19:45:00Z</lastmod>
  </url>
 </urlset>
