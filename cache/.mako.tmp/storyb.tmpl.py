@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1583337486.208012
+_modified_time = 1583337594.0612962
 _enable_loop = True
 _template_filename = 'themes/custom/templates/storyb.tmpl'
 _template_uri = 'storyb.tmpl'
@@ -41,10 +41,10 @@ def render_body(context,**pageargs):
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         site_has_comments = context.get('site_has_comments', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
-        messages = context.get('messages', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
+        messages = context.get('messages', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context._locals(__M_locals))
@@ -69,10 +69,10 @@ def render_content(context,**pageargs):
     try:
         site_has_comments = context.get('site_has_comments', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
-        messages = context.get('messages', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
+        messages = context.get('messages', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
         def content():
             return render_content(context)
