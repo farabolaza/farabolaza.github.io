@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>farabolaza (Física contemporánea 1)</title><link>https://farabolaza.github.io/</link><description>Acá iría alguna descripción y html para el index de esta categoría</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicacontempo1.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Wed, 04 Mar 2020 15:50:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cuantización de la carga eléctrica</title><link>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="cuantizacion-de-la-carga-electrica"&gt;
+&lt;h2&gt;Cuantización de la carga eléctrica&lt;/h2&gt;
+&lt;div class="admonition admonition-objetivos"&gt;
+&lt;p class="first admonition-title"&gt;Objetivos&lt;/p&gt;
+&lt;ol class="last arabic simple"&gt;
+&lt;li&gt;Conocer la relación entre el faraday, la carga eléctrica y el número de Avogadro&lt;/li&gt;
+&lt;li&gt;Describir cómo J.J. Thomson midió &lt;span class="math"&gt;\(e \over m\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Describir cómo Milikan midió &lt;span class="math"&gt;\(e\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="la-hipotesis-de-avogadro"&gt;
+&lt;h3&gt;La hipótesis de avogadro&lt;/h3&gt;
+&lt;p&gt;Avogadro, un abogado italiano con tiempo libre (al pedo), curiosidad
+científica y dinero como para satisfacerla, hipotetizó que a igual temperatura
+y presión, volumenes iguales de gases, contienen la misma cantidad de
+partículas (moléculas, átomos, etc).&lt;/p&gt;
+&lt;p&gt;Podemos pensar en lo razonable que esto suena con la siguiente metáfora:
+Si disponemos de una gran gran cantidad de tierra para construir casas,
+digamos, la superficie de la provincia de Chubut,
+y ponemos como restricción que cada casa debe estar muy separada de
+la vecina, digamos 10 km, como el espacio entre casas
+resulta muchísimo mas grande que lo que cualquier casa podría llegar a ser,
+poco importa si tenemos casas de diferente tamaño, en una superficie
+determinada, como Chubut, tendremos siempre la msima cantidad de casas,
+sin importar su tamaño. En un gas, es ciertamente factible que esto suceda
+así: la distancia entre partículas (casas) es muchísimo mas grande que el
+propio tamaño de cada partícula, y por lo tanto, a una misma presión y
+temperatura, la cantidad de estas no depende en nada de como sea la
+partícula, sino solamente del volumen que estemos considerando.&lt;/p&gt;
+&lt;p&gt;Faraday, cuya historia de vida es notable (tanto como para tener
+su cara en un billete, pero no tanto como para que nos desviemos con esto
+ahora) y quien fuera un gran experimentador, obtuvo una relación entre  las
+cantidades de sustancia que se disociaban en un proceso de electrólisis y
+la de cantidad de carga eléctrica que se hacía circular para conseguirlo.
+Lo que encontró es que la relación de masas entre los iones colectados en
+el cátodo y en el ánodo era siempre la misma para cualquiera par de
+compuestos, y lo más importante, una &lt;strong&gt;misma cantidad de carga&lt;/strong&gt;
+(&lt;em&gt;96500 C&lt;/em&gt;) descomponía siempre la &lt;strong&gt;misma masa&lt;/strong&gt; de iones para cada
+elemento o compuesto. Lo que obviamente no se podía conocer, era
+¿Cuántas partículas (átomos o moléculas) habían en esa masa de sustancia?&lt;/p&gt;
+&lt;p&gt;Como cada ión tiene un exceso o faltante de carga, una masa de iones
+monovalentes (de una carga de diferencia) esta compuesta por una carga de&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+F=N_a \cdot e
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Donde &lt;em&gt;F&lt;/em&gt; es la cantidad de carga que pasa por le circuito electrolítico.
+La existencia de un &lt;em&gt;"cantidad mínima"&lt;/em&gt; de carga eléctrica era una
+suposición bastante razonable por lo que, la cantidad de partículas
+&lt;span class="math"&gt;\(N_a\)&lt;/span&gt; multiplicada por la carga de cada una &lt;span class="math"&gt;\(e\)&lt;/span&gt;  daba una
+carga de Faraday.
+Con esta relación, si se conociera la masa de cada partícula o la carga de
+una de ellas, sería posible obtener la otra cantidad siendo que &lt;em&gt;F&lt;/em&gt; se
+podía medir con exactitud y facilidad.&lt;/p&gt;
+&lt;p&gt;Así los tantos tanto la masa de los iones como su carga y la cantidad de
+partículas que contenían esas proporciones de masa que se
+colectaban en los electrodos eran un rompecabezas cuya solución completa
+necesitaba sólo de una pieza, conocer la masa, la carga, o la cantidad de
+partículas para una determindada masa de sustancia (y por lo tanto la
+masa de cada una).&lt;/p&gt;
+&lt;p&gt;Estimaciones del tamaño de una molécula, y de su masa, ya se conocían
+en esa época. Varios científicos habian realizado contribuciones en ese
+sentido, y aunque no existían evidencias de gran precisión, un dato
+no menor, es que para entonces la teoría atómica no se encontraba del todo
+aceptada por la comunidad científica.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="la-previa"&gt;
+&lt;h3&gt;La previa&lt;/h3&gt;
+&lt;p&gt;Un elemento común en los laboratorios del siglo XIX eran algo llamado
+"tubos de rayos catódicos". Estos tubos de vidrio, en los cuales se
+había hecho previamente un cierto grado de vacío, estaban provistos de electrodos
+metálicos. Al establecer una cierta diferencia de potencial entre los electrodos,
+se observaba una luminiscencia de un extremo a otro de los mismos.&lt;/p&gt;
+&lt;p&gt;Lo relevante, era intentar comprender la naturaleza de estos "rayos"
+¿De qué estaban hechos?¿Ean ondas electromagnéticas? ¿eran partículas?
+¿iones del gas dentro del tubo? ¿Eran del material de los electrodos?&lt;/p&gt;
+&lt;p&gt;Los científicos alemanes, eran de la idea de consierar a estos rayos, algún tipo
+de ondulación del &lt;em&gt;eter&lt;/em&gt; algo que para J.J. Thomson, no era verificable de ninguna
+manera puesto que si no se tenía ni la mas pálida idea de que era lo que componía
+al eter ni se lo podía medir, menos podríamos adjudicarle algún fenómeno.&lt;/p&gt;
+&lt;p&gt;Por su parte, proponía que estos rayos, deberían tener una naturaleza
+corpuscular, ser tocables, cosas, objetos físicos.&lt;/p&gt;
+&lt;p&gt;Que fueran entidades con carga negativa era algo que no fue descubierto de
+inmediato, sino que requirió que se hiciera cierto grado elevado de vació para
+impedir que estos rayos se "descargaran" con el gas en su interior perdiéndose
+toda posibilidad de averiguar su naturaleza eléctrica.&lt;/p&gt;
+&lt;p&gt;Para el momento en que Thomson hiciera sus famosos experimientos, ya se contaban
+con algunas estimaciones de &lt;span class="math"&gt;\(N_a\)&lt;/span&gt; que habían permitido indagar sobre el valor
+de &lt;span class="math"&gt;\(e\)&lt;/span&gt;. Tanto Zeeman como Stoney habían arrimado el bochín, pero sin presentar
+evidencia experimental concluyente, y también se tenían estimaciones de la masa de
+los iones de algunos gases. Esta información será de vital importancia para
+comprender por qué Thomson pudo afirmar haber descubierto la primer partícula
+subatómica.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="el-experimento-de-thomson"&gt;
+&lt;h2&gt;El experimento de Thomson&lt;/h2&gt;
+&lt;p&gt;Lo que Thomson hizo, fue seguir hasta el final su idea de los corpúsculos de carga.
+Para eso, en un tubo de rayos catódicos como el que se muestra debajo, introdujo dos
+placas metalicas paralelas (D y E) entre las cuales podía inducir un campo
+eléctrico, y también un campo magnético. Los rayos se producían entre &lt;strong&gt;A&lt;/strong&gt; y &lt;strong&gt;B&lt;/strong&gt;
+al establecer entre esos puntos una diferencia de potencial apreciable, y se
+dirigían hacia la derecha (en la imagen, nada indica esto sobre la afinidad política
+de los corpúsculos)e impactaban en una placa fosforescente graduada en un bulbo al
+final del tubo.&lt;/p&gt;
+&lt;object data="https://farabolaza.github.io/images/thomson1.svg" type="image/svg+xml"&gt;
+/images/thomson1.svg&lt;/object&gt;
+&lt;p&gt;Encendiendo, apagando e invirtiendo un campo eléctrico de polaridad conocida, se
+podía ver si estos corpúsculos tenían carga y cual era su &lt;em&gt;signo&lt;/em&gt;. Resultó ser
+negativo.
+Luego, aplicando un campo magnético &lt;strong&gt;B&lt;/strong&gt; (asumamos saliente de la pantalla), a la
+vez que un campo eléctrico &lt;strong&gt;E&lt;/strong&gt; (con el polo positivo en la parte superior),
+aplicando la segunda ley de Newton (despreciando la gravedad) vemos que fuerza
+eléctrica y magnética "compiten" por desviar el corpúsculo. &lt;span class="math"&gt;\(F_E\)&lt;/span&gt; es hacia
+arriba y &lt;span class="math"&gt;\(F_B\)&lt;/span&gt; hacia abajo. Ajustando la intensidad de ambos campos para
+que no exista desviación alguna, se induce una situación de &lt;span class="math"&gt;\(\sum F=0\)&lt;/span&gt; de
+la que podemos extraer que&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_x=\frac{E}{B}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Con esta información se conoce la velocidad con la que los supuestos corpúsculos
+llegan a las placas de deflexión. Si se apaga &lt;strong&gt;B&lt;/strong&gt; al entrar a las placas de
+deflexión, se observará una deflexión "hacia arriba" que es provoada por &lt;strong&gt;E&lt;/strong&gt;
+causando una aceleración constante. El recorrido "hacia arriba" que hacen se puede
+calcular con cinemática básica:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y(t)=\frac{1}{2}a{t_1}^2
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y(t)=\frac{1}{2}\frac{eE}{m}{t_1}^2
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Como en el eje horiontal la velocidad &lt;span class="math"&gt;\(v_x\)&lt;/span&gt; es constante, &lt;span class="math"&gt;\(t_1\)&lt;/span&gt; se puede
+calcular facilmente como &lt;span class="math"&gt;\(\frac{x_1}{v_x}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Uniendo ambas cosas, podemos calcular que la desviación vertical de este tramo es&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y_1=\frac{1}{2}\frac{eE}{m}\left(\frac{x_1}{v_x}\right)^2
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Cuando salen de la zona de influencia del campo &lt;strong&gt;E&lt;/strong&gt; los corpúsculos han ganado una
+velocidad hacia arriba &lt;span class="math"&gt;\(v_y\)&lt;/span&gt;, que se mantendrá constante, ya que no hay
+fuerzas actuando. Lo mismo ocurre en el eje horizontal, en donde continuamos con
+&lt;span class="math"&gt;\(v_x\)&lt;/span&gt;. Ásí, la desviación adicional hacia arriba es:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y_2=v_y \cdot t_2
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Un detalle, es que &lt;span class="math"&gt;\(v_y\)&lt;/span&gt; se puede saber, ya que es igual a&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_y=a\cdot t_1=\frac{eE}{m}t_1
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_y=a\cdot t_1=\frac{eE}{m}\frac{x_1}{v_x}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;y &lt;span class="math"&gt;\(t_2\)&lt;/span&gt; se puede conocer fácil, ya que al momento de impactar en el bulbo,
+los corpúsculos habrán recorrido en el eje horizontal el tramo&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+x_2=v_x\cdot t_2
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\frac{x_2}{v_x}=t_2
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Reemplazando el valor de &lt;span class="math"&gt;\(t_2\)&lt;/span&gt; en la ecuación de &lt;span class="math"&gt;\(y_2\)&lt;/span&gt; llegamos a que:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y_2=\frac{eE}{m}\frac{x_1 \cdot x_2}{{v_x}^2}
+\end{equation*}
+&lt;/div&gt;
+&lt;object data="https://farabolaza.github.io/images/thomson2.svg" type="image/svg+xml"&gt;
+/images/thomson2.svg&lt;/object&gt;
+&lt;p&gt;El desplazamiento vertical total, algo factible de ser medido, será &lt;span class="math"&gt;\(y_1+y_2\)&lt;/span&gt;
+y lo podemos volcar a una ecuación en donde lo único que no sabemos es &lt;span class="math"&gt;\(e\)&lt;/span&gt; y
+&lt;span class="math"&gt;\(m\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+y_{tot}= \frac{1}{2}\frac{eE}{m}\left(\frac{x_1}{v_x}\right)^2 + \frac{eE}{m}\frac{x_1 \cdot x_2}{{v_x}^2}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Despejando para &lt;span class="math"&gt;\(\displaystyle \frac{e}{m}\)&lt;/span&gt; nos queda que:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\frac{e}{m}=\frac{y_{tot}}{E}\frac{{v_x}^2}{\sqrt{2}x_1+x_1x_2}
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="section" id="una-duda"&gt;
+&lt;h3&gt;Una duda&lt;/h3&gt;
+&lt;p&gt;¿Como sabía Thomson que el valor obtenido de &lt;span class="math"&gt;\(\frac{e}{m}\)&lt;/span&gt; era
+debido a una gran carga eléctrica de los rayos catódicos o a una
+masa mucho menor que la de iones conocidos?&lt;/p&gt;
+&lt;p&gt;Teniendo en cuenta lo que se sabía sobre la masa y la carga de algunos
+iones, no había razones para suponer que la carga de estas partículas
+fuera muchísimo mas grande que la un ión. Es decir, aunque no se pudiera
+descartar lo contrario, parecía aceptable que la carga de estas partículas
+fuera similara la de algunos iones, que estaba en el orden de
+&lt;span class="math"&gt;\(10^-19 C\)&lt;/span&gt;. Usando esto como un valor probable, la masa de estos
+corpúsculo resulta ser unas mil veces menor que la masa de cualquier otro
+ión conocido. Si a esto le añadimos que Thomson obtuvo los mismos valores
+cambiando el material de los electrodos y el gas en el interior del tubo,
+la suposición de que estabamos ante una partícula común a todos los elementos
+conocidos cobraba fuerza.
+Thomson mismo (aunque en realidad fué un discípculo suyo)
+&lt;a class="reference external" href="https://web.lemoyne.edu/giunta/EA/THOMSONann.HTML#foot2"&gt;intentó medir&lt;/a&gt;
+la carga del corpúsculo con un método de que sería la base para los
+experimentos de Milikan. En estos experimientos con gotas de agua llegó
+a valores del orden &lt;span class="math"&gt;\(10^-19 C\)&lt;/span&gt;, que sostenían sus afirmaciones sobre la
+condición subatómica de estos corpúsculos que mas adelante llamaríamos
+simplemente eletrones.&lt;/p&gt;
+&lt;div class="section" id="niebla-sobre-el-agua"&gt;
+&lt;h4&gt;Niebla sobre el agua&lt;/h4&gt;
+&lt;p&gt;Resumen del método de contar gotas de Thomson y Townsed&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="el-experimiento-de-milikan"&gt;
+&lt;h2&gt;El experimiento de Milikan&lt;/h2&gt;
+&lt;p&gt;Retomando la idea de Townsed, Milikan hizo bla bla bla&lt;/p&gt;
+&lt;object data="https://farabolaza.github.io/images/milikan1.svg" type="image/svg+xml"&gt;
+/images/milikan1.svg&lt;/object&gt;
+&lt;p&gt;Detalles y formulas del experimento&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</guid><pubDate>Fri, 07 Feb 2020 03:00:00 GMT</pubDate></item></channel></rss>

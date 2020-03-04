@@ -1,0 +1,4 @@
+Sitemap: https://farabolaza.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: farabolaza.github.io

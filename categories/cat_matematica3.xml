@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>farabolaza (Matemática 3º)</title><link>https://farabolaza.github.io/</link><description> 
+       &lt;p&gt;&lt;h5&gt; Todas las clases &lt;h5&gt;&lt;/p&gt;
+       &lt;p&gt; Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos&lt;/p&gt;
+       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_matematica3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Wed, 04 Mar 2020 15:50:44 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Matemática 3º año</title><link>https://farabolaza.github.io/posts/cla-matematica3-2020-01-intro/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="aca-deberia-ir-el-titulo"&gt;
+&lt;h2&gt;Acá debería ir el título&lt;/h2&gt;
+&lt;p&gt;Como no se que poner agrego algo.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;una lista y su primer elemento&lt;/li&gt;
+&lt;li&gt;otro elemento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description><category>introducciones</category><guid>https://farabolaza.github.io/posts/cla-matematica3-2020-01-intro/</guid><pubDate>Tue, 07 Jan 2020 21:40:38 GMT</pubDate></item></channel></rss>
