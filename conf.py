@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Federico Arabolaza"  # (translatable)
-BLOG_TITLE = "farabolaza"  # (translatable)
+BLOG_TITLE = "FARABOLAZA"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://farabolaza.github.io/"
@@ -140,41 +140,41 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
     (
     	(   
-    	("/categories/cat_matematica3/", "Matemática 3º"),
-        ("/categories/cat_fisicoquimica3/", "Fisicoquímica 3º"),
-        ("/categories/cat_fisica4/", "Física 4º"),
-        ("/categories/cat_matematica5/", "Matemática 5º"),        
+    	("/categories/cat_matematica3/", "MATEMÁTICA 3º"),
+        ("/categories/cat_fisicoquimica3/", "FISICOQUÍMICA 3º"),
+        ("/categories/cat_fisica4/", "FÍSICA 4º"),
+        ("/categories/cat_matematica5/", "MATEMÁTICA 5º"),        
       ),
-      "Clases"
+      "CLASES"
     ),
     (
       (   
-        ("/posts/bib-matematica5-2020/index.html", "Matemática 5º"),
-        ("/posts/bib-matematica3-2020/index.html", "Matemática 3º"),
-        ("/posts/bib-fisicoquimica3-2020/index.html", "Fisicoquímica 3º"),
+        ("/posts/bib-matematica5-2020/index.html", "MATEMÁTICA 5º"),
+        ("/posts/bib-matematica3-2020/index.html", "MATEMÁTICA 3º"),
+        ("/posts/bib-fisicoquimica3-2020/index.html", "FISICOQUÍMICA 3º"),
       ),
-      "Bibliografía"
+      "BIBLIOGRAFÍA"
     ),    
     (
       (   
-        ("/posts/plan-matematica5-2020/index.html", "Matemática 5º"),
-        ("/posts/plan-matematica3-2020/index.html", "Matemática 3º"),
-        ("/posts/plan-fisicoquimica3-2020/index.html", "Fisicoquímica 3º"),
+        ("/posts/plan-matematica5-2020/index.html", "MATEMÁTICA 5º"),
+        ("/posts/plan-matematica3-2020/index.html", "MATEMÁTICA 3º"),
+        ("/posts/plan-fisicoquimica3-2020/index.html", "FISICOQUÍMICA 3º"),
       ),
-      "Planif. Docente"
+      "PLANIF. DOCENTE"
     ),
 
     (
     	(
-    		("/categories/cat_fisicacontempo1/", "Física Contemporánea 1"),
-    		("/categories/cat_fisicacontempo2/", "Física Contemporánea 2"),
-    		("/categories/cat_fisicacontempo2/", "Energotecnia"),
-    		("/categories/cat_fisicacontempo2/", "Electrónica"),
+    		("/categories/cat_fisicacontempo1/", "FÍSICA CONTEMPORÁNEA 1"),
+    		("/categories/cat_fisicacontempo2/", "FÍSICA CONTEMPORÁNEA 2"),
+    		("/categories/cat_fisicacontempo2/", "ENERGOTECNIA"),
+    		("/categories/cat_fisicacontempo2/", "ELECTRÓNICA"),
     	),
-    	"Otros"
+    	"OTROS"
     ),
-    ("/pages/cheatsheet/index.html", "cheatsheet"),
-    ("/pages/about-fede/index.html", "Quien soy"),
+    ("/pages/cheatsheet/index.html", "CHEATSHEET"),
+    ("/pages/about-fede/index.html", "QUIEN SOY"),
 ),
 }
 
@@ -1373,8 +1373,8 @@ BODY_END = ""
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
 # DISABLE_INDEXES = False
-# DISABLE_MAIN_ATOM_FEED = False
-# DISABLE_MAIN_RSS_FEED = False
+DISABLE_MAIN_ATOM_FEED = True
+DISABLE_MAIN_RSS_FEED = True
 
 # Add the absolute paths to directories containing plugins to use them.
 # For example, the `plugins` directory of your clone of the Nikola plugins

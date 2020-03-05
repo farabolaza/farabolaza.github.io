@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1583347217.4526455
+_modified_time = 1583427195.7229118
 _enable_loop = True
 _template_filename = 'themes/custom/templates/hpage.tmpl'
 _template_uri = 'hpage.tmpl'
@@ -40,14 +40,14 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         math = _mako_get_namespace(context, 'math')
-        enable_comments = context.get('enable_comments', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -68,20 +68,20 @@ def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
+        enable_comments = context.get('enable_comments', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
         def content():
             return render_content(context)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         math = _mako_get_namespace(context, 'math')
-        enable_comments = context.get('enable_comments', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
-        __M_writer('  \n    <div class="container">\n        <div class="row">\n            <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->\n            <div class="col-md-4">\n                <h5>\n                Próximos eventos\n                </h5>\n            \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="300" height="400" frameborder="0" scrolling="no"></iframe>\n                </div>\n            </div>\n            <div class="col-md-8 order-md-last">\n                <article class="post-')
+        __M_writer('  \n    <!-- div class="container"> -->\n        <div class="row no-gutters">                    \n            <div class="col-md-12 order-md-first order-lg-first order-sm-first col-sm-12 col-lg-8">\n                <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->\n                <article class="post-')
         __M_writer(str(post.meta('type')))
-        __M_writer(' storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n                   <header>\n                        ')
+        __M_writer(' storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n                   <header>\n                    ')
         __M_writer(str(pheader.html_title()))
-        __M_writer('\n                        ')
+        __M_writer('\n                    ')
         __M_writer(str(pheader.html_translations(post)))
         __M_writer('\n                    </header>\n                    <div class="e-content entry-content" itemprop="articleBody text">\n                    ')
         __M_writer(str(post.text()))
@@ -94,7 +94,7 @@ def render_content(context,**pageargs):
             __M_writer('\n                        </section>\n')
         __M_writer('                    ')
         __M_writer(str(math.math_scripts_ifpost(post)))
-        __M_writer('\n                </article>\n            </div>\n        </div>\n    </div> \n')
+        __M_writer('\n                </article>\n            </div>    \n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                \n            </div>\n        </div>\n        <div class="row no-gutters">\n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                <h4>\n                Próximos eventos\n                </h4>       \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="450" height="600" frameborder="1" scrolling="no"></iframe>\n                </div>\n            </div>\n\n        </div>\n    <!-- </div> --> \n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -102,6 +102,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/custom/templates/hpage.tmpl", "uri": "hpage.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 5, "38": 0, "52": 2, "53": 3, "54": 4, "55": 5, "56": 6, "61": 44, "67": 8, "80": 8, "81": 25, "82": 25, "83": 27, "84": 27, "85": 28, "86": 28, "87": 31, "88": 31, "89": 33, "90": 34, "91": 35, "92": 35, "93": 36, "94": 36, "95": 39, "96": 39, "97": 39, "103": 97}}
+{"filename": "themes/custom/templates/hpage.tmpl", "uri": "hpage.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 5, "38": 0, "52": 2, "53": 3, "54": 4, "55": 5, "56": 6, "61": 49, "67": 8, "80": 8, "81": 13, "82": 13, "83": 15, "84": 15, "85": 16, "86": 16, "87": 19, "88": 19, "89": 21, "90": 22, "91": 23, "92": 23, "93": 24, "94": 24, "95": 27, "96": 27, "97": 27, "103": 97}}
 __M_END_METADATA
 """
