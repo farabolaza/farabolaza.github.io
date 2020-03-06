@@ -284,11 +284,11 @@ TIMEZONE = "America/Buenos_Aires"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-DATE_FORMAT = 'YYYY-MMMM-DD'
+DATE_FORMAT = 'yyyy-MMMM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
-# JS_DATE_FORMAT = 'YYYY-MMm-DD'
+JS_DATE_FORMAT = 'YYYY-MMm-DD'
 
 # Date fanciness.
 #
