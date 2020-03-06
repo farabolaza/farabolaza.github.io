@@ -1,6 +1,6 @@
 .. title: Fisicoquímica: Guia de supervivencia para la materia
 .. slug: cla-fisicoquimica3-2020-03-guia
-.. date: 2020-01-18
+.. date: 2020-03-06
 .. tags: introducciones
 .. category: fisicoquimica3 
 .. link: 
@@ -161,7 +161,8 @@ seleccionará a un (1) lider de sección que deberá periódicamente
 comunicarme las dificultades y avances del grupo con la materia. El o la
 líder de grupo acceden automáticamente al punto extra de cooperación.
 Podrá perder su lugar (y por lo tanto su punto extra) si el grupo a cargo
-me manifiesta que no cumple con sus obligaciones de líder, las cuales son:
+me manifiesta que no cumple con sus obligaciones de líder (o yo así lo considero)
+, las cuales son:
 
 .. admonition:: Líderes de grupo, deberán
 

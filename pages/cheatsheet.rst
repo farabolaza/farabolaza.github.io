@@ -126,9 +126,7 @@ En los siguientes links hay información interesante que voy a ir agregando.
 
 - Plugin para sublimetext que hace mas facil trabajar con restructuerdtext `acá <https://packagecontrol.io/packages/Restructured%20Text%20%28RST%29%20Snippets#headers>`_
 - `Buena guía de atajos para rest <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html#inserting-code-and-literal-blocks>`_
--`una página <https://jiaweizhuang.github.io/blog/nikola-guide/>`_ con un tutorial básico sobre Nikola
-y links a otros tutoriales
-
+- `una página <https://jiaweizhuang.github.io/blog/nikola-guide/>`_ con un tutorial básico sobre Nikola y links a otros tutoriales.
 
 El flujo de trabajo
 ^^^^^^^^^^^^^^^^^^^

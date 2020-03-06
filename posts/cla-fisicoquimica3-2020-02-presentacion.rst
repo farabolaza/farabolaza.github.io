@@ -1,6 +1,6 @@
 .. title: Presentación Fisicoquímica 3º
 .. slug: cla-fisicoquimica3-2020-02-presentacion
-.. date: 2020-01-16 19:15:37 UTC-03:00
+.. date: 2020-03-06
 .. tags: introducciones, 
 .. category: fisicoquimica3
 .. link: 

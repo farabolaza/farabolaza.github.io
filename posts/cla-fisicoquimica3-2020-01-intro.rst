@@ -1,6 +1,6 @@
 .. title: ¿Que esperar de esta materia?
 .. slug: cla-fisicoquimica3-2020-01-intro
-.. date: 2020-01-07 18:41:09 UTC-03:00
+.. date: 2020-03-06
 .. tags: introducciones
 .. category: fisicoquimica3
 .. link: 

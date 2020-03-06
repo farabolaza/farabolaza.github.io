@@ -1,6 +1,6 @@
 .. title: Matematica 5 año
 .. slug: cla-matematica5-2020-01-intro
-.. date: 2020-01-07 18:41:32 UTC-03:00
+.. date: 2020-03-06
 .. tags: introducciones
 .. category: matematica5
 .. link: 

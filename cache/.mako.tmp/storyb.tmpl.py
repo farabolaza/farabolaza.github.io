@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1583427256.7625563
+_modified_time = 1583464532.0683248
 _enable_loop = True
 _template_filename = 'themes/custom/templates/storyb.tmpl'
 _template_uri = 'storyb.tmpl'
@@ -39,15 +39,15 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         enable_comments = context.get('enable_comments', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
         messages = context.get('messages', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -67,17 +67,17 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
+        post = context.get('post', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         enable_comments = context.get('enable_comments', UNDEFINED)
         def content():
             return render_content(context)
-        post = context.get('post', UNDEFINED)
         pheader = _mako_get_namespace(context, 'pheader')
         messages = context.get('messages', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
         __M_writer = context.writer()
-        __M_writer('  \n    <div class="container">\n        <div class="row">\n            <!-- sidebar, which will move to the top on a small screen -->\n            <div class="col-sm-3">\n                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>\n            </div>\n            <div class="col-sm-9">\n                <article class="post-')
+        __M_writer('  \n    <div class="container">\n        <div class="row no-gutters">\n            <!-- sidebar, which will move to the top on a small screen -->\n            <div class="col-sm-3">\n                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>\n            </div>\n            <div class="col-sm-9">\n                <article class="post-')
         __M_writer(str(post.meta('type')))
         __M_writer(' storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n                   <header>\n                        ')
         __M_writer(str(pheader.html_title()))

@@ -1,6 +1,6 @@
 .. title: ¿Que significa medir?
 .. slug: cla-fisicoquimica3-2020-04-medida
-.. date: 2020-01-19
+.. date: 2020-03-09
 .. tags: 
 .. category: fisicoquimica3
 .. link: 
