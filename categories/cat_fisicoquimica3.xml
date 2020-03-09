@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Fisicoquímica 3º)</title><link>https://farabolaza.github.io/</link><description>
        &lt;p&gt;&lt;h5&gt; Todas las clases &lt;h5&gt;&lt;/p&gt;
        &lt;p&gt; Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos&lt;/p&gt;
-       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicoquimica3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Mon, 09 Mar 2020 03:08:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>¿Que significa medir?</title><link>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="objetivos-de-la-clase"&gt;
+       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicoquimica3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Mon, 09 Mar 2020 03:12:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>¿Que significa medir?</title><link>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="objetivos-de-la-clase"&gt;
 &lt;h2&gt;Objetivos de la clase&lt;/h2&gt;
 &lt;div class="admonition tip"&gt;
 &lt;p class="first admonition-title"&gt;Consejo&lt;/p&gt;
@@ -423,24 +423,13 @@ podemos resumir así&lt;/p&gt;
 &lt;li&gt;la luz tiene un tamaño&lt;/li&gt;
 &lt;li&gt;ese tamaño esta asociado a su color&lt;/li&gt;
 &lt;li&gt;cada &lt;em&gt;color&lt;/em&gt; tiene un tamaño diferente&lt;/li&gt;
-&lt;li&gt;Esto es del objeto "luz" en si mismo, vale para todo lo que&lt;/li&gt;
+&lt;li&gt;Esto es del objeto "luz" en si mismo, vale para todo lo que emita luz (no para cuando la luz es reflejada o pasa a través)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 13)&lt;/p&gt;
-Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
-&lt;p&gt;emita luz (no para cuando la luz es reflejada o pasa a través)&lt;/p&gt;
 &lt;p&gt;Usando esta idea de que la luz tiene un tamaño, observamos que&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Si la luz pasa cerca de un objeto que es mucho mas grande que ella&lt;/li&gt;
+&lt;li&gt;Si la luz pasa cerca de un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.&lt;/li&gt;
+&lt;li&gt;Si por el contrario el tamaño del obstáculo es "similar" (mas adelante veremos con que precisión se puede considerar algo similar o no) la luz se porta como una "onda" y provoca fenómenos extraños como interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 18)&lt;/p&gt;
-Bullet list ends without a blank line; unexpected unindent.&lt;/div&gt;
-&lt;p&gt;se comporta como si fuera un corpúsculo, una bolita.
-- Si por el contrario el tamaño del obstáculo es "similar" (mas adelante
-veremos con que precisión se puede considerar algo similar o no) la luz
-se porta como una "onda" y provoca fenómenos extraños como
-interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)&lt;/p&gt;
 &lt;div class="admonition admonition-objetivos"&gt;
 &lt;p class="first admonition-title"&gt;Objetivos&lt;/p&gt;
 &lt;ul class="last simple"&gt;
@@ -499,7 +488,7 @@ a=\frac{n\lambda D}{y_n}
 &lt;/div&gt;
 &lt;div class="section" id="la-longitud-de-onda-del-laser"&gt;
 &lt;h4&gt;La longitud de onda del laser&lt;/h4&gt;
-&lt;p&gt;Ese dato esta en el laser mismo, es $650cdot10^-9:m$&lt;/p&gt;
+&lt;p&gt;Ese dato esta en el laser mismo, es &lt;span class="math"&gt;\(650\cdot 10^-9\: m\)&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Este dato es $lambda$&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="las-distancias-en-el-pizarron"&gt;
@@ -508,7 +497,7 @@ a=\frac{n\lambda D}{y_n}
 la primera franja de luz.&lt;/p&gt;
 &lt;p&gt;Luego vamos a medir desde el centro hasta que termina esa misma franja.&lt;/p&gt;
 &lt;p&gt;Finalmente hacemos el promedio de ambas distancias.&lt;/p&gt;
-&lt;p&gt;Este dato es $y$_n$ en nuestro caso como es la primera $y$_1$&lt;/p&gt;
+&lt;p&gt;Este dato es $y_n$ en nuestro caso como es la primera $y_1$&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="repitiendo-para-otros-n"&gt;
 &lt;h4&gt;Repitiendo para otros n&lt;/h4&gt;
