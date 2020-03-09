@@ -20,17 +20,12 @@ podemos resumir así
 - la luz tiene un tamaño
 - ese tamaño esta asociado a su color
 - cada *color* tiene un tamaño diferente
-- Esto es del objeto "luz" en si mismo, vale para todo lo que 
-emita luz (no para cuando la luz es reflejada o pasa a través)
+- Esto es del objeto "luz" en si mismo, vale para todo lo que emita luz (no para cuando la luz es reflejada o pasa a través)
 
 Usando esta idea de que la luz tiene un tamaño, observamos que
 
-- Si la luz pasa cerca de un objeto que es mucho mas grande que ella
-se comporta como si fuera un corpúsculo, una bolita.
-- Si por el contrario el tamaño del obstáculo es "similar" (mas adelante
-veremos con que precisión se puede considerar algo similar o no) la luz
-se porta como una "onda" y provoca fenómenos extraños como
-interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)
+- Si la luz pasa cerca de un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.
+- Si por el contrario el tamaño del obstáculo es "similar" (mas adelante veremos con que precisión se puede considerar algo similar o no) la luz se porta como una "onda" y provoca fenómenos extraños como interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)
 
 .. admonition:: Objetivos
 
@@ -97,7 +92,7 @@ Este dato es $D$
 La longitud de onda del laser
 -----------------------------
 
-Ese dato esta en el laser mismo, es $650\cdot10^-9\:m$
+Ese dato esta en el laser mismo, es :math:`650\cdot 10^-9\: m`
 
 Este dato es $\lambda$
 
@@ -111,7 +106,7 @@ Luego vamos a medir desde el centro hasta que termina esa misma franja.
 
 Finalmente hacemos el promedio de ambas distancias.
 
-Este dato es $y$_n$ en nuestro caso como es la primera $y$_1$
+Este dato es $y_n$ en nuestro caso como es la primera $y_1$
 
 Repitiendo para otros n
 -----------------------
