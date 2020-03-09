@@ -28,8 +28,8 @@
 </%block>
 
 <%block name="content">
-    <div class="container">
-        <div class="row">
+    <!-- <div class="container">-->
+        <div class="row no-gutters">
             <div class="col-lg-9">                           
                 <article class="post-${post.meta('type')} h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
                     ${pheader.html_post_header()}
@@ -56,7 +56,7 @@
                 <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
             </div>
         </div>
-    </div>        
+    <!-- </div>-->        
 ${comments.comment_link_script()}
 </%block>
 

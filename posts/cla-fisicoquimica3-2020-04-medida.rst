@@ -412,5 +412,5 @@ Encontrar los ceros
     <button class="btn btn-success" data-toggle="collapse" data-target="#demo4">Solución</button>
 
     <div id="demo4" class="collapse">
-    la concha de tu madre allboys....
+    lcdtmab....
     </div>

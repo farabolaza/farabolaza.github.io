@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Física contemporánea 1)</title><link>https://farabolaza.github.io/</link><description>Acá iría alguna descripción y html para el index de esta categoría</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicacontempo1.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Thu, 05 Mar 2020 16:13:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cuantización de la carga eléctrica</title><link>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="cuantizacion-de-la-carga-electrica"&gt;
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Física contemporánea 1)</title><link>https://farabolaza.github.io/</link><description>Acá iría alguna descripción y html para el index de esta categoría</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicacontempo1.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Sun, 08 Mar 2020 18:04:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cuantización de la carga eléctrica</title><link>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="cuantizacion-de-la-carga-electrica"&gt;
 &lt;h2&gt;Cuantización de la carga eléctrica&lt;/h2&gt;
 &lt;div class="admonition admonition-objetivos"&gt;
 &lt;p class="first admonition-title"&gt;Objetivos&lt;/p&gt;
@@ -11,10 +11,10 @@
 &lt;/div&gt;
 &lt;div class="section" id="la-hipotesis-de-avogadro"&gt;
 &lt;h3&gt;La hipótesis de avogadro&lt;/h3&gt;
-&lt;p&gt;Avogadro, un abogado italiano con tiempo libre (al pedo), curiosidad
-científica y dinero como para satisfacerla, hipotetizó que a igual temperatura
-y presión, volumenes iguales de gases, contienen la misma cantidad de
-partículas (moléculas, átomos, etc).&lt;/p&gt;
+&lt;p&gt;Avogadro, un abogado italiano con tiempo libre, curiosidad
+científica y dinero como para satisfacerla, hipotetizó que a igual
+temperatura y presión, volumenes iguales de gases, contienen la misma
+cantidad de partículas (moléculas, átomos, etc).&lt;/p&gt;
 &lt;p&gt;Podemos pensar en lo razonable que esto suena con la siguiente metáfora:
 Si disponemos de una gran gran cantidad de tierra para construir casas,
 digamos, la superficie de la provincia de Chubut,
@@ -208,30 +208,283 @@ masa mucho menor que la de iones conocidos?&lt;/p&gt;
 iones, no había razones para suponer que la carga de estas partículas
 fuera muchísimo mas grande que la un ión. Es decir, aunque no se pudiera
 descartar lo contrario, parecía aceptable que la carga de estas partículas
-fuera similara la de algunos iones, que estaba en el orden de
-&lt;span class="math"&gt;\(10^-19 C\)&lt;/span&gt;. Usando esto como un valor probable, la masa de estos
-corpúsculo resulta ser unas mil veces menor que la masa de cualquier otro
-ión conocido. Si a esto le añadimos que Thomson obtuvo los mismos valores
-cambiando el material de los electrodos y el gas en el interior del tubo,
-la suposición de que estabamos ante una partícula común a todos los elementos
-conocidos cobraba fuerza.
-Thomson mismo (aunque en realidad fué un discípculo suyo)
+fuera similar a la de algunos iones, que estaba en el orden de
+&lt;span class="math"&gt;\(10^-19 \: C\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Con los experimientos  de electrólisis de Faraday y la teoría cinética
+de los gases, se habían llegado a estimaciones de &lt;span class="math"&gt;\(N_A\)&lt;/span&gt; que
+permitieron estimar &lt;em&gt;C&lt;/em&gt;, en el orden de &lt;span class="math"&gt;\(10^-20 \: C\)&lt;/span&gt;.
+Usando esto como un valor probable, la masa de estos
+corpúsculos resulta ser unas mil veces menor que la masa de cualquier
+otro ión conocido.&lt;/p&gt;
+&lt;p&gt;Si a esto le añadimos que Thomson obtuvo los mismos
+valores cambiando el material de los electrodos y el gas en el interior
+del tubo, la suposición de que estabamos ante una partícula común a todos
+los elementos conocidos cobraba fuerza.&lt;/p&gt;
+&lt;p&gt;Thomson mismo (aunque en realidad fué un discípculo suyo)
 &lt;a class="reference external" href="https://web.lemoyne.edu/giunta/EA/THOMSONann.HTML#foot2"&gt;intentó medir&lt;/a&gt;
 la carga del corpúsculo con un método de que sería la base para los
 experimentos de Milikan. En estos experimientos con gotas de agua llegó
-a valores del orden &lt;span class="math"&gt;\(10^-19 C\)&lt;/span&gt;, que sostenían sus afirmaciones sobre la
-condición subatómica de estos corpúsculos que mas adelante llamaríamos
-simplemente eletrones.&lt;/p&gt;
-&lt;div class="section" id="niebla-sobre-el-agua"&gt;
-&lt;h4&gt;Niebla sobre el agua&lt;/h4&gt;
-&lt;p&gt;Resumen del método de contar gotas de Thomson y Townsed&lt;/p&gt;
+a valores del orden &lt;span class="math"&gt;\(10^-19 \: C\)&lt;/span&gt;, que sostenían sus afirmaciones
+sobre la condición subatómica de estos corpúsculos que mas adelante
+llamaríamos simplemente &lt;em&gt;electrones&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;div class="section" id="el-experimento-de-milikan"&gt;
+&lt;h2&gt;El experimento de Milikan&lt;/h2&gt;
+&lt;div class="section" id="en-la-nube"&gt;
+&lt;h3&gt;En la nube&lt;/h3&gt;
+&lt;p&gt;Discípulo de Thomson, Townsed, dispuso un experimento que consistía
+en generar gotas cargadas mediante electrolisis, y colectaras en unos
+tubos. Midiendo la diferencia de masa de los tubos, podía así conocer
+la de las gotas. Con un electrómetro midió la carga total. Luego usando
+el hecho de que las gotas al caer en aire, alcanzan una velocidad
+terminal dada por&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+mg-bv=m\dfrac{dv}{dt}
+\end{equation*}
 &lt;/div&gt;
-&lt;div class="section" id="el-experimiento-de-milikan"&gt;
-&lt;h2&gt;El experimiento de Milikan&lt;/h2&gt;
-&lt;p&gt;Retomando la idea de Townsed, Milikan hizo bla bla bla&lt;/p&gt;
+&lt;p&gt;Donde la velocidad terminal viene dada por&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_t=\dfrac{mg}{b}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;El coeficiente &lt;em&gt;b&lt;/em&gt; de la ley de &lt;em&gt;Stokes&lt;/em&gt; tiene que ver con el
+radio &lt;em&gt;a&lt;/em&gt; de la partícula según:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+b=6 \pi \eta a
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Con estos datos, es posible escribir la masa de una gota en función
+de su volumen y densidad.&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+mg=\rho \frac{4}{3}\pi a^3
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Sustituyendo esto en la ecuación de la velocidad terminal, se la puede
+escribir en función del radio de la gota, y por lo tanto, obtenerlo
+a partir de medir &lt;span class="math"&gt;\(v_t\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_t=\frac{2}{9}ga^2\frac{\rho}{\eta}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Conociendo por lo tanto el tamaño medio de las gotas se sabe la
+la masa media de una gota. Dividiendo a la masa total por este valor
+se puede estimar la cantidad de gotas  en la nube, y haciendo lo
+mismo para la carga total por la cantidad de gotas, asumiendo que
+cada gota (que es un ión) tiene &lt;em&gt;solamente&lt;/em&gt; una carga se llegó a que
+la carga de cada gota era del orden de &lt;span class="math"&gt;\(1 \cdot 10^{-19}\ C\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Uno de los problemas principales al usar gotas de agua es que no era
+posible establecer un patrón para la evaporación de las gotas. Asumir
+que cada gota contenía sólo una carga, tampoco tenía sustento previo,
+por lo que los datos de Thomson/Townsed si bien sustentaban el
+carácter subatómico del electrón, al dar con una masa mucho menor que
+la del hidrógeno no pudo establecer un valor precioso para &lt;span class="math"&gt;\(e\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mejor-no-se-consigue"&gt;
+&lt;h3&gt;Mejor no se consigue&lt;/h3&gt;
+&lt;p&gt;Milikan intentó mejorar el rendimiento de este experimento al usar
+un campo eléctrico que inmovilizara la nube de gotas, para compensar
+los cálculos al medir la velocidad de evaporación.&lt;/p&gt;
+&lt;p&gt;No tuvo éxito en &lt;em&gt;suspender&lt;/em&gt; toda la nube de gotas, simplemente no
+pudo conseguirlo. Un campo eléctrico de cierta intensidad no provoca
+el mismo efecto en todas las gotas de la nube. Esto es así porque no
+todas las gotas tienen la misma cantidad de carga ni la misma masa.&lt;/p&gt;
+&lt;p&gt;Paradójicamente esta imposibilidad de lograr su objetivo le llevó poder
+observar a gotas individuales suspendidas durante un largo período de
+tiempo, es decir, a aquellas en donde la fuerza eléctrica externa se
+compensaba con el resto y la gota quedaba inmóvil. De este hecho
+surgió la idea medir la carga en una sola gota.&lt;/p&gt;
+&lt;p&gt;Para reducir el fenómeno de evaporación Milikan uso aceite en vez  de
+agua (al revés de lo que reza el mito sobre la invasiones inglesas en
+donde se usó agua en vez de aceite, para alivio de los invasores).&lt;/p&gt;
+&lt;p&gt;Si una gota que se encuentra estacionaria gana o pierde alguna carga,
+ya no lo estará y comenzará a moverse, por lo que al observar una gota
+cualquiera, ya sea inmóvil o con cierta velocidad terminal, si la
+velocidad cambia, estoy implica necesariamente que su carga ha cambiado.&lt;/p&gt;
+&lt;p&gt;Una suposición extra poco mencionada (pero necesaria) es que la velocidad
+terminal de las gotas es proporcional a la fuerza eléctrica del campo.&lt;/p&gt;
+&lt;p&gt;En este video que reproduce el experimento, se hace hincapié en ello,
+y se lo demuestra.&lt;/p&gt;
+&lt;div class="youtube-video align-center"&gt;
+&lt;iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/tKhsU01LxZg?rel=0&amp;amp;wmode=transparent" frameborder="0" allow="encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="el-experimento"&gt;
+&lt;h3&gt;El experimento&lt;/h3&gt;
+&lt;p&gt;Si una gota cae por acción de la gravedad, alcanza rápidamente su
+velocidad terminal, por la ley de stokes, podemos conocer su radio, y
+a partir de los datos de densidad y viscosidad averiguar su masa.&lt;/p&gt;
+&lt;p&gt;Si la velocidad terminal de una gota no cambia, es porque su masa tampoco
+lo hace.&lt;/p&gt;
+&lt;p&gt;Aplicar un campo eléctrico en la misma dirección que la atracción
+gravitatoria provocará que las gotas o bien se aceleren en algún
+sentido o queden suspendidas como se explicó mas arriba.&lt;/p&gt;
+&lt;p&gt;Ahora bien, si una gota cambia su cantidad de carga, su interacción
+eléctrica cambiará, pero no así su interacción gravitatoria. Una
+aclaración importante respecto a esto: en cierta manera, si una gota
+gana o pierde electrones su masa &lt;em&gt;si&lt;/em&gt; cambia, pero por la relación de
+&lt;span class="math"&gt;\(\frac{e}{m}\)&lt;/span&gt; que conocemos, el cambio es despreciable.&lt;/p&gt;
+&lt;p&gt;Si una gota cambia su carga al adherirse a otras gotas, ahí si su
+carga y su masa cambian. En esta situación la velocidad terminal en caída ya
+no será la misma que la que se midió en un principio.&lt;/p&gt;
+&lt;p&gt;Juntando estas dos ideas:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Si se mide siempre la misma velocidad terminal de caída, es porque la masa de la gota no ha cambiado.&lt;/li&gt;
+&lt;li&gt;Si la interacción eléctrica cambia (asciende o desciende con diferente velocidad, es porque ha cambiado su carga).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si se efectúan diferentes y sucesivas mediciones de los tiempos de
+subida y caída de una misma gota, en principio, es factible "ver" cuando
+la gota ha ganado o perdido cargas.&lt;/p&gt;
+&lt;p&gt;Milikan vaporizaba con un atomizador gotas entre dos placas metálicas
+a las que se les podía imponer un campo eléctrico variable. Con un
+artefacto óptico era posible medir el desplazamiento de las gotas en
+distancias pequeñas con una regla graduada acoplada al mismo.&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
 &lt;object data="https://farabolaza.github.io/images/milikan1.svg" type="image/svg+xml"&gt;
 /images/milikan1.svg&lt;/object&gt;
-&lt;p&gt;Detalles y formulas del experimento&lt;/p&gt;
+&lt;p class="caption"&gt;Esquema del diseño experimental de Milikan&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;La velocidad de caída medida, si la masa de la gota no cambia, debería
+(dentro del la incerteza de la medición) ser la misma en todos los casos.&lt;/p&gt;
+&lt;p&gt;La suma de fuerzas incluyendo &lt;span class="math"&gt;\(F_f\)&lt;/span&gt; la fuerza de flotación&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\sum F = mg - bv - F_f = 0
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Como la fuerza de flotación está siempre en sentido opuesto a la gravitatoria
+podemos reescribir su resultado neto junto con el peso al suponer que sería
+lo mismo tener una gota con menos masa (y por lo tanto menos peso) en ausencia
+de medio que le provea flotación. Eso es sencillamente para evitar incluir a
+&lt;span class="math"&gt;\(F_f\)&lt;/span&gt; en los cálculos.&lt;/p&gt;
+&lt;p&gt;\[ \begin{aligned}
+mg= \rho _{g} Vg \\
+F_f=\rho _{a} Vg
+\end{aligned} \]&lt;/p&gt;
+&lt;p&gt;Si restamos la primera de la segunda, en donde &lt;span class="math"&gt;\(\rho_{a}\)&lt;/span&gt; es la densidad del
+aire y &lt;span class="math"&gt;\(\rho_{g}\)&lt;/span&gt; la de la gota, llegamosa :&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+m'g=\rho'Vg=(\rho_{g} -\rho_{a})Vg
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;De ahora en más, cada vez que se vea la masa de la gota, se debe tener en cuenta
+que es su masa &lt;em&gt;compensada&lt;/em&gt; por la fuerza de flotación.&lt;/p&gt;
+&lt;p&gt;La velocidad terminal en caída será entonces&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_c=\frac{mg}{b}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Si se enciende un campo eléctrico, suponiendo que ahora la gota se mueve en sentido
+contrario al de caída, y sube&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\sum F= q_nE-mg-bv=0
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Acá &lt;span class="math"&gt;\(q_n\)&lt;/span&gt; significa &lt;em&gt;n&lt;/em&gt; cantidad de cargas elementales. La velocidad terminal
+en este caso, queda expresada como:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_s= \dfrac{q_nE -mg}{b}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Podemos despjear $q_n$ y nos queda&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+q_n=\dfrac{bv_s+mg}{E}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Recordamos que por &lt;em&gt;Stokes&lt;/em&gt; el peso es &lt;span class="math"&gt;\(mg=bv_c\:\)&lt;/span&gt; y podemos reemplazar en la
+ecuación de arriba. También podemos escribir la velocidad terminal de caída como:
+$mg=b\frac{L}{T_c}$ Teniendo en cuenta que $L$ es la misma distancia en ambos
+sentidos.&lt;/p&gt;
+&lt;p&gt;Reescribimos la ecuación para la carga como&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+q_n=\dfrac{b}{E}\cdot {(v_s+v_c)}=\dfrac{b}{E}\cdot \left(\frac{L}{T_s}+\frac{L}{T_c}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Podemos remplazar a $b$ de la ecuación usando &lt;span class="math"&gt;\(b=\frac{mg}{v_c}\)&lt;/span&gt;, que a su vez
+podemos escribir como &lt;span class="math"&gt;\(b=\frac{mg\cdot T_c}{L}\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+q_n=\dfrac{mg T_c}{E\cdot L}\left(\frac{L}{T_c}+\frac{L}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Que podemos simplificar y llegar a&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\dfrac{mg\cdot T_c}{E}\left(\frac{1}{T_c}+\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Si la gota gana o pierde cargas, la velocidad con la que sube (asumimos que este
+es el caso, es decir, no pierde tantas cargas como para quedar suspendida o
+revertir el sentido de su desplazamiento) cambiará y podemos escribirla como:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+v_s'= \dfrac{q_n'E -mg}{b}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Análogamente podemos despejar $q'_n$ y restarla de $q_n$ para obtener una
+expresión de la cantidad de carga que ganó o perdió la gota.&lt;/p&gt;
+&lt;p&gt;Esto nos permite escribir&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\Delta q=q'_n-q_n=\dfrac{mg\cdot T_c}{E}\left(\frac{1}{T_s'}-\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Esta cantidad de carga, si la hipótesis de la carga elemental es cierta, deberá
+ser cierto múltiplo de ésta unidad.&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+e(n'-n)=\dfrac{mg\cdot T_c}{E}\left(\frac{1}{T_s'}-\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;La carga que contenía la gota en un principio, &lt;strong&gt;también&lt;/strong&gt; debe ser cierto
+múltiplo de la unidad fundamental de carga, así que:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+e\cdot n=\dfrac{mg T_c}{E}\left(\frac{1}{T_c}+\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Re-acomodemos ambas expresiones de esta manera (escribimos $(n'-n)=\Delta n$&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+e\frac{E}{mg}=\frac{1}{n}T_c\left(\frac{1}{T_c}+\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+e\frac{E}{mg}=\frac{1}{\Delta n}T_c\left(\frac{1}{T'_s}-\frac{1}{T_s}\right)
+\end{equation*}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="como-interpretarlo"&gt;
+&lt;h3&gt;Como interpretarlo&lt;/h3&gt;
+&lt;p&gt;Queda evidente que una correcta elección de $n$ y $\Delta n$ nos permite obtener
+$e$. Lo que no es en absoluto evidente es que la naturaleza realmente funcione
+de modo que la carga eléctrica exista sólamente en múltiplos de $e$. Los datos
+experimentales deberían ser tales que sólo se encontraran variaciones mínimas
+de carga que representen una unidad de $e$ y no menos.&lt;/p&gt;
+&lt;p&gt;Dicho de otro modo, si las ecuaciones de arriba se satisfacen en casos donde la
+elección de $\Delta n=1$ no debe observarse en ningún otro caso valores &lt;em&gt;iniciales&lt;/em&gt;
+de carga menores a este. Cuando se miden los tiempos en caída y en subida para una
+gota que no cambia su carga, no puede haber ninguna que contenga una cantidad de
+carga menor al obtenido cuando $\Delta n =1$. Tal cosa indicaría que la unidad
+de carga elemental es menor a la elegida.&lt;/p&gt;
+&lt;p&gt;Por otro lado, las escalones o "saltos" deben corroborarse como múltiplos de ese
+valor mas bajo obtenido. Si se observaran múltiplos no enteros del valor elemental
+significaría que o bien, no se escogió el valor menor posible o que no existe una
+unidad fundamental de carga, en otras palabras, que la carga eléctrica no es
+discreta sino continua.&lt;/p&gt;
+&lt;p&gt;Milikan realizó experimentos con miles de gotas de diferentes aceites, llegando
+siempre a los mismos resultados, no observando saltos menores al valor obtenido
+para una sola carga.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</description><guid>https://farabolaza.github.io/posts/cla-fisicacontempo1-2020-01-cuant-carga/</guid><pubDate>Fri, 07 Feb 2020 03:00:00 GMT</pubDate></item></channel></rss>
