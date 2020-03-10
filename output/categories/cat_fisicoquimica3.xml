@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Fisicoquímica 3º)</title><link>https://farabolaza.github.io/</link><description>
        &lt;p&gt;&lt;h5&gt; Todas las clases &lt;h5&gt;&lt;/p&gt;
        &lt;p&gt; Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos&lt;/p&gt;
-       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicoquimica3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Mon, 09 Mar 2020 03:12:50 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>¿Que significa medir?</title><link>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="objetivos-de-la-clase"&gt;
+       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_fisicoquimica3.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Tue, 10 Mar 2020 01:31:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>¿Que significa medir?</title><link>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div&gt;&lt;div class="section" id="objetivos-de-la-clase"&gt;
 &lt;h2&gt;Objetivos de la clase&lt;/h2&gt;
 &lt;div class="admonition tip"&gt;
 &lt;p class="first admonition-title"&gt;Consejo&lt;/p&gt;
@@ -417,17 +417,22 @@ lcdtmab....
 &lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><guid>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-04-medida/</guid><pubDate>Mon, 09 Mar 2020 03:00:00 GMT</pubDate></item><item><title>¿Cuanto mide un pelo?</title><link>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-05-un-pelo/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="cuanto-mide-un-pelo"&gt;
 &lt;h2&gt;Cuanto Mide un pelo?&lt;/h2&gt;
 &lt;p&gt;De la clase anterior quedaron dando vueltas muchas cosas que
-no vamos a terminar de comprender por el momento, pero las
-podemos resumir así&lt;/p&gt;
+no vamos a terminar de comprender a la perfeccción por el momento,
+pero las podemos resumir así&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;la luz tiene un tamaño&lt;/li&gt;
 &lt;li&gt;ese tamaño esta asociado a su color&lt;/li&gt;
 &lt;li&gt;cada &lt;em&gt;color&lt;/em&gt; tiene un tamaño diferente&lt;/li&gt;
-&lt;li&gt;Esto es del objeto "luz" en si mismo, vale para todo lo que emita luz (no para cuando la luz es reflejada o pasa a través)&lt;/li&gt;
+&lt;li&gt;Este tamaño se llama &lt;em&gt;longitud de onda&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;La longitud de onda &lt;span class="math"&gt;\(\lambda\)&lt;/span&gt; está relacionada con la frecuenca de la oscilación de la luz&lt;/li&gt;
+&lt;li&gt;A mayor frecuencia, menor longitud de onda&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Usando esta idea de que la luz tiene un tamaño, observamos que&lt;/p&gt;
+&lt;p&gt;Un video que resume estas ideas&lt;/p&gt;
+&lt;div class="youtube-video align-center"&gt;
+&lt;iframe width="400" height="315" src="https://www.youtube-nocookie.com/embed/nwlhAXkzjj0?rel=0&amp;amp;wmode=transparent" frameborder="0" allow="encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;p&gt;Usando esta idea de que la luz tiene un tamaño, observamos que&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Si la luz pasa cerca de un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.&lt;/li&gt;
+&lt;li&gt;Si la luz se topa con un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.&lt;/li&gt;
 &lt;li&gt;Si por el contrario el tamaño del obstáculo es "similar" (mas adelante veremos con que precisión se puede considerar algo similar o no) la luz se porta como una "onda" y provoca fenómenos extraños como interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="admonition admonition-objetivos"&gt;
@@ -449,23 +454,35 @@ podemos resumir así&lt;/p&gt;
 del extremo izquierdo del pelo, y otra parte del extremo derecho, como
 estamos en la situación en que la luz se comporta como una onda vimos que
 al llegar a la parded o pantalla, en algunos lugares se "suman" y se ve
-brillante y en otros "se anulan" y hay oscuridad-&lt;/p&gt;
-&lt;p&gt;Esto es una buena forma de demostrar que la luz se porta com onda y no como
-una bolita ¿Podrías explicar por que?&lt;/p&gt;
+brillante y en otros "se anulan" y hay oscuridad.&lt;/p&gt;
+&lt;p&gt;Podemos ver un esquema de esto así&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="/images/superposicion.png" src="https://farabolaza.github.io/images/superposicion.png"&gt;
+&lt;p class="caption"&gt;Esquema de superposición de ondas&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Esto es una buena forma de demostrar que la luz se porta como onda y no
+como una bolita ¿Podrías explicar por que?&lt;/p&gt;
+&lt;p&gt;Mirá con atención los triangulos que aparecen en la imagen. ¿Hay alguno que
+sea semejante a otro?&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;img alt="/images/interferencia2.png" src="https://farabolaza.github.io/images/interferencia2.png"&gt;
+&lt;p class="caption"&gt;Triangulos  semejantes&lt;/p&gt;
+&lt;/div&gt;
 &lt;p&gt;Volvamos, la idea &lt;strong&gt;importante&lt;/strong&gt; es que la luz se va sumar y vamos a tener un
 espacio brillante siempre que la diferencia en la distancia recorrida entre
 la parte "izquierda" y "derecha" sea de 1 longitud de onda, 2 longitudes de onda
 y así sucesivamente.&lt;/p&gt;
 &lt;p&gt;En matemática esto se ecribe así&lt;/p&gt;
-&lt;div class="math"&gt;
+&lt;div class="math" id="eq-eq:interferencia"&gt;
 \begin{equation*}
 a\sin\theta=n\lambda
 \end{equation*}
 &lt;/div&gt;
 &lt;p&gt;Algo que seguramente te suena a chino, pero que vamos a explicar mejor en el
 pizarrón.&lt;/p&gt;
-&lt;p&gt;Ahora, lo del $sintheta$ podemos reemplazrlo tanto por el ángulo como por
+&lt;p&gt;Ahora, lo del &lt;span class="math"&gt;\(\sin \theta\)&lt;/span&gt; podemos reemplazrlo tanto por el ángulo como por
 la tangente (que es la rlación entre el cateto vertical y el horizontal).&lt;/p&gt;
+&lt;p&gt;Para una explicación sobre qué es la tangente y que es el seno, &lt;a class="reference external" href="https://es.wikipedia.org/wiki/Funci%C3%B3n_trigonom%C3%A9trica#Definiciones_respecto_de_un_tri%C3%A1ngulo_rect%C3%A1ngulo"&gt;acá&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Probá con la calculadora (tiene que estar en modo RAD) hacer&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;$sin(0,01)$&lt;/li&gt;
@@ -502,7 +519,7 @@ la primera franja de luz.&lt;/p&gt;
 &lt;div class="section" id="repitiendo-para-otros-n"&gt;
 &lt;h4&gt;Repitiendo para otros n&lt;/h4&gt;
 &lt;p&gt;¿Y que es la n? bueno, si medimos hasta la "2º" franja igual que en la
-anterior, donde dice "n" ponemos 2 y medimos $y$_2$&lt;/p&gt;
+anterior, donde dice "n" ponemos 2 y medimos $y_2$&lt;/p&gt;
 &lt;p&gt;Esto lo hacemos para todas las franjas visibles.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
