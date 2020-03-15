@@ -70,7 +70,7 @@ sea semejante a otro?
 
 .. figure:: /images/interferencia2.png
 	:align: center
-	:scale: 50 %
+	:scale: 20 %
 
 	Triangulos  semejantes
 
