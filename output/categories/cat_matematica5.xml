@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Matemática 5º)</title><link>https://farabolaza.github.io/</link><description> 
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FEDE ARABOLAZA (Matemática 5º)</title><link>https://farabolaza.github.io/</link><description> 
        &lt;p&gt;&lt;h5&gt; Todas las clases &lt;h5&gt;&lt;/p&gt;
        &lt;p&gt; Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos&lt;/p&gt;
-       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_matematica5.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Fri, 06 Mar 2020 03:15:17 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Matematica 5 año</title><link>https://farabolaza.github.io/posts/cla-matematica5-2020-01-intro/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="matematica-5oano"&gt;
+       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_matematica5.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; 
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"&gt;
+&lt;/a&gt;&lt;br /&gt;Esta obra está bajo una &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"&gt;Licencia Creative Commons Atribución-NoComercial 4.0 Internacional&lt;/a&gt;.
+&lt;img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /&gt;
+</copyright><lastBuildDate>Sun, 15 Mar 2020 21:32:02 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Matematica 5 año</title><link>https://farabolaza.github.io/posts/cla-matematica5-2020-01-intro/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="matematica-5oano"&gt;
 &lt;h2&gt;&lt;a class="toc-backref" href="https://farabolaza.github.io/posts/cla-matematica5-2020-01-intro/#id1"&gt;Matemática 5ºaño&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="contents topic" id="resumen"&gt;
 &lt;p class="topic-title first"&gt;Resumen&lt;/p&gt;

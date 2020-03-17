@@ -14,10 +14,10 @@
 Energía de la Biomasa
 *********************
 
-Se etiende en la actualidad como *biomasa* al grupo de
+Se entiende en la actualidad como *biomasa* al grupo de
 productos y materias primas renovables que se obtienen a
 partir de materia orgánica formada por vía biológica, pero 
-excluyendo a los combustibles (siendo que no son 
+excluyendo a los combustibles fósiles (siendo que no son 
 renovables).
 
 Desde el punto de vista ecológico podemos clasificar la biomasa
@@ -42,7 +42,7 @@ da con una eficiencia que aprxoimadamente es asi:
 * Carbohidratos: 97%
  
 Como se observa, la conversión de azúcares en carbohidratos es el proceso
-de mayor rendimento. Dependiendo de si se tiene biomasa de origen vegetal
+de mayor rendimiento. Dependiendo de si se tiene biomasa de origen vegetal
 o animal, es de esperar que el porcentaje de carbohidratos sea mayor en
 los vegetales, y a su vez, dentro de los vegetales existan variaciones
 y diversidad en la composición entre los diferentes compuestos.
@@ -93,7 +93,7 @@ Una aclaración histórica
 ------------------------
 
 Luego de la crisis del petróleo de los 70's, que puso el modelo de
-vida basado en combustibles fósiles en jaque, el mundo a sumado la noción
+vida basado en combustibles fósiles en jaque, el mundo ha sumado la noción
 del agotamiento sistémico de los recursos naturales. En tal sentido,
 la biomasa puede resultar, con los recaudos necesarios, en un método
 alternativo de producir combustibles. 

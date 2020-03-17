@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1584293331.6804898
+_modified_time = 1584467980.4914482
 _enable_loop = True
 _template_filename = 'themes/custom/templates/hpage.tmpl'
 _template_uri = 'hpage.tmpl'
@@ -39,15 +39,15 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         def content():
             return render_content(context._locals(__M_locals))
-        post = context.get('post', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
+        pheader = _mako_get_namespace(context, 'pheader')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -67,15 +67,15 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        pheader = _mako_get_namespace(context, 'pheader')
+        messages = context.get('messages', UNDEFINED)
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        post = context.get('post', UNDEFINED)
         enable_comments = context.get('enable_comments', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        messages = context.get('messages', UNDEFINED)
+        math = _mako_get_namespace(context, 'math')
         def content():
             return render_content(context)
-        post = context.get('post', UNDEFINED)
-        math = _mako_get_namespace(context, 'math')
+        pheader = _mako_get_namespace(context, 'pheader')
         __M_writer = context.writer()
         __M_writer('  \n    <!-- div class="container"> -->\n        <div class="row no-gutters">                    \n            <div class="col-md-12 order-md-first order-lg-first order-sm-first col-sm-12 col-lg-8">\n                <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->\n                <article class="post-')
         __M_writer(str(post.meta('type')))
@@ -94,7 +94,7 @@ def render_content(context,**pageargs):
             __M_writer('\n                        </section>\n')
         __M_writer('                    ')
         __M_writer(str(math.math_scripts_ifpost(post)))
-        __M_writer('\n                </article>\n            </div>    \n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                \n            </div>\n        </div>\n        <div class="row no-gutters">\n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                <h4>\n                Próximos eventos\n                </h4>       \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="400" height="600" frameborder="1" scrolling="no"></iframe>\n                </div>\n            </div>\n\n        </div>\n    <!-- </div> --> \n')
+        __M_writer('\n                </article>\n            </div>    \n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                \n            </div>\n        </div>\n        <div class="row no-gutters">\n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                <h4>\n                Próximos eventos\n                </h4>       \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="350" height="500" frameborder="1" scrolling="no"></iframe>\n                </div>\n            </div>\n\n        </div>\n    <!-- </div> --> \n')
         return ''
     finally:
         context.caller_stack._pop_frame()

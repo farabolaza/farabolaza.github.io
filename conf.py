@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Federico Arabolaza"  # (translatable)
-BLOG_TITLE = "FARABOLAZA"  # (translatable)
+BLOG_TITLE = "FEDE ARABOLAZA"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://farabolaza.github.io/"
@@ -25,7 +25,7 @@ SITE_URL = "https://farabolaza.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "federico.arabolaza@gmail.com"
-BLOG_DESCRIPTION = "Descripcion del sitio, por ahora nada"  # (translatable)
+BLOG_DESCRIPTION = "Bitácora de clases y otras actividades personales"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -504,8 +504,8 @@ CATEGORY_DESCRIPTIONS = {
        <p><h5> Todas las clases <h5></p>
        <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
        <hr>''',
-       "fisicacontempo1": "Acá iría alguna descripción y html para el index de esta categoría",
-       "fisicacontempo2": "Acá iría alguna descripción y html para el index de esta categoría",
+       "fisicacontempo1": "Principales temas de la materia",
+       "fisicacontempo2": "Principales temas de la materia",
        "fisica4": ''' 
        <p><h5> Todas las clases <h5></p>
        <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
@@ -996,7 +996,12 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+LICENSE = """
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+</a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+<img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+<hr>
+"""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
