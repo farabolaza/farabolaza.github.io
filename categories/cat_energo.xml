@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FARABOLAZA (Energotecnia)</title><link>https://farabolaza.github.io/</link><description> 
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FEDE ARABOLAZA (Energotecnia)</title><link>https://farabolaza.github.io/</link><description> 
        &lt;p&gt;&lt;h5&gt; Resumen para examen final &lt;h5&gt;&lt;/p&gt;
        &lt;p&gt; Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos&lt;/p&gt;
-       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_energo.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; </copyright><lastBuildDate>Thu, 12 Mar 2020 23:01:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Energía de la Biomasa</title><link>https://farabolaza.github.io/posts/cla-energo-2020-01-biomasa/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="energia-de-la-biomasa"&gt;
+       &lt;hr&gt;</description><atom:link href="https://farabolaza.github.io/categories/cat_energo.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:federico.arabolaza@gmail.com"&gt;Federico Arabolaza&lt;/a&gt; 
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"&gt;
+&lt;/a&gt;&lt;br /&gt;Esta obra está bajo una &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"&gt;Licencia Creative Commons Atribución-NoComercial 4.0 Internacional&lt;/a&gt;.
+&lt;img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /&gt;
+&lt;hr&gt;
+</copyright><lastBuildDate>Tue, 17 Mar 2020 17:59:41 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Energía de la Biomasa</title><link>https://farabolaza.github.io/posts/cla-energo-2020-01-biomasa/</link><dc:creator>Federico Arabolaza</dc:creator><description>&lt;div class="section" id="energia-de-la-biomasa"&gt;
 &lt;h2&gt;Energía de la Biomasa&lt;/h2&gt;
-&lt;p&gt;Se etiende en la actualidad como &lt;em&gt;biomasa&lt;/em&gt; al grupo de
+&lt;p&gt;Se entiende en la actualidad como &lt;em&gt;biomasa&lt;/em&gt; al grupo de
 productos y materias primas renovables que se obtienen a
 partir de materia orgánica formada por vía biológica, pero
-excluyendo a los combustibles (siendo que no son
+excluyendo a los combustibles fósiles (siendo que no son
 renovables).&lt;/p&gt;
 &lt;p&gt;Desde el punto de vista ecológico podemos clasificar la biomasa
 de acuerdo al siguiente criterio:&lt;/p&gt;
@@ -33,7 +38,7 @@ da con una eficiencia que aprxoimadamente es asi:&lt;/p&gt;
 &lt;li&gt;Carbohidratos: 97%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Como se observa, la conversión de azúcares en carbohidratos es el proceso
-de mayor rendimento. Dependiendo de si se tiene biomasa de origen vegetal
+de mayor rendimiento. Dependiendo de si se tiene biomasa de origen vegetal
 o animal, es de esperar que el porcentaje de carbohidratos sea mayor en
 los vegetales, y a su vez, dentro de los vegetales existan variaciones
 y diversidad en la composición entre los diferentes compuestos.&lt;/p&gt;
@@ -78,7 +83,7 @@ tradicionales (fósiles en su mayoría).&lt;/p&gt;
 &lt;div class="section" id="una-aclaracion-historica"&gt;
 &lt;h4&gt;Una aclaración histórica&lt;/h4&gt;
 &lt;p&gt;Luego de la crisis del petróleo de los 70's, que puso el modelo de
-vida basado en combustibles fósiles en jaque, el mundo a sumado la noción
+vida basado en combustibles fósiles en jaque, el mundo ha sumado la noción
 del agotamiento sistémico de los recursos naturales. En tal sentido,
 la biomasa puede resultar, con los recaudos necesarios, en un método
 alternativo de producir combustibles.&lt;/p&gt;
