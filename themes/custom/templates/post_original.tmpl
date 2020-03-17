@@ -36,6 +36,7 @@
     <aside class="postpromonav">
     <nav>
     ${helper.html_tags(post)}
+    ${helper.html_pager(post)}
     </nav>
     </aside>
     % if not post.meta('nocomments') and site_has_comments:

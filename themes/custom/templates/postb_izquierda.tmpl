@@ -28,7 +28,6 @@
 </%block>
 
 <%block name="content">
-    <div class="container">
         <div class="row no-gutters">
             <!-- sidebar, which will move to the top on a small screen -->
             <div class="col-sm-3">
@@ -42,8 +41,7 @@
                     </div>
                     <aside class="postpromonav">
                     <nav>
-                    ${helper.html_tags(post)}
-                    ${helper.html_pager(post)}
+                    ${helper.html_tags(post)}                    
                     </nav>
                     </aside>
                     % if not post.meta('nocomments') and site_has_comments:
@@ -55,8 +53,7 @@
                     ${math.math_scripts_ifpost(post)}
                 </article>
             </div>
-        </div>
-    </div>        
+        </div>        
 ${comments.comment_link_script()}
 </%block>
 

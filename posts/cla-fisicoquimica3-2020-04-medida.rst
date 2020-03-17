@@ -1,19 +1,19 @@
 .. title: ¿Que significa medir?
 .. slug: cla-fisicoquimica3-2020-04-medida
-.. date: 2020-03-09
+.. date: 2020-03-17
 .. tags: 
 .. category: fisicoquimica3
 .. link: 
 .. description: 
 .. type: text
-.. hidetitle: true
+.. hidetitle: false
 .. has_math: true
-.. status: private
+.. status: 
 
 Objetivos de la clase
 ---------------------
 
-.. tip:: En esta clase
+.. admonition:: En esta clase
 
     - Concepto de medición
     - Concepto de unidad de medida
@@ -43,230 +43,64 @@ Sistema internacional de unidades
 
 Para cada magnitud que se quiera medir (volumen, masa, tiempo, longitud, etc.) el sistema internacional de unidades define una unidad fundamental, alrededor de la cual, existen múltiplos y submúltiplos para expresar cantidades mas granes o pequeñas que las de esta unidad. Por suerte, la distancia entre la unidad fundamental y sus multiplos y submúltiplos, siempre son potencias de diez. Como sabemos, en 1 metro (la unidad fundamental de longitud) hay 100 centi-metros, justamente porque un centímetro, se define como la centésima parte de un metro, o dicho de otra forma, existe :math:`10^2` (se lee diez elevado a dos) cm por cada metro.
 
-Lo mismo podemos decir del kilogramo, unidad fundamental de masa: en un kilo-gramo  caben 1000 gramos, y así sucesivamente con los diferentes prefijos. Algo un poco moleste es que la unidad fundamental para el caso de masa, ya tiene un prefijo, kilo, a diferencia del metro o el segundo (tiempo). Esto tiene sentido porque las cantidades mas usuales de masa están en el orden de los kilogramos. Sin embargo existen otros sistemas (como el cgs: centímetro, gramo, segundo) donde la unidad fundamental de masa es el gramo. No hay nada de raro en este otro tipo de sistemas: simplemente se usan de forma menos frecuente.
-
-.. raw:: html
-
-	
-	<table class="table table-dark table-sm table-striped table-hover table-responsive">
-    <thead>
-        <tr>
-            <td>10^n</td>
-            <td>Prefijo</td>
-            <td>Símbolo</td>
-            <td>Escala corta n 1​ (anglosajona)</td>
-            <td>Escala larga n 1​ (europea y latina)</td>
-            <td>Equivalencia decimal en los prefijos del Sistema Internacional</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>10^24</td>
-            <td>yotta</td>
-            <td>Y</td>
-            <td>Septillón</td>
-            <td>Cuatrillón</td>
-            <td>1,00E+24</td>
-        </tr>
-        <tr>
-            <td>10^21</td>
-            <td>zetta</td>
-            <td>Z</td>
-            <td>Sextillón</td>
-            <td>Mil trillones</td>
-            <td>1,00E+21</td>
-        </tr>
-        <tr>
-            <td>10^18</td>
-            <td>exa</td>
-            <td>E</td>
-            <td>Quintillón</td>
-            <td>Trillón</td>
-            <td>1,00E+18</td>
-        </tr>
-        <tr>
-            <td><span class="math">\(10^{15}\)</span></td>
-            <td>peta</td>
-            <td>P</td>
-            <td>Cuatrillón</td>
-            <td>Mil billones</td>
-            <td><math>10^{15}</math></td>
-        </tr>
-        <tr>
-            <td>10^12</td>
-            <td>tera</td>
-            <td>T</td>
-            <td>Trillón</td>
-            <td>Billón</td>
-            <td>1000000000000</td>
-        </tr>
-        <tr>
-            <td>10^9</td>
-            <td>giga</td>
-            <td>G</td>
-            <td>Billón</td>
-            <td>Mil millones / Millardo</td>
-            <td>1000000000</td>
-        </tr>
-        <tr>
-            <td>10^6</td>
-            <td>mega</td>
-            <td>M</td>
-            <td>Millón</td>
-            <td>Millón</td>
-            <td>1000000</td>
-        </tr>
-        <tr>
-            <td>10^3</td>
-            <td>kilo</td>
-            <td>k</td>
-            <td>Mil / Millar</td>
-            <td>Mil / Millar</td>
-            <td>1000</td>
-        </tr>
-        <tr>
-            <td>10^2</td>
-            <td>hecto</td>
-            <td>h</td>
-            <td>Cien / Centena</td>
-            <td>Cien / Centena</td>
-            <td>100</td>
-        </tr>
-        <tr>
-            <td>10^1</td>
-            <td>deca</td>
-            <td>da</td>
-            <td>Diez / Decena</td>
-            <td>Diez / Decena</td>
-            <td>10</td>
-        </tr>
-        <tr>
-            <td>10^0</td>
-            <td>Sin prefijo</td>
-            <td>Sin prefijo</td>
-            <td>Uno / Unidad</td>
-            <td>Uno / Unidad</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>10^−1</td>
-            <td>deci</td>
-            <td>d</td>
-            <td>Décimo</td>
-            <td>Décimo</td>
-            <td>0,1</td>
-        </tr>
-        <tr>
-            <td>10^−2</td>
-            <td>centi</td>
-            <td>c</td>
-            <td>Centésimo</td>
-            <td>Centésimo</td>
-            <td>0,01</td>
-        </tr>
-        <tr>
-            <td>10^−3</td>
-            <td>mili</td>
-            <td>m</td>
-            <td>Milésimo</td>
-            <td>Milésimo</td>
-            <td>0,001</td>
-        </tr>
-        <tr>
-            <td>10^−6</td>
-            <td>micro</td>
-            <td>µ</td>
-            <td>Millonésimo</td>
-            <td>Millonésimo</td>
-            <td>1E-06</td>
-        </tr>
-        <tr>
-            <td>10^−9</td>
-            <td>nano</td>
-            <td>n</td>
-            <td>Billonésimo</td>
-            <td>Milmillonésimo</td>
-            <td>1E-09</td>
-        </tr>
-        <tr>
-            <td>10^−12</td>
-            <td>pico</td>
-            <td>p</td>
-            <td>Trillonésimo</td>
-            <td>Billonésimo</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>10^−15</td>
-            <td>femto</td>
-            <td>f</td>
-            <td>Cuatrillonésimo</td>
-            <td>Milbillonésimo</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>10^−18</td>
-            <td>atto</td>
-            <td>a</td>
-            <td>Quintillonésimo</td>
-            <td>Trillonésimo</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>10^−21</td>
-            <td>zepto</td>
-            <td>z</td>
-            <td>Sextillonésimo</td>
-            <td>Miltrillonésimo</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>10^−24</td>
-            <td>yocto</td>
-            <td>y</td>
-            <td>Septillonésimo</td>
-            <td>Cuatrillonésimo</td>
-            <td>0</td>
-        </tr>
-    </tbody>
-	</table>
-
-la misma tabla pero de texto
+Lo mismo podemos decir del kilogramo, unidad fundamental de masa: en un kilo-gramo  caben 1000 gramos, y así sucesivamente con los diferentes prefijos. Algo un poco raro es que la unidad fundamental para el caso de masa, ya tiene un prefijo, kilo, a diferencia del metro o el segundo (tiempo). Esto tiene sentido porque las cantidades mas usuales de masa están en el orden de los kilogramos. Sin embargo existen otros sistemas (como el cgs: centímetro, gramo, segundo) donde la unidad fundamental de masa es el gramo. No hay nada de raro en este otro tipo de sistemas: simplemente se usan de forma menos frecuente.
 
 +-------------------------------------------------+---------+---------+
 | Valor                                           | Prefijo | Símbolo |
 +=================================================+=========+=========+
-| 1 000 000 000 000 000 000 000 000 = $10^24$     | yotta   | Y       |
+| 1 000 000 000 000 000 000 000 000 = $10^{24}$   | yotta   | Y       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 000 000 000 000 000 = 1021            | zetta   | Z       |
+| 1 000 000 000 000 000 000 000 = $10^{21}$       | zetta   | Z       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 000 000 000 000 = 1018                | exa     | E       |
+| 1 000 000 000 000 000 000 = $10^{18}$           | exa     | E       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 000 000 000 = 1015                    | peta    | P       |
+| 1 000 000 000 000 000 = $10^{15}$               | peta    | P       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 000 000 = 1012                        | tera    | T       |
+| 1 000 000 000 000 = $10^{12}$                   | tera    | T       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 000 = 109                             | giga    | G       |
+| 1 000 000 000 = $10^{9}$                        | giga    | G       |
 +-------------------------------------------------+---------+---------+
-| 1 000 000 = 106                                 | mega    | M       |
+| 1 000 000 = $10^{6}$                            | mega    | M       |
 +-------------------------------------------------+---------+---------+
-| 1 000 = 103                                     | kilo    | k       |
+| 1 000 = $10^{3}$                                | kilo    | k       |
 +-------------------------------------------------+---------+---------+
-| 0,001 = 10-3                                    | mili    | m       |
+| 0,001 = $10^{-3}$                               | mili    | m       |
 +-------------------------------------------------+---------+---------+
-| 0,000 001 = 10-6                                | micro   | µ       |
+| 0,000 001 = $10^{-6}$                           | micro   | µ       |
 +-------------------------------------------------+---------+---------+
-| 0,000 000 001 = 10-9                            | nano    | n       |
+| 0,000 000 001 = $10^{-9}$                       | nano    | n       |
 +-------------------------------------------------+---------+---------+
-| 0,000 000 000 001 = 10-12                       | pico    | p       |
+| 0,000 000 000 001 = $10^{-12}$                  | pico    | p       |
 +-------------------------------------------------+---------+---------+
-| 0,000 000 000 000 001 = 10-15                   | femto   | f       |
+| 0,000 000 000 000 001 = $10^{-15}$              | femto   | f       |
 +-------------------------------------------------+---------+---------+
-| 0,000 000 000 000 000 001 = 10-18               | atto    | a       |
+| 0,000 000 000 000 000 001 = $10^{-18}$          | atto    | a       |
 +-------------------------------------------------+---------+---------+
 | 0,000 000 000 000 000 000 001 = :math:`10^{21}` | zepto   | z       |
 +-------------------------------------------------+---------+---------+
-| 0,000 000 000 000 000 000 000 001 = 10-24       | yocto   | y       |
+| 0,000 000 000 000 000 000 000 001 = $10^{-24}$  | yocto   | y       |
 +-------------------------------------------------+---------+---------+
 
-    
+.. raw:: html
+
+    <br />
+
+El tamaño de las cosas
+----------------------
+
+Alguna vez te preguntaste que tan grande puede ser lo grande y si existe
+un límite para eso? ¿Y para lo pequeño? ¿Existe una cosa tan pero tan chica
+que nada pueda ser menos que ella? ¿Hay un límite para el tiempo? ¿Que pasa
+en un intervalo de :math:`10^{-24}\:s`? ¿Pasa algo? Y si no pasa nada ¿Cómo
+sabemos que realmente pasó algo de tiempo?
+
+Una forma de comparar entre los diferentes *órdenes de magnitud* (o sea 
+cada vez que multiplicamos o dividimos por diez) es ponerse a jugar un poco
+con `este interactivo <http://htwins.net/scale2/>`_ (abrirlo en una compu)
+que podes ver en formato video acá abajo o 
+`bajarte la aplicación para Ios <https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259>`_ 
+
+.. youtube:: uaGEjrADGPA
+    :align: center
+    :width: 400
+

@@ -1,4 +1,4 @@
-.. title: Fisicoquímica: Guia de supervivencia para la materia
+.. title: Guía de Supervivencia
 .. slug: cla-fisicoquimica3-2020-03-guia
 .. date: 2020-03-06
 .. tags: introducciones
