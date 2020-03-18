@@ -8,7 +8,6 @@
 .. type: text
 .. hidetitle: false
 .. has_math: true
-.. status: 
 
 Objetivos de la clase
 ---------------------
@@ -91,16 +90,36 @@ El tamaño de las cosas
 Alguna vez te preguntaste que tan grande puede ser lo grande y si existe
 un límite para eso? ¿Y para lo pequeño? ¿Existe una cosa tan pero tan chica
 que nada pueda ser menos que ella? ¿Hay un límite para el tiempo? ¿Que pasa
-en un intervalo de :math:`10^{-24}\:s`? ¿Pasa algo? Y si no pasa nada ¿Cómo
-sabemos que realmente pasó algo de tiempo?
+en un intervalo de :math:`10^{-44}\:s`? ¿Pasa algo? Y si no pasa nada ¿Cómo
+sabemos que realmente pasó algo de tiempo? Dejaremos por un momento esta
+parte filosófica, pero también científica sobre los extremos, lo mas grande
+o lo mas pequeño, para pensar en todo lo que ocurre en medio.
 
 Una forma de comparar entre los diferentes *órdenes de magnitud* (o sea 
 cada vez que multiplicamos o dividimos por diez) es ponerse a jugar un poco
 con `este interactivo <http://htwins.net/scale2/>`_ (abrirlo en una compu)
 que podes ver en formato video acá abajo o 
-`bajarte la aplicación para Ios <https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259>`_ 
+`bajarte la aplicación para Ios <https://apps.apple.com/us/app/the-scale-of-the-universe-2/id1062423259>`_
+en donde se muestran para diferentes longitudes, objetos, seres y cosas
+representativas de cada órden de magnitud. 
+
+Particularmente me resulta bastante lindo, y a la vez extraño que todo lo que
+existe en el universo, y más aun el universo mismo, cabe en menos de cien pasos
+si tomamos como cada paso un orden de magnitud, si multiplicamos o dividimos
+por diez, podemos ir desde lo mas pequeño hasta el límite del universo
+observable. 
 
 .. youtube:: uaGEjrADGPA
     :align: center
     :width: 400
 
+Otro video que hace el mismo juego de mostrar diferentes ordenes de magnitud
+
+.. youtube:: FglEbPXxka4
+    :align: center
+    :width: 400
+
+El uso de las potencias de diez como forma de indicar cantidades muy
+grandes o muy pequeñas es una bendición no sólo estética que nos libera
+de tener que andar contando ceros y ceros, sino que hace que las cuentas
+entre cantidades sean mucísimo mas fáciles. Veremos por qué en breve.
