@@ -1,5 +1,5 @@
 .. title: Masacote universal
-.. slug: cla-fisicoquimica3-2020-06-estructura-de-la-materia
+.. slug: cla-fisicoquimica3-2020-06-estimaciones
 .. date: 2020-03-27 12:16:30 UTC-03:00
 .. tags: 
 .. category: fisicoquimica3
@@ -13,7 +13,6 @@
 	- Comparar órdenes de magnitud
 	- Preguntar de forma inquisitiva
 	- Ejercitar explicaciones consistentes
-	- Describir tres de los estados de la materia (sólido, líquido y gas)
 
 **********************************
 La utilidad de estimar y preguntar
