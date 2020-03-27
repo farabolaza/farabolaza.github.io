@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1584551654.4778857
+_modified_time = 1585275564.3003228
 _enable_loop = True
 _template_filename = 'themes/custom/templates/hpage.tmpl'
 _template_uri = 'hpage.tmpl'
@@ -39,15 +39,10 @@ def render_body(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
-        messages = context.get('messages', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
+        post = context.get('post', UNDEFINED)
         def content():
             return render_content(context._locals(__M_locals))
-        pheader = _mako_get_namespace(context, 'pheader')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -67,34 +62,18 @@ def render_body(context,**pageargs):
 def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
-        messages = context.get('messages', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        enable_comments = context.get('enable_comments', UNDEFINED)
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
-        post = context.get('post', UNDEFINED)
         math = _mako_get_namespace(context, 'math')
+        post = context.get('post', UNDEFINED)
         def content():
             return render_content(context)
-        pheader = _mako_get_namespace(context, 'pheader')
         __M_writer = context.writer()
-        __M_writer('  \n    <!-- div class="container"> -->\n        <div class="row no-gutters">                    \n            <div class="col-md-12 order-md-first order-lg-first order-sm-first col-sm-12 col-lg-8">\n                <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->\n                <article class="post-')
+        __M_writer('\n     \n                <article class="post-')
         __M_writer(str(post.meta('type')))
-        __M_writer(' storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n                   <header>\n                    ')
-        __M_writer(str(pheader.html_title()))
-        __M_writer('\n                    ')
-        __M_writer(str(pheader.html_translations(post)))
-        __M_writer('\n                    </header>\n                    <div class="e-content entry-content" itemprop="articleBody text">\n                    ')
+        __M_writer(' storypage" itemscope="itemscope" itemtype="http://schema.org/Article">\n                    <div class="e-content entry-content" itemprop="articleBody text">\n                    ')
         __M_writer(str(post.text()))
-        __M_writer('\n                    </div>\n')
-        if site_has_comments and enable_comments and not post.meta('nocomments'):
-            __M_writer('                        <section class="comments">\n                        <h2>')
-            __M_writer(str(messages("Comments")))
-            __M_writer('</h2>\n                        ')
-            __M_writer(str(comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)))
-            __M_writer('\n                        </section>\n')
-        __M_writer('                    ')
+        __M_writer('\n                    </div>\n                    ')
         __M_writer(str(math.math_scripts_ifpost(post)))
-        __M_writer('\n                </article>\n            </div>    \n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                \n            </div>\n        </div>\n        <div class="row no-gutters">\n            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">\n                <h4>\n                Próximos eventos\n                </h4>       \n                <div>\n                <p class="lead"> El que avisa no traiciona\n                </p>\n                </div>\n                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="350" height="500" frameborder="1" scrolling="no"></iframe>\n                </div>\n            </div>\n\n        </div>\n    <!-- </div> --> \n')
+        __M_writer('\n                </article>\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -102,6 +81,6 @@ def render_content(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"filename": "themes/custom/templates/hpage.tmpl", "uri": "hpage.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 5, "38": 0, "52": 2, "53": 3, "54": 4, "55": 5, "56": 6, "61": 49, "67": 8, "80": 8, "81": 13, "82": 13, "83": 15, "84": 15, "85": 16, "86": 16, "87": 19, "88": 19, "89": 21, "90": 22, "91": 23, "92": 23, "93": 24, "94": 24, "95": 27, "96": 27, "97": 27, "103": 97}}
+{"filename": "themes/custom/templates/hpage.tmpl", "uri": "hpage.tmpl", "source_encoding": "utf-8", "line_map": {"23": 2, "26": 3, "29": 4, "32": 5, "38": 0, "47": 2, "48": 3, "49": 4, "50": 5, "51": 6, "56": 16, "62": 8, "70": 8, "71": 10, "72": 10, "73": 12, "74": 12, "75": 14, "76": 14, "82": 76}}
 __M_END_METADATA
 """

@@ -5,45 +5,12 @@
 <%namespace name="math" file="math_helper.tmpl"/>
 <%inherit file="post.tmpl"/>
 
-<%block name="content">  
-    <!-- div class="container"> -->
-        <div class="row no-gutters">                    
-            <div class="col-md-12 order-md-first order-lg-first order-sm-first col-sm-12 col-lg-8">
-                <!-- barra lateral donde voy a poner algo para relleno o links harcodeado en el template -->
+<%block name="content">
+     
                 <article class="post-${post.meta('type')} storypage" itemscope="itemscope" itemtype="http://schema.org/Article">
-                   <header>
-                    ${pheader.html_title()}
-                    ${pheader.html_translations(post)}
-                    </header>
                     <div class="e-content entry-content" itemprop="articleBody text">
                     ${post.text()}
                     </div>
-                    %if site_has_comments and enable_comments and not post.meta('nocomments'):
-                        <section class="comments">
-                        <h2>${messages("Comments")}</h2>
-                        ${comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)}
-                        </section>
-                    %endif
                     ${math.math_scripts_ifpost(post)}
                 </article>
-            </div>    
-            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">
-                
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-md-12 col-sm-12 col-lg-4 order-xl-last order-lg-last">
-                <h4>
-                Próximos eventos
-                </h4>       
-                <div>
-                <p class="lead"> El que avisa no traiciona
-                </p>
-                </div>
-                <div><iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FArgentina%2FBuenos_Aires&amp;src=N3E5NXNmOXQ0YzE2ZW02dmxwYnF2ODF0MjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23402175&amp;showDate=0&amp;showTz=0&amp;showCalendars=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;mode=AGENDA&amp;title=Calendario%20Acad%C3%A9mico" style="border-width:0" width="350" height="500" frameborder="1" scrolling="no"></iframe>
-                </div>
-            </div>
-
-        </div>
-    <!-- </div> --> 
 </%block>
