@@ -13,8 +13,7 @@
 <link rel="icon" href="/atom.png" sizes="128x128">
 <link rel="icon" href="/atom.ico" sizes="128x128">
 <link rel="next" href="/posts/index-1.html" type="text/html">
-<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><!-- Font Awesome --><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-<link href="/assets/css/bootstrap-toc.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><script src="https://kit.fontawesome.com/eda9731ec3.js" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script><link href="/assets/css/bootstrap-toc.css" rel="stylesheet">
 <script src="/assets/js/jquery.min.js"></script><script src="/assets/js/bootstrap-toc.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target="#toc">
@@ -99,7 +98,480 @@ navbar-dark bg-primary
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="/posts/cla-matematica5-2020-02-relaciones/" class="u-url">Coronavirus y matemáticas</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="/posts/cla-matematica5-2020-03-exponencial/" class="u-url">La fase exponencial de una enfermedad</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                Federico Arabolaza
+            </span></p>
+            <p class="dateline">
+            <a href="/posts/cla-matematica5-2020-03-exponencial/" rel="bookmark">
+            <time class="published dt-published" datetime="2020-03-26T22:34:22-03:00" itemprop="datePublished" title="2020-marzo-26">2020-marzo-26</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div class="section" id="planificado-la-pandemia">
+<h2>Planificado la pandemia</h2>
+<p>En esta parte del trabajo vamos a intentar generar una predicción
+de la fase de crecimiento exponencial del coronavrius y les voy a pedir
+3 escenarios posibles para nuestro país. Para poder conseguirlo, tenemos
+que manejar ciertas herramientas.</p>
+<p>En términos pedagógicos esto sería:</p>
+<div class="admonition admonition-objetivos">
+<p class="first admonition-title">objetivos</p>
+<ul class="last simple">
+<li>Calcular la tasa de crecimiento entre períodos para una serie de datos        -</li>
+<li>Escribir diferentes escenarios de la fase exponencial de desarrollo</li>
+<li>Usar la inversa (logaritmo) para averiguar <em>r</em>
+</li>
+<li>
+</li>
+</ul>
+</div>
+<div class="section" id="procedimiento">
+<h3>Procedimiento</h3>
+<p>Vamos a leer el artículo continuación del de la semana anterior <a class="reference external" href="https://medium.com/tomas-pueyo/coronavirus-el-martillo-y-la-danza-32abc4dd4ebb">aca</a>
+luego de eso vamos a responder la siguientes preguntas.</p>
+<div class="section" id="preguntas">
+<h4>Preguntas</h4>
+<p>Responder las siguientes preguntas:</p>
+<ol class="arabic simple">
+<li>¿Qué países adoptaron medidas de mitigación y cuales de supresión?</li>
+<li>¿Cuántas <a class="reference external" href="https://datos.bancomundial.org/indicador/SH.MED.BEDS.ZS?view=chart">camas</a> por habitante tienen España, Italia, Chile, Brasil, Argentina, China y Estados Unidos?</li>
+<li>¿Cuál es la tendencia de cada país desde los 60?</li>
+<li>¿Cuánto duró el período de supresión de contacto en Wuhan?</li>
+<li>Definir <em>R</em>. (Según el artículo)</li>
+<li>¿Cuál sería el proposito de una estrategia de supresión de contacto en relación a <em>R</em>?</li>
+</ol>
+<p>Una aclaración <strong>importante</strong> la letra <strong>R</strong> que se usa en este artículo
+refiere a la cantidad de contagios que <strong>una</strong> persona puede causar,
+mientras que usualmente el la letra $r$ se usa para medir la razón a la cual
+crece una cantidad, es lo que vimos en el clase anterior: si tenemos una
+secuencia 3,9,27, la razón $r$ es 3 porque cada valor próximo se obtiene
+multiplicando al anterior por 3.</p>
+<p>Este número es de <strong>Vital</strong> importancia ya que nos dice que tan rápido se
+está expandiendo la enfermedad, es decir que tantos infectados tenemos
+a medida que avanza el tiempo.</p>
+<p>Por ejemplo, una cantidad que se triplica cada "t" días, nos queda:</p>
+<div class="math">
+\begin{equation*}
+C(t)=r^t=3^t
+\end{equation*}
+</div>
+<p>Si pensamos en términos de días, y comparamos por ejemplo la cantidad de
+infectados entre dos días sucesivos y tenemos 100,200 significa que los
+infectados se duplican cada día .. por lo nuestro <strong>modelo</strong> sería una
+exponencial de base 2. Dos multiplicado por si mismmo todas las veces que uno quiera.</p>
+<div class="math">
+\begin{equation*}
+I(d)=100\cdot 2^d
+\end{equation*}
+</div>
+<p>100 séría nuestro valor inicial, y cada día que pasa, se duplica. Un
+escenario de catástrofe a todas luces. Pero no hace falta llegar a tanto,
+como vimos, se llega a un escenario igual de caótico con un r bastante
+más chico.</p>
+<p>Ahora,</p>
+<p>Si suponemos que los casos de duplican cada 3 días ... implica que vamos a
+multiplicar por 2 nuestra cantidad cuanto el tiempo sea alguno de los
+múltiplos de 3: 3,6,9,12,etc.</p>
+<p>¿Qué modificación tendríamos que hacer a la expresión anterior (la de $2^d$?)</p>
+<p>Tenemos que modificar el exponente, para que sea igual a 1, si pasan 3 días,
+igual a 2 si pasan 6, igual a 3 si pasan 9 e igual a 12 si pasan 4....
+Hagamos una tabla:</p>
+<table border="1" class="docutils align-center">
+<caption>otra relación funcional</caption>
+<colgroup>
+<col width="60%">
+<col width="40%">
+</colgroup>
+<thead valign="bottom"><tr>
+<th class="head">dias</th>
+<th class="head">ex</th>
+</tr></thead>
+<tbody valign="top">
+<tr>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>9</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>En la izquierda tenemos los días y a la derecha lo que debería aparecer en
+el exponente ¿que operación hay entre ambos números? ¿cuál es su relación
+funcional? ... piense, vamos.</p>
+<p>Bueno, por si no lo vieron, al número de la izquierda siempre se lo divide
+por 3, que es justamente la cantidad de días que pasan entre duplicación y
+duplicación. Esto nos dice que nuestro esponente es entonces
+<span class="math">\(\frac{d}{3}\)</span></p>
+<p>Y nuestra función:</p>
+<div class="math">
+\begin{equation*}
+I(d)=100 \cdot 2^{\frac{d}{3}}
+\end{equation*}
+</div>
+<div class="section" id="ejercicios-de-prueba">
+<h5>Ejercicios de prueba</h5>
+<ol class="arabic simple">
+<li>Escribir una función exponencial de valor inicial 200 y que se duplica cada 3 días</li>
+<li>Escribir ua función exponencial de valor inicial 1 y que se triplica cada 2 días</li>
+<li>Escribir una función exponencial de valor inicial 1 y que se duplica cada 10 días</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Sugerencia</p>
+<p class="last">El tiempo en días es tu variable, valor incial refiere
+al valor de la función para el tiempo cero.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="modelame-asi">
+<h3>Modelame así</h3>
+<p>Así como recién vimos que podemos representar las situaciones de
+crecimiento exponencial en base a considerar que tan rápido crece
+el fenómeno que estudiamos. Usémoslo para estudiar como crecen los
+casos de coronavirus en nuestro país y en otros.</p>
+<div class="section" id="los-numeros-por-estos-pagos">
+<h4>Los números por estos pagos</h4>
+<table border="1" class="docutils align-center">
+<caption>Casos de coronavirus en Argentina.</caption>
+<colgroup>
+<col width="27%">
+<col width="31%">
+<col width="29%">
+<col width="13%">
+</colgroup>
+<thead valign="bottom"><tr>
+<th class="head">Fecha</th>
+<th class="head">Casos nuevos</th>
+<th class="head">Total Casos</th>
+<th class="head">r</th>
+</tr></thead>
+<tbody valign="top">
+<tr>
+<td>02/03/2020</td>
+<td>1</td>
+<td>1</td>
+<td> </td>
+</tr>
+<tr>
+<td>03/03/2020</td>
+<td>0</td>
+<td>1</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td>04/03/2020</td>
+<td>0</td>
+<td>1</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td>05/03/2020</td>
+<td>0</td>
+<td>1</td>
+<td>1,00</td>
+</tr>
+<tr>
+<td>06/03/2020</td>
+<td>1</td>
+<td>2</td>
+<td>2,00</td>
+</tr>
+<tr>
+<td>07/03/2020</td>
+<td>1</td>
+<td>3</td>
+<td>1,50</td>
+</tr>
+<tr>
+<td>08/03/2020</td>
+<td>3</td>
+<td>6</td>
+<td>2,00</td>
+</tr>
+<tr>
+<td>09/03/2020</td>
+<td>5</td>
+<td>11</td>
+<td>1,83</td>
+</tr>
+<tr>
+<td>10/03/2020</td>
+<td>2</td>
+<td>13</td>
+<td>1,18</td>
+</tr>
+<tr>
+<td>11/03/2020</td>
+<td>2</td>
+<td>15</td>
+<td>1,15</td>
+</tr>
+<tr>
+<td>12/03/2020</td>
+<td>10</td>
+<td>25</td>
+<td>1,67</td>
+</tr>
+<tr>
+<td>13/03/2020</td>
+<td>3</td>
+<td>28</td>
+<td>1,12</td>
+</tr>
+<tr>
+<td>14/03/2020</td>
+<td>11</td>
+<td>39</td>
+<td>1,39</td>
+</tr>
+<tr>
+<td>15/03/2020</td>
+<td>11</td>
+<td>50</td>
+<td>1,28</td>
+</tr>
+<tr>
+<td>16/03/2020</td>
+<td>9</td>
+<td>59</td>
+<td>1,18</td>
+</tr>
+<tr>
+<td>17/03/2020</td>
+<td>14</td>
+<td>73</td>
+<td>1,24</td>
+</tr>
+<tr>
+<td>18/03/2020</td>
+<td>18</td>
+<td>91</td>
+<td>1,25</td>
+</tr>
+<tr>
+<td>19/03/2020</td>
+<td>31</td>
+<td>122</td>
+<td>1,34</td>
+</tr>
+<tr>
+<td>20/03/2020</td>
+<td>30</td>
+<td>152</td>
+<td>1,25</td>
+</tr>
+<tr>
+<td>21/03/2020</td>
+<td>67</td>
+<td>219</td>
+<td>1,44</td>
+</tr>
+<tr>
+<td>22/03/2020</td>
+<td>41</td>
+<td>260</td>
+<td>1,19</td>
+</tr>
+<tr>
+<td>23/03/2020</td>
+<td>36</td>
+<td>296</td>
+<td>1,14</td>
+</tr>
+<tr>
+<td>24/03/2020</td>
+<td>86</td>
+<td>382</td>
+<td>1,29</td>
+</tr>
+<tr>
+<td>25/03/2020</td>
+<td>117</td>
+<td>499</td>
+<td>1,31</td>
+</tr>
+</tbody>
+</table>
+<p>La última columna es la división entre los casos del día, y los del
+día anterior, lo ue nos daría un "r" diferente para cada día y podríamos
+a patir de esos datos proyectar hacia futuro, por ejemplo, si tomamos como
+día cero el 22 de marzo la función que modelaría los próximos contagios es</p>
+<div class="math">
+\begin{equation*}
+C(d)=296\cdot (1,14)^d
+\end{equation*}
+</div>
+<p>Si en cambio tomamos el día 24 de marzo</p>
+<div class="math">
+\begin{equation*}
+C(d)=382\cdot (1,29)^d
+\end{equation*}
+</div>
+<p>También podríamos hacer un promedio de todos los valores de "r" (que nos
+da 1,34) o encontrar el "r" tal que nos de que en 23 días (del 2 al 25) se
+pasó de 1 caso a 499. Es decir de un valor inicial de 1 pasamos a 499 en 23
+días.</p>
+<div class="math">
+\begin{equation*}
+C(d)=1\cdot r^d
+\end{equation*}
+</div>
+<div class="math">
+\begin{equation*}
+499=1\cdot r^{23}
+\end{equation*}
+</div>
+<p>Lo que habría que hacer, es depejar "r" y listo. Pero no nos vamos a meter
+en eso todavía.</p>
+<p>El primer caso que se considera que no vino infectado de viaje o
+que se contagió de alguien que ya vino enfermo se verificó el día
+<a class="reference external" href="https://www.infobae.com/coronavirus/2020/03/23/nueva-fase-del-coronavirus-en-argentina-que-se-espera-a-partir-del-primer-caso-de-transmision-comunitaria/">lunes 23</a></p>
+<p>¿Qué cosa nos dice esto respecto de nuestros valores de "r" calculados o
+aproximados en los párrafos anteriores?</p>
+<p>Simplemente que no sirven de mucho, porque todas esas personas no se contagiaron
+entre sí. Por lo que si vamos a tomar un punto de inicio, debería ser a paritr
+de que se detectó el primer contagiado que no tiene relación directa algún caso
+importado (o de persona cercana a un caso importado).</p>
+<div class="section" id="algo-importante-sobre-los-modelos">
+<h5>Algo importante sobre los modelos</h5>
+<p>Vamos a explicar esto en detalle luego, pero algo que todos los modelos
+matemáticos, físicos, quiímicos, biológicos, económicos, etc. tienen en
+común es esto: <strong>NO SON LA REALIDAD</strong>. Sino que a partir de sucesivas
+simplificaciones y aproximaciones, los modelos <strong>intentan</strong> explicar y
+predecir fenónemos. Un modelo puede ser válido en cierto momento y no en
+otro, cuando las suposiciones que se tomaron ya no aplican, porque hay
+un cambio en el contexto, o puede incluso desde un principio se sepa que
+las condiciones no se cumplen para aplicar el modelo y se lo use meramente
+como una aproximación cuando nose tiene uno mejor a mano.</p>
+<p>Siempre que seamos cuidadosos, podemos usar lo que nos venga en gana, pero
+siempre se debe aclarar el rango de validez de nuestras predicciones. Esto
+se puede simplificar as: "va a suceder x cosa, si se cumple que a,b,c y d" siendo a,b,c,d los hechos y suposiciones que tuvimos en cuenta.</p>
+<p>Si luego la realidad es <strong>muy</strong> diferente de lo que el modelo predijo,
+puede sueceder alguna de estas dos cosas: que el modelo realmente deba
+ser abandonado por completo, o que debamos revisar nuestras suposiciones:
+puede que no hayamos tenido en cuenta factores de importancia, o que le
+hayamos dado lugar a otros factores que no influyen en nada o que lo hacen
+en menor medida de lo que uno supuso. Veamos un ejemplo estúpido:</p>
+<blockquote>
+Si me tiro de un quinto piso cantando canciones de maluma
+y llevo puesta una remera verde, seguramente moriré.</blockquote>
+<p>Este caso es polémico, porque en principio, suicidarse y cantar maluma
+son sinónimos, pero lo es más aún porque por mas que cantemos otra cosa
+o nos cambiemos la ropa, es obvio que nuestras chances de morir son las
+mismas.Acá esamos teniendo en cuenta factores que no influyen en nada
+en nuestro resultado.</p>
+<p>Veamos otro ejemplo:</p>
+<blockquote>
+Si una persona promedio, consume mas de x cantida de azúcar
+por día, incrementa sus chances de morir prematuramente en y %</blockquote>
+<p>Podemos ver si esto es cierto juntando datos de gente que murió conociendo
+la cantidad de azucar que consumían, y puede que encontremos que están
+ciertamente relacionados, ahora, en una muerte prematura ¿es el único
+factor que influye? ¿hay otros factores asociados que pueden "neutralizar"
+el efecto de la ingesta de azucar? En todo caso podríamos pensar que
+el nivel de actividad física, el resto de la alimentación, el estilo de
+vida (si se es mas o menos sedentario) también afectan. para deshacernos
+de estas "dudas" deberíamos tener a mano casos de gente de diversos grupos,
+pensemos sedentarios y activos, (y que tengan en común otras cosas quizás)
+que consuman azucar y que no consuman azucar  y comprararlos. Si entre
+grupos "parecidos" cada vez que inlcuimos el azucar, la mortalidad
+prematura aumenta, estamos mas cerca de convencernos de que efectivamente
+hay una relación entre ambos fenómenos.</p>
+</div>
+<div class="section" id="al-grano-senor">
+<h5>Al grano señor</h5>
+<p>¿Y qué tiene que ver esto con las enfermedades? Bueno es que muchos de los modelos tienen en cuenta algunas suposiciones en las cuales se basan</p>
+<ul class="simple">
+<li>Hay cierto % de gente que se inmuniza luego de enfermarse</li>
+<li>El mortalidad es de tanto %</li>
+<li>Los días que pasa una persona internada son <em>x</em> en promedio</li>
+<li>La cantidad de personas que un infectado puede contagiar son 2,3</li>
+<li>Cuanta mas gente en contacto mayor el contagio</li>
+<li>El período en que una persona puede contagiar es de <em>z</em> días</li>
+<li>El tiempo que una persona tarda en recuperarse es <em>w</em> días</li>
+</ul>
+<p>Estos supuestos pueden variar: la recuperación puede ser más rápida de lo
+previsto, o puede la mortalidad no ser un % fijo (pensemos que pasa si se
+comienza a saturar el sitema de salud) al depender de otros factores.</p>
+</div>
+</div>
+</div>
+<div class="section" id="ahora-vos">
+<h3>Ahora vos</h3>
+<p>Bueno, en base a los datos que están diposnibles en la web, en ésta misma
+página (y cualquier otra que consultes) u otras fuentes, tenes que generar
+tres escenarios posibles para la fase de crecimiento exponencial del virus.</p>
+<p>Vale aclarar una vez mas, que esta fase no puede continuar por siempre aún en
+el caso en que las autoridades no tomaran ninguna medida: simplemete no puede
+toda la población estar enferma al mismo tiempo (o te curas o te morís).</p>
+<p>Lo que hay que producir es lo siguiente:</p>
+<ul class="simple">
+<li>Una función que modele el crecimiento del virus en Argentina con un creicmiento diario pesimista (pero realista en relación a lo que se sabe de otros países)</li>
+<li>Una función que modele el crecimiento del virus en Argentina con un crecimiento diario intermedio</li>
+<li>Una función que modele el crecimiento del virus en Argentina con un crecimiento diario optimista</li>
+</ul>
+<p>Las justificaciones de por qué consideran el escenario pesimista u optimista o
+moderado deben estar fundamentadas de alguna forma.</p>
+<p><strong>por ejemplo:</strong></p>
+<p>Una función que predice un escenario pesimista:</p>
+<p>Tomando como día inicial el día 25 de marzo, sería</p>
+<div class="math">
+\begin{equation*}
+I(d)=382\cdot (1,34)^d
+\end{equation*}
+</div>
+<p>De continuar esta tasa de contagios, para fines de abril tendríamos mas de
+2 millones de infectados, que representan el 19% de la población del area
+del gran buenos aires. Si reemplazamos $d=30$, es decir 30 días a partir del
+25 de marzo</p>
+<div class="math">
+\begin{equation*}
+I(30)= 382\cdot (1,34)^{30} \approx 2.484.319
+\end{equation*}
+</div>
+<p>Este número supera ampliamente la cantidad de camas que existen en todo el sistema
+de salud (aproximadamente 200.000), dándose solo en un día, del día 29 al 30 casi 600.000 nuevos infectados.</p>
+<p>Mas allá de lo poco realista de este escenario (acá se debería justificar por qué)
+represnta una situación de desborde, lo que implica que un "r" de 1,34 no
+es sostenible para evitar el colapso del sistema sanitario.</p>
+</div>
+<div class="section" id="links-que-vas-a-necesitar">
+<h3>Links que vas a necesitar</h3>
+<p>Una buena explicación sobre fenómenos exponenciales y el inicio de
+la situación en nuestro país comparado con otros <a class="reference external" href="https://elgatoylacaja.com.ar/noticias/coronavirus-exponencialidad-y-prevencion/">acá 1</a></p>
+<p>Datos del banco mundial sobre camas por habitante <a class="reference external" href="https://datos.bancomundial.org/indicador/SH.MED.BEDS.ZS?view=chart">acá 2</a></p>
+<p>Artículo continuación de los de la semana pasada <a class="reference external" href="https://medium.com/tomas-pueyo/coronavirus-el-martillo-y-la-danza-32abc4dd4ebb">acá 3</a></p>
+<p>Datos demográficos se pueden sacar de  <a class="reference external" href="https://es.wikipedia.org/wiki/Gran_Buenos_Aires#Aglomerado_Gran_Buenos_Aires_(AGBA)">acá 4</a> o de la página de INDEC.</p>
+</div>
+<div class="section" id="otra-informacion-que-te-podria-ser-util">
+<h3>Otra información que te podría ser util</h3>
+<p>Para poder justificar los diferentes escenarios, quizás te sea bueno conocer</p>
+<ul class="simple">
+<li>Fecha del primera caso conocido</li>
+<li>Fecha de la primera muerte</li>
+<li>Porcentaje de hospitalizados / infectados</li>
+<li>Porcentaje de muertos / infectados</li>
+<li>Infectados nuevos por día desde que comenzó en nuestro país</li>
+<li>Mismos datos pero para otros países donde el desarrollo de la enfermedad está mas avanzado.</li>
+</ul>
+<p>Te recomiendo que te hagas favoritos con los links que encuentres,
+los anotes en una planilla de cálculo online, en alguna libreta,
+papel higiénico, servilleta o en un tu mano.</p>
+<div class="youtube-video">
+<iframe width="300" height="315" src="https://www.youtube-nocookie.com/embed/TggNpDnW-70?rel=0&amp;wmode=transparent" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="/posts/cla-matematica5-2020-02-relaciones/" class="u-url">Coronavirus y matemáticas</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 Federico Arabolaza
@@ -1909,23 +2381,6 @@ siempre a los mismos resultados, no observando saltos menores al valor obtenido
 para una sola carga.</p>
 </div>
 </div>
-</div>
-    </div>
-    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="/posts/plan-fisicoquimica3-2020/" class="u-url">Planificación anual Fisicoquímica 3º</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
-                Federico Arabolaza
-            </span></p>
-            <p class="dateline">
-            <a href="/posts/plan-fisicoquimica3-2020/" rel="bookmark">
-            <time class="published dt-published" datetime="2020-01-14T14:49:23-03:00" itemprop="datePublished" title="2020-enero-14">2020-enero-14</time></a>
-            </p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div class="section" id="planificacion-anual-fisicoquimica-3o">
-<h2>Planificación anual Fisicoquímica 3º</h2>
-<p>Para esta sección, estoy en duda de si es mejor poner directamente la tabla o armar un documento. Queda para toda planificación agregar una descarga en formato PDF para cada cole.</p>
-<iframe src="https://www.desmos.com/calculator/atmghogvho?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe><p>otra cosa</p>
 </div>
     </div>
     </article>
