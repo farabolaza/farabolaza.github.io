@@ -111,15 +111,23 @@ observable.
 
 .. youtube:: uaGEjrADGPA
     :align: center
-    :width: 400
+    :width: 350
 
 Otro video que hace el mismo juego de mostrar diferentes ordenes de magnitud
 
 .. youtube:: FglEbPXxka4
     :align: center
-    :width: 400
+    :width: 350
+
+Otro más
+
+.. youtube:: 0fKBhvDjuy0
+	:width: 350
+	:align: center
 
 El uso de las potencias de diez como forma de indicar cantidades muy
 grandes o muy pequeñas es una bendición no sólo estética que nos libera
 de tener que andar contando ceros y ceros, sino que hace que las cuentas
 entre cantidades sean mucísimo mas fáciles. Veremos por qué en breve.
+
+Los recursos utilizados fueron en parte obtenidos de `esta página <https://scaleofuniverse.com/>`_ 
