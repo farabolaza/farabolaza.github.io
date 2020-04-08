@@ -139,11 +139,12 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
     (
-    	(   
-    	("/categories/cat_matematica3/", "MATEMÁTICA 3º"),
-        ("/categories/cat_fisicoquimica3/", "FISICOQUÍMICA 3º"),
+    	(
+        ("/categories/cat_matematica5/", "MATEMÁTICA 5º"),   
+    	  ("/categories/cat_matematica3/", "MATEMÁTICA 3º"),
+        ("/categories/cat_math2/", "MATH SENIOR 2"),        
         ("/categories/cat_fisica4/", "FÍSICA 4º"),
-        ("/categories/cat_matematica5/", "MATEMÁTICA 5º"),        
+        ("/categories/cat_fisicoquimica3/", "FISICOQUÍMICA 3º"),                
       ),
       "CLASES"
     ),
@@ -151,6 +152,8 @@ NAVIGATION_LINKS = {
       (   
         ("/posts/bib-matematica5-2020/index.html", "MATEMÁTICA 5º"),
         ("/posts/bib-matematica3-2020/index.html", "MATEMÁTICA 3º"),
+        ("/posts/bib-math2-2020/index.html", "MATH SENIOR 2"),
+        ("/posts/bib-fisica4-2020/index.html", "FISICA 4º"),
         ("/posts/bib-fisicoquimica3-2020/index.html", "FISICOQUÍMICA 3º"),
       ),
       "BIBLIOGRAFÍA"
@@ -159,6 +162,8 @@ NAVIGATION_LINKS = {
       (   
         ("/posts/plan-matematica5-2020/index.html", "MATEMÁTICA 5º"),
         ("/posts/plan-matematica3-2020/index.html", "MATEMÁTICA 3º"),
+        ("/posts/plan-math2-2020/index.html", "MATH SENIOR 2"),
+        ("/posts/plan-fisica4-2020/index.html", "FISICA 4º"),
         ("/posts/plan-fisicoquimica3-2020/index.html", "FISICOQUÍMICA 3º"),
       ),
       "PLANIF. DOCENTE"
@@ -284,11 +289,11 @@ TIMEZONE = "America/Buenos_Aires"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-DATE_FORMAT = 'yyyy-MMMM-dd'
+DATE_FORMAT = 'MMMM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
-JS_DATE_FORMAT = 'YYYY-MMm-DD'
+JS_DATE_FORMAT = 'MMm-DD'
 
 # Date fanciness.
 #
@@ -409,6 +414,7 @@ TAG_DESCRIPTIONS = {
        "bib-fisicoquimica3": "Acá iría una descripción y html",
        "bib-fisica4": "Acá iría una descripción y html",
        "plan": "Planificaciones docentes de las materias que doy",
+       "plan-math2": "Syllabus for math senior 2",
        "plan-matematica3": "Acá iría una descripción y html",
        "plan-matematica5": "Acá iría una descripción y html",
        "plan-fisicoquimica3": "Acá iría una descripción y html",
@@ -420,11 +426,13 @@ TAG_DESCRIPTIONS = {
 TAG_TITLES = {
    DEFAULT_LANG: {
        "bib": "Bibliografía",
+       "bib-math2": "Math Senior 2 Bibliography",
        "bib-matematica3": "Bibliografía Matemática 3º",
        "bib-matematica5": "Bibliografía Matemática 5º",
        "bib-fisicoquimica3": "Bibliografía Fisicoquímica 3º",
        "bib-fisica4": "Bibliografía Fisica 4º",
        "plan": "Planificaciones",
+       "plan-math2": "Math Senior 2 Syllabus",
        "plan-matematica3": "Planificación anual Matemática 3º",
        "plan-matematica5": "Planificación anual Matemática 5º",
        "plan-fisicoquimica3": "Planificación anual Fisicoquímica 3º",
@@ -492,31 +500,35 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # and displayed underneath the category list or index page’s title.
 CATEGORY_DESCRIPTIONS = {
    DEFAULT_LANG: {
+       "math2": ''' 
+       <p><h4>Class Briefs<h4></p>
+       <p>Shown in descending date order</p>
+       <hr>''',
        "matematica3": ''' 
-       <p><h5> Todas las clases <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
+       <p><h4>Todas las clases <h4></p>
+       <p>Listado de clases para este año en orden cronológico descendente</p>
        <hr>''',
        "matematica5": ''' 
-       <p><h5> Todas las clases <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
+       <p><h4>Todas las clases <h4></p>
+       <p>Listado de clases para este año en orden cronológico descendente</p>
        <hr>''',
        "fisicoquimica3": '''
-       <p><h5> Todas las clases <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
+       <p><h4>Todas las clases <h4></p>
+       <p>Listado de clases para este año en orden cronológico descendente</p>
+       <hr>''',
+       "fisica4": '''
+       <p><h4>Todas las clases <h4></p>
+       <p>Listado de clases para este año en orden cronológico descendente</p>
        <hr>''',
        "fisicacontempo1": "Principales temas de la materia",
-       "fisicacontempo2": "Principales temas de la materia",
-       "fisica4": ''' 
-       <p><h5> Todas las clases <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
-       <hr>''',
+       "fisicacontempo2": "Principales temas de la materia",       
        "energo": ''' 
-       <p><h5> Resumen para examen final <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
+       <p><h4>Resumen para examen final <h4></p>
+       <p>Resumen de temas para coloquio</p>
        <hr>''',
        "electro": ''' 
-       <p><h5> Resumen para examen final <h5></p>
-       <p> Acá debería poner un párrafo que describa la materia y de algunas indicaciones para los alumnos</p>
+       <p><h4>Resumen para examen final<h4></p>
+       <p>Temas que voy a repasar</p>
        <hr>''',  
    },
 }
@@ -524,6 +536,7 @@ CATEGORY_DESCRIPTIONS = {
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_TITLES = {
    DEFAULT_LANG: {
+       "math2": "Math Senior 2",
        "matematica3": "Matemática 3º",
        "matematica5": "Matemática 5º",
        "fisicoquimica3": "Fisicoquímica 3º",

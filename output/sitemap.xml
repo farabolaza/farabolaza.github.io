@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://farabolaza.github.io/</loc>
-  <lastmod>2020-03-05T16:53:00Z</lastmod>
+  <lastmod>2020-04-03T18:32:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/2020/</loc>
@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/archive.html</loc>
-  <lastmod>2020-03-27T17:43:00Z</lastmod>
+  <lastmod>2020-04-02T13:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/</loc>
@@ -83,7 +83,7 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/listings/</loc>
-  <lastmod>2020-01-02T18:05:00Z</lastmod>
+  <lastmod>2020-04-03T17:12:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/pages/</loc>
@@ -102,8 +102,72 @@
   <lastmod>2020-03-14T20:57:00Z</lastmod>
  </url>
  <url>
+  <loc>https://farabolaza.github.io/papers/BoccoMonica.1455.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/DavidSumpter1153.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/EarlW.Swokowski986.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/GeorgeGamow1064.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/JamesStewart1291.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/MartinGardner1731.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/MichaelSullivan1207.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/OscarMargaria1397.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/ReneJimenez3976.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/YakovPerelman1253.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/YakovPerelman3279.html</loc>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/alElAngel2007.html</loc>
+  <lastmod>2020-04-03T18:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/algl12.html</loc>
+  <lastmod>2020-04-03T19:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/alinAngel2008.html</loc>
+  <lastmod>2020-04-03T18:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/papers/zhong2016.html</loc>
+  <lastmod>2020-04-03T19:14:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://farabolaza.github.io/posts/</loc>
-  <lastmod>2020-03-27T18:08:00Z</lastmod>
+  <lastmod>2020-04-02T13:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/bib-fisica4-2020/</loc>
+  <lastmod>2020-04-02T13:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/bib-fisicoquimica3-2020/</loc>
@@ -116,6 +180,10 @@
  <url>
   <loc>https://farabolaza.github.io/posts/bib-matematica5-2020/</loc>
   <lastmod>2020-01-14T18:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/bib-math2-2020/</loc>
+  <lastmod>2020-04-02T13:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/cla-energo-2020-01-biomasa/</loc>
@@ -150,10 +218,6 @@
   <lastmod>2020-03-27T18:08:00Z</lastmod>
  </url>
  <url>
-  <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-06-estructura-de-la-materia/</loc>
-  <lastmod>2020-03-27T17:43:00Z</lastmod>
- </url>
- <url>
   <loc>https://farabolaza.github.io/posts/cla-matematica3-2020-01-intro/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
  </url>
@@ -171,7 +235,15 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-1.html</loc>
-  <lastmod>2020-03-27T17:43:00Z</lastmod>
+  <lastmod>2020-04-03T19:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/index-2.html</loc>
+  <lastmod>2020-04-02T13:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/plan-fisica4-2020/</loc>
+  <lastmod>2020-04-02T13:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/plan-fisicoquimica3-2020/</loc>
@@ -184,5 +256,9 @@
  <url>
   <loc>https://farabolaza.github.io/posts/plan-matematica5-2020/</loc>
   <lastmod>2020-01-13T19:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/plan-math2-2020/</loc>
+  <lastmod>2020-04-02T13:30:00Z</lastmod>
  </url>
 </urlset>
