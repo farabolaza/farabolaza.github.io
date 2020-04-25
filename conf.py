@@ -179,7 +179,7 @@ NAVIGATION_LINKS = {
     	"OTROS"
     ),
     ("/pages/cheatsheet/index.html", "CHEATSHEET"),
-    ("/pages/about-fede/index.html", "QUIEN SOY"),
+    #("/pages/about-fede/index.html", "QUIEN SOY"),
 ),
 }
 

@@ -6,5 +6,8 @@
 .. link: 
 .. description: 
 .. type: text
+.. hidetitle: true
+.. has_math: true
+.. template: postb.tmpl
 
 Escriba su publicación aquí.

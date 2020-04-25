@@ -7,6 +7,9 @@
 .. description: 
 .. type: text
 .. hidetitle: true
+.. has_math: true
+.. template: postb.tmpl
+
 
 *****************
 Matemática 3º Año
@@ -14,6 +17,23 @@ Matemática 3º Año
 
 Objetivos de la materia
 =======================
+
+Objetivos generales
+-------------------
+
+Los/as alumnos/as serán capaces de 
+
+.. highlights:: 
+
+	Reconocer la unicidad del concepto de número en todas sus formas e
+	Identificar a las variables algebraicas como una herramienta de modelización
+	de situaciones en donde sus variación, permite generalizar y reconocer 
+	comportamientos de fenómenos matemáticos y extra matemáticos. Diferenciar e 
+	identificar de forma no ambigüa los parámetros de la expresiones y como éstos
+	determinan el comportamiento de las funciones/relaciones.
+
+Objetivos específicos
+---------------------
 
 Operar con suficiencia sobre las formas algebraicas conocidas (sumas,
 restas, multiplicaciones, divisiones y exponentes) y su combinación en
@@ -33,6 +53,8 @@ Modelar y resolver situaciones que involucren:
 Verificar la equivalencia de la representación gráfica, algebraica
 y coloquial de todas las situaciones anteriores.
 
+
+	
 Recursos a utiilzar
 ===================
 
@@ -66,9 +88,9 @@ Distribución del tiempo
 Sobre un promedio de 120 hs anuales de clase, (que contempla feriados, 
 períodos de inactividad, actos escolares, etc.) se dedicará:
 
-- **50%**: Trabajo del alumno en clase. Prácticas y consultas
-- **30%**: Exposición de contenidos, lecturas y teoría
-- **20%**: Evaluaciones
+- **50%**: Trabajo del alumno en clase. Prácticas, lecturas y consultas.
+- **30%**: Exposición de contenidos por el docente: lecturas, teoría, correcciones.
+- **20%**: Evaluaciones.
 
 Estos valores son orientativos y pueden variar de acuerdo a situaciones
 particulares del ciclo académico, la complejidad de los contenidos y las
@@ -81,86 +103,125 @@ Ejes de contenidos
 
 	<br />
 
-Eje álgebra
------------
+Álgebra
+-------
 
 Tiempo estimado: 30 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. raw:: html
+Contenidos
+""""""""""
 
-	<br />
-	<ul class="nav nav-tabs" id="tab1" role="tablist"> 
-	  <li class="nav-item">
-	    <a class="nav-link active" id="fc-tab" data-toggle="tab" data-target="#funciones_contenidos" role="tab" >Contenidos</a>
-	  </li>
-	  
-	  <li class="nav-item">
-	    <a class="nav-link" id="fo-tab" data-toggle="tab" data-target="#funciones_ojbetivos" role="tab" >Objetivos</a>
-	  </li>
-	  
-	  <li class="nav-item">
-	    <a class="nav-link" id="actvidades-tab" data-toggle="tab" data-target="#funciones_actividades" role="tab">Actividades</a>
-	  </li>
-	  
-	  <li class="nav-item">
-	  	<a  class="nav-link" id="fh-tab" data-toggle="tab" data-target="#funciones_horas" role="tab">Horas</a>
-	  </li>
-	</ul>
-	<div class="tab-content">
-	  <div class="tab-pane fade in active" id="funciones_contenidos" role="tabpanel">
-	  Contenidos del eje funciones</div>
-	  <div class="tab-pane fade" id="funciones_ojbetivos" role="tabpanel">
-	  Objetivos del eje funciones</div>
-	  <div class="tab-pane fade" id="funciones_actividades" role="tabpanel">
-	  Actividades del eje funciones</div>
-	  <div class="tab-pane fade" id="funciones_horas" role="tabpanel">
-	  Horas del eje funciones</div>
-	</div>
+1. Factorización: factor común/distribuir
+2. Operaciones con potencias y radicales
+3. Operaciones con fracciones
+4. Conversión entre decimal/fracción/
+5. Porcentaje
+6. Cuadrado de un binomio
+7. Diferencia de cuadrados
+   
+Objetivos
+"""""""""
 
-	<br />
+- Expandir y contraer expresiones algebraicas
+- Operar con potencias y radicales en forma fraccionaria
+- Convertir fracciones a decimales y vice versa
+- Operar con porcentajes / en forma decimal
+- Reconocer y operar al epxandiro contraer un cuadrado
+  de un binomio y una diferencia de cuadrados
+
+Actividades
+"""""""""""
+
+- Resolución de ejercitación elemental
+- Aplicación en problemas de los contenidos
 
 
-Eje Funciones
--------------
+Funciones
+---------
+
 Tiempo estimado: 45 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. raw:: html
+Contenidos
+""""""""""
+1. Función lineal
+2. Sistemas de ecuaciones
+3. Función cuadrática
 
-	<br />
-	<ul class="nav nav-tabs" id="myTab2" role="tablist">
-	 <li class="nav-item">
-	    <a class="nav-link active" id="home-tab" data-toggle="tab" data-target="#b1" role="tab" aria-controls="home" aria-selected="true">Home</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" id="profile-tab" data-toggle="tab" data-target="#b2" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-	  </li>
-	  <li class="nav-item">
-	    <a class="nav-link" id="contact-tab" data-toggle="tab" data-target="#b3" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-	 </li>
-	</ul>
-	<div class="tab-content" id="myTabContent2">
-	  <div class="tab-pane fade show active" id="b1" role="tabpanel" aria-labelledby="1-tab">..1.</div>
-	  <div class="tab-pane fade" id="b2" role="tabpanel" aria-labelledby="2-tab">..2.</div>
-	  <div class="tab-pane fade" id="b3" role="tabpanel" aria-labelledby="3-tab">..3.</div>
-	</div>
-	<br />
+Objetivos
+"""""""""
 
-.. raw:: html
+- Resolver ecuaciones lineales con una incógnita
+- Relacionar un sistema de una ecuación con dos incógnitas con una relación
+  entre variables
+- Resolver sistemas lineales de dos ecuaciones con dos incógnitas
+- Identificar y operar con los parámeros de la función lineal
+- Graficar funciones lineales
+- Modelar situaciones cuya relación sea lineal
+- Usar la relación de perpendicularidad entre rectas
+- Identificar una relación cuadrática
+- Escribir funciones cuadráticas en forma canónica
+- Escribir funciones cadráticas en forma desarrollada
+- Modelar situaciones cuya relación sea cuadrática
 
-    <button class="btn btn-success" data-toggle="collapse" data-target="#demo1">Solución</button>
+Actividades
+"""""""""""
 
-    <div id="demo1" class="collapse">
-    la concha de tu madre allboys....
-    </div>
+- Resolución algebraica de sistemas de ecuaciones
+- Resolución gráfica de sistemas de ecuaciones
+- Ejercitación escrita elemental
+- Problemas de aplicación y modelización
 	
-Eje Geometría
-=============
+Geometría
+---------
 
-Algo de esto
+Tiempo estimado: 15 horas
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Eje Probabilidad y estadística
-==============================
+Contenidos
+""""""""""
+1. Angulos en grados y radianes
+2. Relaciones entre lados de un triángulo rectángulo: seno, coseno y tangente
+3. Teorema de pitágoras
 
-coso
+Objetivos
+"""""""""
+
+- Aplicar las relaciones trigonométricas en la resolucion de problemas
+
+Actividades
+"""""""""""
+
+- Resolución de triangulos rectángulos
+- Problemas de aplicación de las relaciones trigométricas
+
+
+Probabilidad y estadística
+--------------------------
+
+Tiempo estimado: 30 horas
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Contenidos
+""""""""""
+
+1. Problemas de conteo
+2. Problemas de permutaciones
+3. Problemas de variaciones (con/sin repetición)
+4. Problemas de combinaciones
+5. Concepto de probabilidad
+
+Objetivos
+"""""""""
+
+- Obtener los resultados correctos a los problemas de conteo
+  de forma intuitiva y con diagramas
+- Obtener las fórmulas que generalizan estas situaciones
+- Resolver problemas sencillos que involucran probabilidades
+
+Actividades
+"""""""""""
+
+- Resolución de problemas que llevan a cada uno de los tipos
+  de casos posibles.

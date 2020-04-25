@@ -1,3 +1,6 @@
+Tabla en html
+=============
+
 .. raw:: html
 
     <table class="table table-borderless table-responsive">
@@ -61,7 +64,8 @@ como quedara?
     <iframe scrolling="no" title="Mover los parámetros y ver que pasa" src="https://www.geogebra.org/material/iframe/id/antzepsr/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/true/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 Ejercicios o examenes desde Latex
-#################################
+=================================
+
 
 La idea sería poder convertir los exámenes y ejercitaciones escritas en Latex usando pandoc a html, para luego incluir
 el archivo o parte del código, más un link de descarga, y de esta forma reutilizar el trabajo hecho en latex cuyyo destino es 
@@ -96,7 +100,7 @@ el de ser impreso.
     </table>
 
 Empezando desde una lista
-#########################
+=========================
 
 Encontrar los ceros
 
@@ -142,3 +146,64 @@ Encontrar los ceros
     <div id="demo4" class="collapse">
     lcdtmab....
     </div>
+
+
+Tabla en csv
+============
+
+.. csv-table:: Planificación anual 2020
+    :file: files/planificaciones/plan-matematica5-2020.csv
+    :header-rows: 1
+    :class: longtable
+    :widths: 5 5 7 15 20 20 10 10 
+
+
+nav tabs para las planificaciones
+=================================
+
+
+.. raw:: html
+
+    <br />
+    <ul class="nav nav-tabs" id="tab1" role="tablist"> 
+      <li class="nav-item">
+        <a class="nav-link active" id="fc-tab" data-toggle="tab" data-target="#funciones_contenidos" role="tab" >Contenidos</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" id="fo-tab" data-toggle="tab" data-target="#funciones_ojbetivos" role="tab" >Objetivos</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" id="actvidades-tab" data-toggle="tab" data-target="#funciones_actividades" role="tab">Actividades</a>
+      </li>
+      
+      <li class="nav-item">
+        <a  class="nav-link" id="fh-tab" data-toggle="tab" data-target="#funciones_horas" role="tab">Horas</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade in active" id="funciones_contenidos" role="tabpanel">
+      Contenidos del eje funciones</div>
+      <div class="tab-pane fade" id="funciones_ojbetivos" role="tabpanel">
+      Objetivos del eje funciones</div>
+      <div class="tab-pane fade" id="funciones_actividades" role="tabpanel">
+      Actividades del eje funciones</div>
+      <div class="tab-pane fade" id="funciones_horas" role="tabpanel">
+      Horas del eje funciones</div>
+    </div>
+
+    <br />
+
+y la la la
+
+Iframe de desmos
+================
+
+
+.. raw:: html
+
+    <iframe src="https://www.desmos.com/calculator/atmghogvho?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+fin
+

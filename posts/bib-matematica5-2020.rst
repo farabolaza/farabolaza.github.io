@@ -21,7 +21,7 @@ para las clases.
 Bibliografía principal
 ======================
 
-Comprende el material que los alumnos manejarán habitualmente, y que comprende los contenidos
+Comprende el material que los alumnos manejarán habitualmente. Contiene los contenidos
 mínimos de la materia
 
  
@@ -30,7 +30,7 @@ mínimos de la materia
 Bibliografía complementaria
 ===========================
 
-Material optativo, de divulgación, historia de la ciencia, aplicaciones interdisciplinarias de los contenidos, etc.
+Material optativo: De divulgación, historia de la ciencia y aplicaciones interdisciplinarias de los contenidos, etc.
 
 
 Biobliografía de respaldo académico
