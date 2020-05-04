@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://farabolaza.github.io/</loc>
-  <lastmod>2020-04-03T18:32:00Z</lastmod>
+  <lastmod>2020-04-27T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/2020/</loc>
@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/archive.html</loc>
-  <lastmod>2020-04-25T16:37:00Z</lastmod>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/</loc>
-  <lastmod>2020-04-15T15:03:00Z</lastmod>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/bib-fisicoquimica3/</loc>
@@ -56,6 +56,10 @@
  <url>
   <loc>https://farabolaza.github.io/categories/cat_matematica5/</loc>
   <lastmod>2020-01-15T18:30:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/categories/cat_math2/</loc>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/introducciones/</loc>
@@ -107,7 +111,7 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/</loc>
-  <lastmod>2020-04-13T14:22:00Z</lastmod>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/bib-fisica4-2020/</loc>
@@ -182,12 +186,16 @@
   <lastmod>2020-03-27T02:09:00Z</lastmod>
  </url>
  <url>
+  <loc>https://farabolaza.github.io/posts/cla-math2-2020-01-linear-equations/</loc>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://farabolaza.github.io/posts/index-1.html</loc>
   <lastmod>2020-04-25T16:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-2.html</loc>
-  <lastmod>2020-04-25T16:37:00Z</lastmod>
+  <lastmod>2020-05-04T16:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/plan-fisica4-2020/</loc>
