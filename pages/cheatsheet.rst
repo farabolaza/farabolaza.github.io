@@ -141,3 +141,23 @@ Los exámenes
 
 Los examenes se hacen en ``latex`` aprovechando la clase *exam*, para tener mas detalles de esto, va
 a ser mejor tener una entrada de blog específica.
+
+Github_deploy
+-------------
+
+En conf.py si estamos usando un repositorio de usuario, "usuario.github.io"
+la rama de deploy es la master.
+
+Si estamos usando otro repositorio la rama es "gh-pages". No olvidar darle "nikola build" luego de estos cambios.
+
+Para que la página pueda ser publicada debemos hacer, desde el terminal y en la carpeta donde
+esta nuestra página
+
+.. code:: 
+
+	git init .
+	
+	remote add origin https://github.com/usuario/repositorio.git
+
+
+

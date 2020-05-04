@@ -8,7 +8,9 @@
 .. type: text
 .. hidetitle: true
 
+*********
 Quien soy
-+++++++++
+*********
 
-Acá pondría una descripción, un link al cv y algunas cosas.
+
+

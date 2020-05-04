@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linear equations | FEDE ARABOLAZA</title>
+<link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#4582EC">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="canonical" href="https://farabolaza.github.io/posts/cla-math2-2020-01-linear-equations/">
+<link rel="icon" href="/atom.png" sizes="128x128">
+<link rel="icon" href="/atom.ico" sizes="128x128">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><script src="https://kit.fontawesome.com/eda9731ec3.js" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script><link href="/assets/css/bootstrap-toc.css" rel="stylesheet">
+<script src="/assets/js/jquery.min.js"></script><script src="/assets/js/bootstrap-toc.js"></script><meta name="author" content="Federico Arabolaza">
+<link rel="prev" href="/posts/cla-fisicoquimica3-2020-07-calor-calorico-atomos/" title="El calorico, los modelos y la hipótesis atómica" type="text/html">
+<meta property="og:site_name" content="FEDE ARABOLAZA">
+<meta property="og:title" content="Linear equations">
+<meta property="og:url" content="https://farabolaza.github.io/posts/cla-math2-2020-01-linear-equations/">
+<meta property="og:description" content="Linear equations
+Last class we started with something that lead us to a linear equation.
+Sometimes, equations has only (and only one) solution.
+Equations like $4x+2=19$ has only one solution, which we">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-05-04T12:56:51-03:00">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+
+
+<nav class="navbar navbar-expand-md static-top mb-4
+
+navbar-dark bg-primary
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="https://farabolaza.github.io/">
+
+            <span id="blog-title">FEDE ARABOLAZA</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CLASES</a>
+            <div class="dropdown-menu">
+                    <a href="/categories/cat_matematica5/" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/categories/cat_matematica3/" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/categories/cat_math2/" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/categories/cat_fisica4/" class="dropdown-item">FÍSICA 4º</a>
+                    <a href="/categories/cat_fisicoquimica3/" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BIBLIOGRAFÍA</a>
+            <div class="dropdown-menu">
+                    <a href="/posts/bib-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/posts/bib-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/posts/bib-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/posts/bib-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/bib-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PLANIF. DOCENTE</a>
+            <div class="dropdown-menu">
+                    <a href="/posts/plan-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/posts/plan-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/posts/plan-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/posts/plan-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/plan-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OTROS</a>
+            <div class="dropdown-menu">
+                    <a href="/categories/cat_fisicacontempo1/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 1</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 2</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ENERGOTECNIA</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ELECTRÓNICA</a>
+            </div>
+                </li>
+<li class="nav-item">
+<a href="/pages/cheatsheet/index.html" class="nav-link">CHEATSHEET</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><div class="metadata">         
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div class="section" id="linear-equations">
+<h2>Linear equations</h2>
+<p>Last class we started with something that lead us to a linear equation.
+Sometimes, equations has only (and only one) solution.</p>
+<p>Equations like $4x+2=19$ has only one solution, which we can derive doing our basic algebra steps.</p>
+<p>But, something like this</p>
+<div class="math">
+\begin{equation*}
+3x+2y=9
+\end{equation*}
+</div>
+<p>has two unknowns and, therefore, we can't solve for both at once ..let's say I want to solve for $x$</p>
+<div class="math">
+\begin{equation*}
+3x=9-2y
+\end{equation*}
+</div>
+<div class="math">
+\begin{equation*}
+x=3-\frac{2}{3}y
+\end{equation*}
+</div>
+<p>If I want to solve for $y$ I end up with:</p>
+<div class="math">
+\begin{equation*}
+\frac{3}{2} x+\frac{9}{2}=y
+\end{equation*}
+</div>
+<p>that is the same thing but written in a different way .. but .. no unique answer could be obtained from that.</p>
+<p>Let's look at the begining $3x=9-2y$</p>
+<p>let's say I force $x$ to be 1 ...</p>
+<div class="math">
+\begin{equation*}
+3\cdot 1=9-2y
+\end{equation*}
+</div>
+<p>now, there is only one unknown and it's possible to solve for $y$ ... what this tells us?
+There are infinite solutions for this kind of equations.</p>
+<p>Not a very surprising thig, but, what if I decide to plot those "infiinte"
+results whatever $x$ I chose, paired with the y that matches the equation?</p>
+<p>Well... we get a line. Not very clever that <em>linear equations</em> has a <em>line</em> as a plot
+for its answers, but it's an easy way to remember them.</p>
+<p>go to <a class="reference external" href="https://www.desmos.com/">desmos</a> and play with its graphic calculator.</p>
+<p>Another good resource is <a class="reference external" href="https://www.mathsisfun.com/algebra/linear-equations.html">here</a> for you to explore more on this subject.</p>
+<div class="section" id="excercises">
+<h3>Excercises</h3>
+<p>Let's practice:</p>
+<div class="section" id="make-a-plot-with-a-chart-of-values">
+<h4>Make a plot with a chart of values</h4>
+<ol class="arabic simple">
+<li><span class="math">\(x+2=y\)</span></li>
+<li><span class="math">\(2x+2=y\)</span></li>
+<li><span class="math">\(\frac{1}{2}x+2=y\)</span></li>
+<li><span class="math">\(6x-1=y\)</span></li>
+<li><span class="math">\(3x=y\)</span></li>
+</ol>
+</div>
+<div class="section" id="find-y-value-given-x-value">
+<h4>Find $y$ value given $x$ value</h4>
+<ol class="arabic simple">
+<li><span class="math">\(y=2x-3 \qquad x=0\)</span></li>
+<li><span class="math">\(y=2x-3 \qquad x=2\)</span></li>
+<li><span class="math">\(y=x+3 \qquad x=1\)</span></li>
+<li><span class="math">\(y=-2x+1 \qquad x=3\)</span></li>
+<li><span class="math">\(y=\frac{3}{4}x-3 \qquad x=4\)</span></li>
+</ol>
+</div>
+</div>
+</div>
+    </div>
+    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        
+delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+]
+
+                    }
+                );
+            </script></article><!--End of body content--><footer id="footer">
+            Contents © 2020         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+</a><br>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+<img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png"><hr></footer>
+</div>
+</div>
+
+
+        <script src="/assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

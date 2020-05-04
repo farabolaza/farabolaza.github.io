@@ -1,5 +1,5 @@
 <div class="contents topic" id="contenido">
-<p class="topic-title first">Contenido</p>
+<p class="topic-title">Contenido</p>
 <ul class="simple">
 <li><a class="reference internal" href="#como-hice-esta-pagina" id="id1">Cómo hice esta página</a><ul>
 <li><a class="reference internal" href="#instalacion" id="id2">Instalación</a><ul>
@@ -20,6 +20,7 @@
 <li><a class="reference internal" href="#los-examenes" id="id11">Los exámenes</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#github-deploy" id="id12">Github_deploy</a></li>
 </ul>
 </div>
 <div class="section" id="como-hice-esta-pagina">
@@ -40,11 +41,11 @@ de todo el sitio modificando solo algunas cosas del del archivo <em>conf.py</em>
 <p>Tanto la homepage como otras páginas se procesan usando templates modificados a los que Nikola provee. Para que una página o post
 usen un template en particuar hay que modificar en el archivo '.rst' los metadatos para incluirlo, por ejemplo;</p>
 <p>Si quiero que una página use el template 'storyb', los metadatos deben quedar asi:</p>
-<pre class="code rest"><a name="rest_code_13bd25a7c5c14ce6874c523e1d3f785b-1"></a><span class="cp">..title: titulo</span>
-<a name="rest_code_13bd25a7c5c14ce6874c523e1d3f785b-2"></a><span class="cp">..slug: nombre que se muestra en la barra de direcciones</span>
-<a name="rest_code_13bd25a7c5c14ce6874c523e1d3f785b-3"></a><span class="cp">..date: fecha</span>
-<a name="rest_code_13bd25a7c5c14ce6874c523e1d3f785b-4"></a><span class="cp">..tags: separadas por coma, una, otra</span>
-<a name="rest_code_13bd25a7c5c14ce6874c523e1d3f785b-5"></a><span class="cp">..template: storyb.tmpl</span>
+<pre class="code rest"><a name="rest_code_d3daafbc1ef946709e08f4529406fc47-1"></a><span class="cp">..title: titulo</span>
+<a name="rest_code_d3daafbc1ef946709e08f4529406fc47-2"></a><span class="cp">..slug: nombre que se muestra en la barra de direcciones</span>
+<a name="rest_code_d3daafbc1ef946709e08f4529406fc47-3"></a><span class="cp">..date: fecha</span>
+<a name="rest_code_d3daafbc1ef946709e08f4529406fc47-4"></a><span class="cp">..tags: separadas por coma, una, otra</span>
+<a name="rest_code_d3daafbc1ef946709e08f4529406fc47-5"></a><span class="cp">..template: storyb.tmpl</span>
 </pre><table border="1" class="docutils">
 <colgroup>
 <col width="8%" />
@@ -149,3 +150,14 @@ Este flujo aún está en proceso.</p>
 a ser mejor tener una entrada de blog específica.</p>
 </div>
 </div>
+<div class="section" id="github-deploy">
+<h1><a class="toc-backref" href="#id12">Github_deploy</a></h1>
+<p>En conf.py si estamos usando un repositorio de usuario, &quot;usuario.github.io&quot;
+la rama de deploy es la master.</p>
+<p>Si estamos usando otro repositorio la rama es &quot;gh-pages&quot;. No olvidar darle &quot;nikola build&quot; luego de estos cambios.</p>
+<p>Para que la página pueda ser publicada debemos hacer, desde el terminal y en la carpeta donde
+esta nuestra página</p>
+<pre class="code text"><a name="rest_code_8d174c36733c493a9e7e5b09c9107ebc-1"></a>git init .
+<a name="rest_code_8d174c36733c493a9e7e5b09c9107ebc-2"></a>
+<a name="rest_code_8d174c36733c493a9e7e5b09c9107ebc-3"></a>remote add origin https://github.com/usuario/repositorio.git
+</pre></div>
