@@ -121,32 +121,24 @@ From plot to equation
 
 Write the equation for each plot
 
-.. image:: /Images/math2/Slope_intercept_form_of_a_line/1.svg
-	:height: 100 ex
-	:width: 100 %
-	:align: center
+.. raw:: html
 
+	<iframe src="https://www.desmos.com/calculator/qflbg09tdw?embed" width="90%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-.. image:: /Images/math2/Slope_intercept_form_of_a_line/2.svg
-	:height: 100 ex
-	:width: 100 %
-	:align: center
+	<br>
 
+	<iframe src="https://www.desmos.com/calculator/fsuqh3q3ne?embed" width="90%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-.. image:: /Images/math2/Slope_intercept_form_of_a_line/3.svg
-	:height: 100 ex
-	:width: 100 %
-	:align: center
+	<br>
 
+	<iframe src="https://www.desmos.com/calculator/qsnysuhhyq?embed" width="90%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-.. image:: /Images/math2/Slope_intercept_form_of_a_line/4.svg
-	:height: 100 ex
-	:width: 100 %
-	:align: center
+	<br>
 
+	<iframe src="https://www.desmos.com/calculator/lh8ynrb5jh?embed" width="90%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-.. image:: /Images/math2/Slope_intercept_form_of_a_line/5.svg
-	:height: 100 ex
-	:width: 100 %
-	:align: center
+	<br>
+
+	<iframe src="https://www.desmos.com/calculator/bhs94scauu?embed" width="90%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
 
