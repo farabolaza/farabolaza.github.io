@@ -24,14 +24,35 @@ Los/as alumnos/as serán capaces de
 
 .. highlights:: 
 
-	en una frase
+	Reconocer en la ciencia una forma específica de interpretación de la 
+	realidad. Realizar inferencias, dar explicaciones y formular 
+	predicciones basadas en modelos tanto cualitativos como cuantitativos
+	y reconocer las limitaciones que toda representación modélica 
+	de la realidad implica. Problematizar la relación entre ciencia, 
+	tecnología y organización social. 
 
 Objetivos específicos
 ---------------------
 
-- bullets
-- bullets
-- bullets
+Interpretar fenónemos térmicos en función del modelo cinético
+de partículas. Aplicar el modelo en la predicción y explicación
+de fenómenos y procesos.
+
+Justificar el uso de magnitudes y variables como construcciones 
+necesarias para nombrar y representar situaciones o propiedades. 
+
+Reconocer en la estructura atómico-moelcular una profundización 
+y continuidad del modelo cinético. Utilizar este mayor poder 
+de predicción para interpretar, explicar y predecir cambios químicos
+y físicos. Utilizar la notación adecuada en cada caso para representar
+simbólicamente proceos y relaciones.
+
+Utilizar el concepto de energía como mecanismo que expresa el 
+cambio y dar cuentas de los procesos de utilización e intercambio
+energético aplicados a la existencia de la vida y al desrrollo humano.
+
+Ejercitar una interpretación crítica, provisional y colaborativa
+del conocimiento científico.
 
 	
 Recursos a utiilzar
@@ -44,7 +65,6 @@ Recursos a utiilzar
 
     + Veritasium
     + Vsauce
-    + Otros
     + Crash course chemistry
     + Quantum Fracture
     + MinutoDeFísica
@@ -74,7 +94,7 @@ Distribución del tiempo
 Sobre un promedio de 120 hs anuales de clase, (que contempla feriados, 
 períodos de inactividad, actos escolares, etc.) se dedicará:
 
-- **50%**: Trabajo del alumno en clase. Prácticas, lecturas, debates y consultas.
+- **50%**: Trabajo del alumno en clase. Prácticas y laboratorios, lecturas, debates y consultas.
 - **30%**: Exposición de contenidos por el docente: lecturas, teoría, correcciones.
 - **20%**: Evaluaciones.
 
@@ -89,15 +109,24 @@ Ejes de contenidos
 
 	<br />
 
-Álgebra
--------
+Modelo Cinético de partículas
+-----------------------------
 
-Tiempo estimado: 30 horas
+Tiempo estimado: 40 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Contenidos
 """"""""""
 
+- Interpretación cinética de la temperatura
+- Transimisón de energía en forma de calor
+- Variables de estado en un gas ideal (presión, volumen y temperatura)
+- Equilibrio térmico (ley cero de la termodinámica)
+- Densidad, capacidad calorífica
+- Entropía y tiempo
+- Diagramas de fase
+- Cambios de fase (sólido líquido gaseoso)
+- Calor latente y energía interna
 
    
 Objetivos
@@ -111,14 +140,21 @@ Actividades
 
 
 
-Funciones
----------
+Estructura de la materia
+------------------------
 
-Tiempo estimado: 45 horas
+Tiempo estimado: 40 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Contenidos
 """"""""""
+
+- Modelos atomicos (Dalton, Bohr y Rutherford)
+- La hipótesis atómica
+- Carga eléctrica e interacciones
+- Propiedaes periódicas y tabla periódica
+- Clasificación de los elementos químicos
+- Interpretación atómica de las propiedades físicas
 
 
 Objetivos
@@ -130,15 +166,24 @@ Actividades
 
 
 	
-Geometría
----------
+Energia, ondas y radiación
+--------------------------
 
-Tiempo estimado: 15 horas
+
+Tiempo estimado: 20 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Contenidos
 """"""""""
-
+- Energía atómica y formas de utilización de la energía
+- Espectro electromagnético: luz, radiación, wifi, rayos UV, microondas
+- Procesos naturales como fuentes de energía
+- Radiación solar y vida en la tierra
+- Reacciones nucleares de fisión y fusión.
+- Reacciones nucleares en las estrellas
+- Movimiento de masas de aire
+- Formas de trasmisión de calor
+- Calorimetría y ley de Fourier
 
 Objetivos
 """""""""
@@ -151,14 +196,19 @@ Actividades
 
 
 
-Probabilidad y estadística
---------------------------
+Cambios químicos y vida
+-----------------------
 
-Tiempo estimado: 30 horas
+Tiempo estimado: 25 horas
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Contenidos
 """"""""""
+
+- Reacciones químicas: respiración, combustión, ¿cocción?
+- Noción de reacción química. Reactivos y productos.
+- Soluciones: Soluto, solvente
+- Soluciones saturadas, concentradas y diluiodas
 
 
 
