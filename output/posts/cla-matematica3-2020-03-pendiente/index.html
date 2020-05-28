@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La recta en forma pendiente-intersección | FEDE AR</title>
+<link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#4582EC">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="canonical" href="https://farabolaza.github.io/posts/cla-matematica3-2020-03-pendiente/">
+<link rel="icon" href="/atom.png" sizes="128x128">
+<link rel="icon" href="/atom.ico" sizes="128x128">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><script src="https://kit.fontawesome.com/eda9731ec3.js" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script><link href="/assets/css/bootstrap-toc.css" rel="stylesheet">
+<script src="/assets/js/jquery.min.js"></script><script src="/assets/js/bootstrap-toc.js"></script><script src="https://apis.google.com/js/platform.js" async defer></script><meta name="author" content="Federico Arabolaza">
+<link rel="prev" href="/posts/cla-matematica3-2020-02-flineal/" title="Función lineal (intro)" type="text/html">
+<meta property="og:site_name" content="FEDE AR">
+<meta property="og:title" content="La recta en forma pendiente-intersección">
+<meta property="og:url" content="https://farabolaza.github.io/posts/cla-matematica3-2020-03-pendiente/">
+<meta property="og:description" content="La pendiente de una línea recta
+
+Ojbetivos de esta clase
+
+Conocer y diferenciar Variable y Parámetro
+Interpretar la ecuación de la recta en forma pendiente/intersección
+
+
+
+Repaso
+Vimos previamente que">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2020-05-28T11:35:57-03:00">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+
+
+<nav class="navbar navbar-expand-md static-top mb-4
+
+navbar-dark bg-primary
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="https://farabolaza.github.io/">
+
+            <span id="blog-title">FEDE AR</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CLASES</a>
+            <div class="dropdown-menu">
+                    <a href="/categories/cat_matematica5/" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/categories/cat_matematica3/" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/categories/cat_math2/" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/categories/cat_fisica4/" class="dropdown-item">FÍSICA 4º</a>
+                    <a href="/categories/cat_fisicoquimica3/" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BIBLIOGRAFÍA</a>
+            <div class="dropdown-menu">
+                    <a href="/posts/bib-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/posts/bib-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/posts/bib-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/posts/bib-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/bib-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PLANIF. DOCENTE</a>
+            <div class="dropdown-menu">
+                    <a href="/posts/plan-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
+                    <a href="/posts/plan-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/posts/plan-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
+                    <a href="/posts/plan-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/plan-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
+            </div>
+            </li>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OTROS</a>
+            <div class="dropdown-menu">
+                    <a href="/categories/cat_fisicacontempo1/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 1</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 2</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ENERGOTECNIA</a>
+                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ELECTRÓNICA</a>
+            </div>
+                </li>
+<li class="nav-item">
+<a href="/pages/cheatsheet/index.html" class="nav-link">CHEATSHEET</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+        
+    <!-- <div class="container">-->
+        <div class="row no-gutters">
+            <div class="col-lg-9">                           
+                <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><div class="metadata">         
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+                    <div class="section" id="la-pendiente-de-una-linea-recta">
+<h2>La pendiente de una línea recta</h2>
+<div class="admonition admonition-ojbetivos-de-esta-clase">
+<p class="first admonition-title">Ojbetivos de esta clase</p>
+<ol class="last arabic simple">
+<li>Conocer y diferenciar <em>Variable</em> y <em>Parámetro</em>
+</li>
+<li>Interpretar la ecuación de la recta en forma pendiente/intersección</li>
+</ol>
+</div>
+<div class="section" id="repaso">
+<h3>Repaso</h3>
+<p>Vimos previamente que una ecuación lineal de dos variables tenía como
+gráfico una línea recta, y que sus infinitos pares solución eran los que,
+cuando los ubicabamos en un par de ejes coordenados (o ejes de coordenadas
+o <a class="reference external" href="https://es.wikipedia.org/wiki/Coordenadas_cartesianas">ejes cartesianos</a> como prefieran llamarles) nos daban como dibujo una
+línea recta.</p>
+<p>Una ecuación podría ser ésta:</p>
+<div class="math">
+\begin{equation*}
+2y+1=3x
+\end{equation*}
+</div>
+<p>Podemos, para facilitarnos el trabajo de "armar" la tabla de valores solución
+despejar una de las dos <strong>variables</strong> (o sea las letras $x$ e $y$ en este caso).</p>
+<p>Voy a despejar la $y$:</p>
+<div class="math">
+\begin{equation*}
+\begin{aligned}
+2y+1&amp;=3x \\
+2y&amp;=3x-1 \\
+y&amp;=\frac{3}{2}\cdot x -\frac{1}{2} \\
+\end{aligned}
+\end{equation*}
+</div>
+<p>Esto hace más facil saber "cuál es el valor de $y$ cuando hago que  $x$ sea
+cierto valor", por ejemplo, supongamos que quiero saber cuánto debe ser $y$
+cuando $x$ es $0$.</p>
+<div class="math">
+\begin{equation*}
+\begin{aligned}
+y&amp;=\frac{3}{2}\cdot x -\frac{1}{2} \\ \cr
+y&amp;=\frac{3}{2}\cdot 0 -\frac{1}{2} \\ \cr
+y&amp;= -\frac{1}{2} \\
+\end{aligned}
+\end{equation*}
+</div>
+<p>Por lo que el par <span class="math">\((0,-\frac{1}{2})\)</span> es solución de la ecuación y por
+lo tanto, un punto del gráfico de nuestra recta. También lo es el punto
+<span class="math">\((1,1)\)</span></p>
+<p>Una recta es <strong>algo que nunca se dobla</strong>, y aunque esto parece una
+estupidez no es así; como <strong>nunca se dobla</strong> todos los puntos que hacen una línea
+estan todos <em>en fila</em> uno atrás de otro, <strong>alineados</strong>. Vean que estoy
+diciendo cosas que parecen ser <a class="reference external" href="https://www.google.com/search?sa=X&amp;biw=1448&amp;bih=935&amp;sxsrf=ALeKk01nkFRbaajQWzWAwpGBjirhZSYOSQ:1590677787681&amp;q=Diccionario&amp;stick=H4sIAAAAAAAAAONQesSoyi3w8sc9YSmZSWtOXmMU4-LzL0jNc8lMLsnMz0ssqrRiUWJKLeZZxMoNFEsGi2XmAwCSYWV3OAAAAA&amp;zx=1590677791312#dobs=redundante">redundantes</a> pero que su buena interpretación
+nos lleva esto:</p>
+<blockquote>
+Para gráficar correctamente una línea recta, sólo necesito conocer
+dos puntos que le pertenezcan</blockquote>
+<p>Uno marca los dos puntos (cada punto tiene un valor de $x$ y otro de $y$)
+en un par de ejes, y luego traza con regla o con imaginación, o con un software
+una línea que une esos dos puntos.</p>
+<blockquote>
+De las infinitas rectas que hay, existe <strong>sólo una</strong> que pasa
+por esos dos puntos, y es la que uno acaba de dibujar</blockquote>
+<p>Mira ahora el gráfico</p>
+<iframe src="https://www.desmos.com/calculator/gdsendixrt" width="100%" style="min-height:400px" frameborder="0"></iframe><p>¿Tiene sentido lo que estuve diciendo hasta ahora? Tratá de imaginar otra recta, diferente
+a la del gráfico y que <strong>También pase por los dos puntos que dije más arriba</strong></p>
+</div>
+<div class="section" id="la-pendiente">
+<h3>La pendiente</h3>
+<p>Ahora, mirá este gráfico donde hay varias rectas:</p>
+<iframe src="https://www.desmos.com/calculator/nbxofqsunr" width="100%" style="min-height:400px" frameborder="0"></iframe><p>¿Qué es lo que hace que algunas sean mas "empinadas" hacia arriba (si las miramos de izquierda
+a derecha, por ejemplo)? ¿Que hace que algunas apunten "para abajo"? ¿Por que algunas apuntan
+<em>mas</em> para arriba (o abajo) que otras?</p>
+<p>Mirá el recuadro, ¿en qué se parecen y en que se diferencian estas ecuaciones?</p>
+<ol class="arabic simple">
+<li><span class="math">\(y=3x\)</span></li>
+<li><span class="math">\(y=-x\)</span></li>
+<li><span class="math">\(y=\frac{1}{4}x\)</span></li>
+</ol>
+<p>Ahora ¿en que se diferencian de esta otra?</p>
+<ol class="arabic simple">
+<li><span class="math">\(y=\frac{3}{2}x+-\frac{1}{2}\)</span></li>
+</ol>
+<div class="admonition important">
+<p class="first admonition-title">Importante</p>
+<p class="last">Las respuestas las vamos a analizar en una actividad, así que simplemente quiero
+que pienses.</p>
+</div>
+<div class="section" id="variables-y-parametros">
+<h4>Variables y parámetros</h4>
+<p>Hasta ahora, usé la palabra <strong>Variable</strong> para referirme a las letras $x$ e $y$ que usamos
+en las ecuaciones. Se las llama variables, justamente porque al <em>Variar</em> sus valores
+vamos construyendo el gráfico (quen o es otra cosa que un dibujo de todas las soluciones
+de la ecuación). Reitero:</p>
+<blockquote>
+El gráfico de la recta <strong>es</strong> un dibujo de todos los puntos solución de la
+ecuación. Gráfico, recta y soluciones <strong>son</strong> la misma cosa.</blockquote>
+<p>Se suele además ser mas específico y llamar a una <em>Variable dependiente</em> y la otra
+variable <em>independiente</em> ¿por qué?, veamos esta ecuación:</p>
+<div class="math">
+\begin{equation*}
+y=3x +2
+\end{equation*}
+</div>
+<p>En esta ecuación, la $y$ aparece despejada (aislada) por lo que para
+encontrar un punto solución, podemos dar un valor a $x$ (cualquiera por supuesto)
+y cuando hacemos eso, una vez que elgimos ese valor (y hacemos la cuenta), ahora, el de $y$
+<strong>depende</strong> del valor de $x$ que hayamos elegido. Supongamos que doy a $x$ el valor $1$</p>
+<div class="math">
+\begin{equation*}
+y=3\cdot 1+2
+\end{equation*}
+</div>
+<div class="math">
+\begin{equation*}
+y=5
+\end{equation*}
+</div>
+<p>Una forma de pensarlo, es que uno "mete" un valor de $x$ y a la salida obtiene un
+valor de $y$, por lo que el valor de $y$ (salida) <strong>depende</strong> del valor de $x$ (entrada)</p>
+<p>Esta forma de escribir las escuaciones, se suele llamar "función". No me voy a detener
+en la formalidad de las funciones por ahora, pero queda claro que los valores de $y$
+están en función (ya que dependen) de los valores de $x$ que uno elija poner "como entrada".</p>
+<p>Usar $x$  o $y$ como valor de entrada o de salida, o sea, la variabla la que uno decide
+darle valores para saber cuanto vale la otra, es decisión de uno. A veces conviene
+hacerlo de una forma y a veces de otra, pero si recuerdan que el gráfico de la recta
+tiene que ser el mismo, porque los puntos solución son los mismos, y por lo tanto
+estamos hablando de la misma línea, da igual como lo hagamos, tenemos que obtener
+lo mismo como resultado.</p>
+<blockquote>
+Los pares de puntos solucíón se pueden obtener tomando como valor
+de entrada (variable independiente) las $x$, quedando así el valor de $y$
+como salida (variable dependiente), pero también se puede hacer al revés</blockquote>
+</div>
+</div>
+<div class="section" id="parametros">
+<h3>Parámetros</h3>
+<p>Tenemos ahora el siguiente gráfico</p>
+<br><iframe src="https://www.desmos.com/calculator/57x85okl3x" width="100%" style="min-height:400px" frameborder="0"></iframe>
+<br><p>Y el gráfico tiene un control que nos permite cambiar el número que multiplica
+a la $x$ desde $-10$ a $10$ ¿Qué cambia en la recta cuando damos a el parámetro
+$m$ diferentes valores?</p>
+<p>Una pregunta que te podrás estar haciendo ahora, es ¿cuál es la diferencia
+entre dar valores a $x$  y obtener $y$ y lo que hacemos cuando usamos el
+control del gráfico de arriba?</p>
+<p>Cuando lo que hacemos es encontrar los pares $(x, y)$ que satisfacen la
+ecuación, o sea, que forma una recta, estamos "averiguando" de que recta
+en particular se trata, digámoslo de otra manera: conocer los puntos de
+la recta, nos dice <em>cual recta es</em> de todas las que existen, en cambio,
+cuando cambiamos el parámetro de arriba, como verán, estamos alterando
+la recta ... estamos generando una nueva recta, que tendrá por lo tanto
+diferentes puntos solución, que, cuando los pongamos en un dibujo, serán
+los que forman la imagen que vemos en la pantalla.</p>
+<p>Cada vez que tocamos el parámetro $a$ del gráfico de arriba, estamos
+creando una <strong>nueva</strong> recta que tendrá sus pares $(x,y)$, y que serán
+por lo tanto diferentes a los puntos de la anterior, porque estamos
+ante una recta diferente.</p>
+<div class="admonition hint">
+<p class="first admonition-title">Sugerencia</p>
+<p class="last">Usamos la palabra <strong>variable</strong> para las letras que representan
+a los pares de puntos que son solución de la ecuación, y que
+graficados construyen la recta. Y usamos la palabra <strong>parámetro</strong>
+para aquellos elementos que nos permiten construir diferentes
+rectas.</p>
+</div>
+</div>
+<div class="section" id="ecuacion-generica">
+<h3>Ecuación genérica</h3>
+<p>¿Hay una forma de escribir una recta que sea a su vez "todas las rectas",
+una especie de recta "genérica"?
+Si, la hay, hay varias, y una es esta:</p>
+<div class="math">
+\begin{equation*}
+y=m\cdot x +b
+\end{equation*}
+</div>
+<p>¿Cómo interpreto esta cosa?</p>
+<p>Tenemos nuestras variables, $x$ e $y$, y luego dos letras, $m$ y $b$ que son
+parámetros. ¿Parámetros que hacen que cosa?</p>
+<p>Bueno, en principio si decido dos números cualesquiera para $m$ y $b$, obtengo
+una recta en particular. Por ejemplo $m=2$ y $b=4$.</p>
+<div class="math">
+\begin{equation*}
+y=2x+4
+\end{equation*}
+</div>
+<p>Así, eligiendo valores para $m$ y $b$ uno puede <em>generar</em> todas las rectas
+posibles del universo, mientras uno va pasando por todas las posibles
+combinaciones de números que se nos ocurran.</p>
+<div class="section" id="el-otro-parametro">
+<h4>El otro parámetro</h4>
+<p>¿Que cambia en una recta cuando cambiamos $b$?</p>
+<br><iframe src="https://www.desmos.com/calculator/rsd0319jy1" width="100%" style="min-height:400px" frameborder="0"></iframe>
+<br><p>Si tuvieras que decir ¿Que función cumple el parámetro $b$? ¿Cómo se
+vincula con el punto de la recta $(0,b)$?</p>
+</div>
+</div>
+<div class="section" id="juntando-todo">
+<h3>Juntando todo</h3>
+<p>Los parámetros que construyen las ecuaciones, nos permiten entender cómo
+están construidas las rectas y en qué se diferencian o parecen.</p>
+<p>En la ecuación "genérica" el parámetro $m$ se le llama <strong>pendiente</strong>
+y al parámetro $b$ se le llama <strong>ordenada al origen</strong> o <strong>intersección con el eje vertical</strong>
+o <strong>término independiente</strong>.</p>
+<p>Sin importar el nombre que usemos para los parámetros, podemos sumar una
+interpretación mas a todo el tema este de las ecuaciones de las rectas.</p>
+<p>Lo relevante es entender e interpretar que rol juega cada parámetro mas allá de su
+nombre, y que cambia cuando uno los modifica.</p>
+<ul class="simple">
+<li>¿Cómo es una recta con pendiente igual a cero?</li>
+<li>¿Cómo debe ser una recta para que pase por el centro de coordenadas, es decir
+el punto $(0,0)$</li>
+<li>¿Cómo influye el signo de la pendiente? ¿Y su valor absoluto? (es decir si es
+muy grande o muy chico sin importar el signo)</li>
+</ul>
+</div>
+</div>
+                    </div>
+                    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+                renderMathInElement(document.body,
+                    {
+                        
+delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false},
+    {left:"\\begin{align*}", right: "\\end{align*}", display: true}
+]
+
+                    }
+                );
+            </script></article>
+</div>
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-md-3 order-md-last">
+                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+</div>
+        </div>
+    <!-- </div>-->        
+
+
+
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2020         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+</a><br>Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+<img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png"><hr></footer>
+</div>
+</div>
+
+
+        <script src="/assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

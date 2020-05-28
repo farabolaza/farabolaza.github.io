@@ -205,5 +205,23 @@ Iframe de desmos
 
     <iframe src="https://www.desmos.com/calculator/atmghogvho?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-fin
+si uso la parte de "?embed" aparecen o no los controles (si se necesita no verlos, hay que borra esa parte)
 
+
+.. raw:: html
+
+    <br>
+    <iframe src="https://www.desmos.com/calculator/57x85okl3x" width="100%" style="min-height:400px" style="border: 1px solid #ccc" frameborder=0></iframe>
+    <br>
+
+Puedo ajustar el ancho al 100% de la pantalla
+
+Boton google classroom
+======================
+
+.. raw:: html
+
+    <div class="g-sharetoclassroom" data-size="32" data-url="https://farabolaza.github.io/posts/cla-matematica3-2020-01-intro/" ></div>
+
+
+fin

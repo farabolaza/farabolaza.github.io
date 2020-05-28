@@ -1153,7 +1153,8 @@ delimiters: [
     {left: "\\\\[", right: "\\\\]", display: true},
     {left: "\\\\begin{equation*}", right: "\\\\end{equation*}", display: true},
     {left: "$", right: "$", display: false},
-    {left: "\\\\(", right: "\\\\)", display: false}
+    {left: "\\\\(", right: "\\\\)", display: false},
+    {left:"\\\\begin{align*}", right: "\\\\end{align*}", display: true}
 ]
 """
 
@@ -1303,6 +1304,7 @@ EXTRA_HEAD_DATA = """
 <link href="/assets/css/bootstrap-toc.css" rel="stylesheet">
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap-toc.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
