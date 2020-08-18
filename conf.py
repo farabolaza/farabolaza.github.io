@@ -1009,11 +1009,25 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
+
+# Llicencia anterior (la cambie)
+
+# <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+# </a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
+# <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+# <hr>
+
 LICENSE = """
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-</a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>.
-<img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
-<hr>
+<p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
+<a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="dct:title">FEDE AR</span></a>
+by <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="cc:attributionName">Federico Arabolaza</span></a>
+CC BY-NC-SA 4.0<a href="https://creativecommons.org/licenses/by-nc-sa/4.0"><img style="height:22px!important;
+margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc_icon.svg" />
+<img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" />
+<img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" />
+<img  style="height:22px!important;margin-left: 3px;vertical-align:text-bottom;" src="https://search.creativecommons.org/static/img/cc-sa_icon.svg" />
+</a>
+</p>
 """
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/

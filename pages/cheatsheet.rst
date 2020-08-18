@@ -29,6 +29,14 @@ Modificando conf.py
 Algo que Nikola te deja hacer, y es muy bueno si sos un amateur completo del diseño web, es configurar el esqueleto
 de todo el sitio modificando solo algunas cosas del del archivo *conf.py*
 
+Instalar un theme en especial
++++++++++++++++++++++++++++++
+
+.. code:: python
+
+	nikola install_theme nombretheme
+
+
 Templates Customizados
 ++++++++++++++++++++++
 
