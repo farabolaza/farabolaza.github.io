@@ -26,7 +26,7 @@ pero las podemos resumir así
 la luz tiene un tamañ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-03-08T23:33:12-03:00">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target="#toc">
 
@@ -56,6 +56,7 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_matematica5/" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/categories/cat_matematica3/" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/categories/cat_matematica2/" class="dropdown-item">MATEMÁTICA 2º</a>
                     <a href="/categories/cat_math2/" class="dropdown-item">MATH SENIOR 2</a>
                     <a href="/categories/cat_fisica4/" class="dropdown-item">FÍSICA 4º</a>
                     <a href="/categories/cat_fisicoquimica3/" class="dropdown-item">FISICOQUÍMICA 3º</a>
@@ -67,7 +68,7 @@ navbar-dark bg-primary
                     <a href="/posts/bib-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/posts/bib-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
                     <a href="/posts/bib-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
-                    <a href="/posts/bib-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/bib-fisica4-2021/index.html" class="dropdown-item">FISICA 4º</a>
                     <a href="/posts/bib-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
             </div>
             </li>
@@ -86,8 +87,8 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_fisicacontempo1/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 1</a>
                     <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 2</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ENERGOTECNIA</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ELECTRÓNICA</a>
+                    <a href="/categories/cat_energo/" class="dropdown-item">ENERGOTECNIA</a>
+                    <a href="/categories/cat_electronica/" class="dropdown-item">ELECTRÓNICA</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -113,19 +114,17 @@ navbar-dark bg-primary
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <div class="section" id="cuanto-mide-un-pelo">
-<h2>Cuanto Mide un pelo?</h2>
+    <section id="cuanto-mide-un-pelo"><h2>Cuanto Mide un pelo?</h2>
 <p>De la clase anterior quedaron dando vueltas muchas cosas que
 no vamos a terminar de comprender a la perfeccción por el momento,
 pero las podemos resumir así</p>
 <ul class="simple">
-<li>la luz tiene un tamaño</li>
-<li>ese tamaño esta asociado a su color</li>
-<li>cada <em>color</em> tiene un tamaño diferente</li>
-<li>Este tamaño se llama <em>longitud de onda</em>
-</li>
-<li>La longitud de onda <span class="math">\(\lambda\)</span> está relacionada con la frecuenca de la oscilación de la luz</li>
-<li>A mayor frecuencia, menor longitud de onda</li>
+<li><p>la luz tiene un tamaño</p></li>
+<li><p>ese tamaño esta asociado a su color</p></li>
+<li><p>cada <em>color</em> tiene un tamaño diferente</p></li>
+<li><p>Este tamaño se llama <em>longitud de onda</em></p></li>
+<li><p>La longitud de onda <span class="math">\(\lambda\)</span> está relacionada con la frecuenca de la oscilación de la luz</p></li>
+<li><p>A mayor frecuencia, menor longitud de onda</p></li>
 </ul>
 <p>Un video que resume estas ideas</p>
 <div class="youtube-video align-center">
@@ -133,42 +132,33 @@ pero las podemos resumir así</p>
 </div>
 <p>Usando esta idea de que la luz tiene un tamaño, observamos que</p>
 <ul class="simple">
-<li>Si la luz se topa con un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.</li>
-<li>Si por el contrario el tamaño del obstáculo es "similar" (mas adelante veremos con que precisión se puede considerar algo similar o no) la luz se porta como una "onda" y provoca fenómenos extraños como interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)</li>
+<li><p>Si la luz se topa con un objeto que es mucho mas grande que ella se comporta como si fuera un corpúsculo, una bolita.</p></li>
+<li><p>Si por el contrario el tamaño del obstáculo es "similar" (mas adelante veremos con que precisión se puede considerar algo similar o no) la luz se porta como una "onda" y provoca fenómenos extraños como interferirse a si misma, poder "bordear" un objeto (como el agua a un bote)</p></li>
 </ul>
-<div class="admonition admonition-objetivos">
-<p class="first admonition-title">Objetivos</p>
-<ul class="last simple">
-<li>Usar el concepto de <em>longitud de onda</em>
-</li>
-<li>Realizar una medición</li>
-<li>Estimar el ancho de un pelo</li>
-<li>Usar correctamente las unidades de longitud</li>
-<li>Calcular el promedio de varias mediciones</li>
-<li>Entender la idea de <em>incerteza</em> de una medición</li>
-<li>Uso de la calculadora en notación científica</li>
-<li>Angulos en radianes</li>
-</ul>
-</div>
-<div class="section" id="laseres-a-la-obra">
-<h3>Laseres a la obra</h3>
+<aside class="admonition admonition-objetivos"><p class="admonition-title">Objetivos</p>
+<ul class="simple">
+<li><p>Usar el concepto de <em>longitud de onda</em></p></li>
+<li><p>Realizar una medición</p></li>
+<li><p>Estimar el ancho de un pelo</p></li>
+<li><p>Usar correctamente las unidades de longitud</p></li>
+<li><p>Calcular el promedio de varias mediciones</p></li>
+<li><p>Entender la idea de <em>incerteza</em> de una medición</p></li>
+<li><p>Uso de la calculadora en notación científica</p></li>
+<li><p>Angulos en radianes</p></li>
+</ul></aside><section id="laseres-a-la-obra"><h3>Laseres a la obra</h3>
 <p>Cuando una "porción" de luz (mejor sería una porcíón de muzarella) parte
 del extremo izquierdo del pelo, y otra parte del extremo derecho, como
 estamos en la situación en que la luz se comporta como una onda vimos que
 al llegar a la parded o pantalla, en algunos lugares se "suman" y se ve
 brillante y en otros "se anulan" y hay oscuridad.</p>
 <p>Podemos ver un esquema de esto así</p>
-<div class="figure align-center">
-<img alt="/images/superposicion.png" src="/images/superposicion.png"><p class="caption">Esquema de superposición de ondas</p>
-</div>
-<p>Esto es una buena forma de demostrar que la luz se porta como onda y no
+<figure class="align-center"><img alt="/images/superposicion.png" src="/images/superposicion.png"><figcaption><p>Esquema de superposición de ondas</p>
+</figcaption></figure><p>Esto es una buena forma de demostrar que la luz se porta como onda y no
 como una bolita ¿Podrías explicar por que?</p>
 <p>Mirá con atención los triangulos que aparecen en la imagen. ¿Hay alguno que
 sea semejante a otro?</p>
-<div class="figure align-center">
-<img alt="/images/interferencia2.png" src="/images/interferencia2.png"><p class="caption">Triangulos  semejantes</p>
-</div>
-<p>Volvamos, la idea <strong>importante</strong> es que la luz se va sumar y vamos a tener un
+<figure class="align-center"><img alt="/images/interferencia2.png" src="/images/interferencia2.png"><figcaption><p>Triangulos  semejantes</p>
+</figcaption></figure><p>Volvamos, la idea <strong>importante</strong> es que la luz se va sumar y vamos a tener un
 espacio brillante siempre que la diferencia en la distancia recorrida entre
 la parte "izquierda" y "derecha" sea de 1 longitud de onda, 2 longitudes de onda
 y así sucesivamente.</p>
@@ -185,8 +175,8 @@ la tangente (que es la rlación entre el cateto vertical y el horizontal).</p>
 <p>Para una explicación sobre qué es la tangente y que es el seno, <a class="reference external" href="https://es.wikipedia.org/wiki/Funci%C3%B3n_trigonom%C3%A9trica#Definiciones_respecto_de_un_tri%C3%A1ngulo_rect%C3%A1ngulo">acá</a></p>
 <p>Probá con la calculadora (tiene que estar en modo RAD) hacer</p>
 <ul class="simple">
-<li>$sin(0,01)$</li>
-<li>$tan(0.01)$</li>
+<li><p>$sin(0,01)$</p></li>
+<li><p>$tan(0.01)$</p></li>
 </ul>
 <p>La letra $a$ de la ecuación de arriba es el ancho de nuestro pelo, lo que nos interesa.
 ¿Como quedaría la expresión de arriba si despejamos $a$?</p>
@@ -195,47 +185,32 @@ la tangente (que es la rlación entre el cateto vertical y el horizontal).</p>
 a=\frac{n\lambda D}{y_n}
 \end{equation*}
 </div>
-</div>
-<div class="section" id="procedimiento-para-medir">
-<h3>Procedimiento para medir</h3>
-<div class="section" id="la-distancia-al-pizarron">
-<h4>La distancia al pizarron</h4>
+</section><section id="procedimiento-para-medir"><h3>Procedimiento para medir</h3>
+<section id="la-distancia-al-pizarron"><h4>La distancia al pizarron</h4>
 <p>Medimos desde el láser al pizarrón.</p>
 <p>Este dato es $D$</p>
-</div>
-<div class="section" id="la-longitud-de-onda-del-laser">
-<h4>La longitud de onda del laser</h4>
+</section><section id="la-longitud-de-onda-del-laser"><h4>La longitud de onda del laser</h4>
 <p>Ese dato esta en el laser mismo, es <span class="math">\(650\cdot 10^-9\: m\)</span></p>
 <p>Este dato es $lambda$</p>
-</div>
-<div class="section" id="las-distancias-en-el-pizarron">
-<h4>Las distancias en el pizarrón</h4>
+</section><section id="las-distancias-en-el-pizarron"><h4>Las distancias en el pizarrón</h4>
 <p>Vamos a medir desde el centro del punto brillante hasta que empieza
 la primera franja de luz.</p>
 <p>Luego vamos a medir desde el centro hasta que termina esa misma franja.</p>
 <p>Finalmente hacemos el promedio de ambas distancias.</p>
 <p>Este dato es $y_n$ en nuestro caso como es la primera $y_1$</p>
-</div>
-<div class="section" id="repitiendo-para-otros-n">
-<h4>Repitiendo para otros n</h4>
+</section><section id="repitiendo-para-otros-n"><h4>Repitiendo para otros n</h4>
 <p>¿Y que es la n? bueno, si medimos hasta la "2º" franja igual que en la
 anterior, donde dice "n" ponemos 2 y medimos $y_2$</p>
 <p>Esto lo hacemos para todas las franjas visibles.</p>
-</div>
-</div>
-<div class="section" id="volcando-los-datos">
-<h3>Volcando los datos</h3>
+</section></section><section id="volcando-los-datos"><h3>Volcando los datos</h3>
 <p>Volcamos todos los datos en una tabla. ¿Te animás a diseñar como sería
 esa tabla?</p>
-</div>
-<div class="section" id="haciendo-cuentas">
-<h3>Haciendo cuentas</h3>
+</section><section id="haciendo-cuentas"><h3>Haciendo cuentas</h3>
 <p>Finalmente, hacemos las cuentas para todos los valores, y luego, calculamos
 el promedio.</p>
 <p>¿Cuanto dio? Buscá en internet cuanto es aproximadamente el ancoh de un pelo
 de una persona.</p>
-<div class="section" id="que-tanto-le-erramos">
-<h4>¿Que tanto le erramos?</h4>
+<section id="que-tanto-le-erramos"><h4>¿Que tanto le erramos?</h4>
 <p>Una forma de saber que tan preciso es nuestro experimento es
 compararlo con el valor conocido, etablecer una relación.</p>
 <p>Para hacer esto podemos simplemente dividir el valor que nos dió
@@ -248,11 +223,9 @@ hacer otra cuenta</p>
 \end{equation*}
 </div>
 <p>¿Que pensas que acabamos de calcular con esta cuenta de acá arriba?</p>
+</section></section></section>
 </div>
-</div>
-</div>
-    </div>
-    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
                 renderMathInElement(document.body,
                     {
                         
@@ -268,7 +241,7 @@ delimiters: [
                     }
                 );
             </script></article><!--End of body content--><footer id="footer">
-            Contents © 2020         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2022         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
 <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="dct:title">FEDE AR</span></a>
 by <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="cc:attributionName">Federico Arabolaza</span></a>

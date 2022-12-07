@@ -1,0 +1,163 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="558px" height="614px" viewBox="-0.5 -0.5 558 614" content="&lt;mxfile&gt;&lt;diagram id=&quot;ff8aJT83Ig4v_O-csibL&quot; name=&quot;Page-1&quot;&gt;1Zpbb9owFIB/DdL2EvkS5/JYKF2lqVOlTtuzSQxkMxgZp9D++jkkEIyN1HYQp31pObZJfPz1+MtlgEeL7TdJV/MHkTM+QCDfDvDtACGI41D/qiIvdSSFoA7MZJE3ndrAU/HKmuC+W1nkbG10VEJwVazMYCaWS5YpI0alFBuz21Rw86grOmNW4Cmj3I7+LnI1b2YBQBu/Z8Vsvj9ytG9Z0H3nJrCe01xsjkJ4PMAjKYSq/1psR4xXydvnpR53d6b1cGKSLdVbBiRRPeKZ8rKZ3EgPlXqq6+YM1ct+2nqozjBrRjCp2PbsYeFhMpoCJhZMyRfdZWsuZLP+CUABqSObNp9J02l+lErcxGizgrPDV7eT1H808zwz59ia88/BCA9uUrkoMmrPW4pymbNqNBzg4bTgfCS4kLtGPJ2yKMt0fK2k+MuOWvI4neiFx8NLJIyYGSNp1GXGEitjNhy5/hdpPjI+EZtxGxjuArphLmTxKpaK8kNaqnFGUtailBkz8VRUzpgyl+8NyZOMU1U8m9//X4lIrUTcF7nc0QNL/n56csKSPHTRk6AJjqIL0ROZ9MR7mjpgJwV9Yif1x04KrUSMK3CG+CPcUJZMnVUnyhI2mV6n6kAAOgQH9Qic9O25uzw42ErEL7rS693DfSpEJ/sUjgPU3UaVhr6YiR3MYI/MECsRP2U5EbN+6o2FTUyCuENsbAv2iA3xiI2txrcFW1eXb/2HJoKo01rjTYpd0HiU4tSW4h9lxpk+lU9RbCLSabGBwJsRu8DxaMQQ2Ep8k5WLktOsqNV4+T6AurmcwgAFABsMdXlFBYE3M05tgA6L6Icg240fGRc6krPqu2cl/SQEJXGXBHnzZCdBHkUZAtuUH/R5iIVQ9X2d21fdWhE1EYsJE58Ep9RRkCCKg70oXB4pbw7tRMqjRENgW/QNV7Q6Ha1E7c4GvuhapcTyax+ZCpFmKjI3OeRgKgyDKLwWU74U+7CpmVB5lGwIbMt+YHnhouqOLrNi3VOqSABI2v4Qk7DI9SAI4uR6dQv6svEzjPn0cWj7+JD+qRB7PEHsO11x2tfCRQJkFi7380WI4fVKF/Tl6G6soE9Jh7ak1/z0Ep+TZx5Jl1d20JeXHxzcpManmENbzO/kbmfrJzZhQMzN7PBWSyfk+NLvM+T49G9o+3ef600Y4AQkJMXxCT8k6fS+JPRn28SFkE/bhrZt97r4gAAAF0OdPrGHyJ9LOwny6dLIdml9PPXxF80Y1DDFLpTSKMb0Sq8K6YveLgHyZc2udz7gO7J3BX5saX4S/CPP1KbozDO1aBKRa2EDHfeKroeNt9vZTmy6s2b9sX1XeNd29MY1Hv8D&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <ellipse cx="40" cy="280.5" rx="40" ry="15" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="39.5" y="285">
+                Centrales
+            </text>
+        </g>
+        <rect x="140" y="59.5" width="80" height="30" rx="4.5" ry="4.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="179.5" y="79">
+                Térmicas
+            </text>
+        </g>
+        <path d="M 80 280.5 L 100 280.5 Q 110 280.5 110 270.5 L 110 84.5 Q 110 74.5 120 74.5 L 133.63 74.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 138.88 74.5 L 131.88 78 L 133.63 74.5 L 131.88 71 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="150" y="213" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="189.5" y="232.5">
+                Hidráulicas
+            </text>
+        </g>
+        <path d="M 80 280.5 L 105 280.5 Q 115 280.5 115 270.5 L 115 238 Q 115 228 125 228 L 143.63 228" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 148.88 228 L 141.88 231.5 L 143.63 228 L 141.88 224.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="140" y="463" width="80" height="30" rx="4.5" ry="4.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="179.5" y="482.5">
+                Eólicas
+            </text>
+        </g>
+        <path d="M 80 280.5 L 100 280.5 Q 110 280.5 110 290.5 L 110 468 Q 110 478 120 478 L 133.63 478" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 138.88 478 L 131.88 481.5 L 133.63 478 L 131.88 474.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="410" y="0.25" width="80" height="30" rx="4.5" ry="4.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="449.5" y="19.75">
+                Vapor
+            </text>
+        </g>
+        <path d="M 220 74.5 L 305 74.5 Q 315 74.5 315 64.5 L 315 25.25 Q 315 15.25 325 15.25 L 403.63 15.25" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 408.88 15.25 L 401.88 18.75 L 403.63 15.25 L 401.88 11.75 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="410" y="38.75" width="80" height="30" rx="4.5" ry="4.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="449.5" y="58.25">
+                Trubogas
+            </text>
+        </g>
+        <path d="M 220 74.5 L 305 74.5 Q 315 74.5 315 64.5 L 315 59.13 Q 315 53.75 325 53.75 L 403.63 53.75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 408.88 53.75 L 401.88 57.25 L 403.63 53.75 L 401.88 50.25 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="410" y="75.25" width="80" height="30" rx="4.5" ry="4.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="449.5" y="94.75">
+                Diesel
+            </text>
+        </g>
+        <path d="M 220 74.5 L 305 74.5 Q 315 74.5 315 82.38 L 315 86.31 Q 315 90.25 325 90.25 L 403.63 90.25" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 408.88 90.25 L 401.88 93.75 L 403.63 90.25 L 401.88 86.75 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="410" y="118.75" width="80" height="30" rx="4.5" ry="4.5" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="449.5" y="138.25">
+                Nucleares
+            </text>
+        </g>
+        <path d="M 220 74.5 L 305 74.5 Q 315 74.5 315 84.5 L 315 123.75 Q 315 133.75 325 133.75 L 403.63 133.75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 408.88 133.75 L 401.88 137.25 L 403.63 133.75 L 401.88 130.25 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="292.03" y="213" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="331.53" y="232.5">
+                Acumulación
+            </text>
+        </g>
+        <path d="M 230 228 L 251 228 Q 261 228 271 228 L 285.66 228" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 290.91 228 L 283.91 231.5 L 285.66 228 L 283.91 224.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="292.03" y="333" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="331.53" y="352.5">
+                Pelo de agua
+            </text>
+        </g>
+        <path d="M 230 228 L 251 228 Q 261 228 261 238 L 261 338 Q 261 348 271 348 L 285.66 348" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 290.91 348 L 283.91 351.5 L 285.66 348 L 283.91 344.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="292.03" y="413" width="127.97" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="355.51" y="432.5">
+                Mareomotríz o bombeo
+            </text>
+        </g>
+        <path d="M 230 228 L 251 228 Q 261 228 261 238 L 261 418 Q 261 428 271 428 L 285.66 428" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 290.91 428 L 283.91 431.5 L 285.66 428 L 283.91 424.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="412.06" y="183" width="144.64" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="483.88" y="202.5">
+                Alta presión (Pelton)
+            </text>
+        </g>
+        <path d="M 372.03 228 L 382.01 228 Q 392 228 392 218 L 392 208 Q 392 198 398.85 198 L 405.69 198" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 410.94 198 L 403.94 201.5 L 405.69 198 L 403.94 194.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="415.06" y="225.5" width="138.97" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="484.04" y="245">
+                Media presión (Fancis)
+            </text>
+        </g>
+        <path d="M 372.03 228 L 384 228 Q 394 228 394 234.25 L 394 237.38 Q 394 240.5 401.35 240.5 L 408.69 240.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 413.94 240.5 L 406.94 244 L 408.69 240.5 L 406.94 237 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="415.26" y="265.5" width="131.64" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="480.58" y="285">
+                Baja Presión (Kaplan)
+            </text>
+        </g>
+        <path d="M 372.03 228 L 384 228 Q 394 228 394 238 L 394 270.5 Q 394 280.5 401.45 280.5 L 408.89 280.5" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 414.14 280.5 L 407.14 284 L 408.89 280.5 L 407.14 277 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="440" y="313" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="479.5" y="332.5">
+                Kaplan
+            </text>
+        </g>
+        <path d="M 372.03 348 L 396 348 Q 406 348 406 338 L 406 333 Q 406 328 416 328 L 433.63 328" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 438.88 328 L 431.88 331.5 L 433.63 328 L 431.88 324.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="444.55" y="373" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="484.05" y="392.5">
+                Francis
+            </text>
+        </g>
+        <path d="M 372.03 348 L 398 348 Q 408 348 408 358 L 408 378 Q 408 388 418 388 L 438.18 388" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 443.43 388 L 436.43 391.5 L 438.18 388 L 436.43 384.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="444.38" y="421.75" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="483.88" y="441.25">
+                Kaplan
+            </text>
+        </g>
+        <path d="M 420 428 L 426 428 Q 432 428 432 432.38 L 432 434.56 Q 432 436.75 435.01 436.75 L 438.01 436.75" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 443.26 436.75 L 436.26 440.25 L 438.01 436.75 L 436.26 433.25 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="440" y="463" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="479.5" y="482.5">
+                Francis
+            </text>
+        </g>
+        <path d="M 420 428 L 425 428 Q 430 428 430 438 L 430 468 Q 430 478 431.82 478 L 433.63 478" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 438.88 478 L 431.88 481.5 L 433.63 478 L 431.88 474.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="150" y="533" width="80" height="30" rx="4.5" ry="4.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="189.5" y="552.5">
+                Geotérmicas
+            </text>
+        </g>
+        <path d="M 80 280.5 L 105 280.5 Q 115 280.5 115 290.5 L 115 538 Q 115 548 125 548 L 143.63 548" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 148.88 548 L 141.88 551.5 L 143.63 548 L 141.88 544.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="150" y="583" width="80" height="30" rx="4.5" ry="4.5" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="189.5" y="602.5">
+                Solares
+            </text>
+        </g>
+        <path d="M 80 280.5 L 105 280.5 Q 115 280.5 115 290.5 L 115 588 Q 115 598 125 598 L 143.63 598" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 148.88 598 L 141.88 601.5 L 143.63 598 L 141.88 594.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+</svg>

@@ -25,7 +25,7 @@ Comprende el material que los alumnos manejarán habitualmente. Contiene los con
 mínimos de la materia
 
  
-.. publication_list:: C:/Users/Fede/Documents/farabolaza/posts/bib-m5.bib
+.. publication_list:: D:/Proyectos_Python/blogs/farabolaza/posts/bib-m5.bib
 
 Bibliografía complementaria
 ===========================

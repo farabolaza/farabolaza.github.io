@@ -28,7 +28,7 @@ all points that creates a line. Whe have something like this:
 y=3\cdo">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-05-12T10:04:09-03:00">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target="#toc">
 
@@ -58,6 +58,7 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_matematica5/" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/categories/cat_matematica3/" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/categories/cat_matematica2/" class="dropdown-item">MATEMÁTICA 2º</a>
                     <a href="/categories/cat_math2/" class="dropdown-item">MATH SENIOR 2</a>
                     <a href="/categories/cat_fisica4/" class="dropdown-item">FÍSICA 4º</a>
                     <a href="/categories/cat_fisicoquimica3/" class="dropdown-item">FISICOQUÍMICA 3º</a>
@@ -69,7 +70,7 @@ navbar-dark bg-primary
                     <a href="/posts/bib-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/posts/bib-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
                     <a href="/posts/bib-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
-                    <a href="/posts/bib-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/bib-fisica4-2021/index.html" class="dropdown-item">FISICA 4º</a>
                     <a href="/posts/bib-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
             </div>
             </li>
@@ -88,8 +89,8 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_fisicacontempo1/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 1</a>
                     <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 2</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ENERGOTECNIA</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ELECTRÓNICA</a>
+                    <a href="/categories/cat_energo/" class="dropdown-item">ENERGOTECNIA</a>
+                    <a href="/categories/cat_electronica/" class="dropdown-item">ELECTRÓNICA</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -115,10 +116,8 @@ navbar-dark bg-primary
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <div class="section" id="manipulating-line-equations">
-<h2>Manipulating line equations</h2>
-<div class="section" id="review">
-<h3>Review</h3>
+    <section id="manipulating-line-equations"><h2>Manipulating line equations</h2>
+<section id="review"><h3>Review</h3>
 <p>Last class topic was about how linear equations solutions can be thought as
 all points that creates a line. Whe have something like this:</p>
 <div class="math">
@@ -135,32 +134,21 @@ y=3\cdot x +2
 <p>And we can choose wathever value we like for one variable, and the other gets fixed and
 related. There is one $y$ value for each $x$ value, and vice-veresa, buth this pairs
 are unique.</p>
-</div>
-<div class="section" id="getting-the-line">
-<h3>Getting the line</h3>
-<div class="admonition admonition-learning-goals">
-<p class="first admonition-title">Learning goals</p>
-<ol class="last arabic simple">
-<li>Write a line equation solving for a variable</li>
-<li>Write a line equation given its slope and intercept</li>
-<li>Plot points and lines in a cartesian coordinate system</li>
-</ol>
-</div>
-<p>If we plot linear equations solutions, we'll get lines. That's easy. But how can one
+</section><section id="getting-the-line"><h3>Getting the line</h3>
+<aside class="admonition admonition-learning-goals"><p class="admonition-title">Learning goals</p>
+<ol class="arabic simple">
+<li><p>Write a line equation solving for a variable</p></li>
+<li><p>Write a line equation given its slope and intercept</p></li>
+<li><p>Plot points and lines in a cartesian coordinate system</p></li>
+</ol></aside><p>If we plot linear equations solutions, we'll get lines. That's easy. But how can one
 identify which equation formed a given line?</p>
-<div class="section" id="slope">
-<h4>Slope</h4>
+<section id="slope"><h4>Slope</h4>
 <br><iframe src="https://www.desmos.com/calculator/57x85okl3x" width="100%" style="min-height:400px" frameborder="0"></iframe>
 <br><p>Play with $a$ value ¿what changes in the plot?</p>
-</div>
-<div class="section" id="intercept">
-<h4>Intercept</h4>
+</section><section id="intercept"><h4>Intercept</h4>
 <p>Now, we fixed $a$ (the number in front of $x$), and let $b$ take different values ¿What does $b$ changes in the plot?</p>
 <br><iframe src="https://www.desmos.com/calculator/aajqjs0gws" width="100%" style="min-height:400px" frameborder="0"></iframe>
-<br>
-</div>
-<div class="section" id="come-together">
-<h4>Come together</h4>
+<br></section><section id="come-together"><h4>Come together</h4>
 <p>Now if we add both ideas, that $a$ it's about plot tilting (it points upwwards or dowwards) and $b$ stands for
 the $y$ value where the <strong>line</strong> intercepts the $y$ axis, namely, if $x=0$ then $y=b$. Any linear equation can be
 writen as:</p>
@@ -172,44 +160,27 @@ y=a \cdot x + b
 <p>There is nothing special about solving for y, it's just a convention of math people trhough history.
 We call $y$ the vertical axis, and $x$$ the horizontal. But it's pretty usual to solve for $x$
 or to use other letters, because they are just placeholders, letters, and have no special meaning.</p>
-</div>
-</div>
-<div class="section" id="run-and-rise">
-<h3>Run and Rise</h3>
+</section></section><section id="run-and-rise"><h3>Run and Rise</h3>
 <p>A way of telling which function (equation) belongs to a given plot it's to find $a$ and $b$. Fin $b$ it's straight
 because one has to look at $y$ axis interception. But ¿what about $a$?. A method is as follows:</p>
 <ol class="arabic simple">
-<li>Step on a point that belongs to the line (a solution, an $x$,$y$ pair)</li>
-<li>Run to the right (left will be ok too, you'll se later) any given units you want (1,2,3)</li>
-<li>Write down this value. We call it <span class="math">\(\Delta x\)</span>
-</li>
-<li>Rise (or go down) until you  reach the line again</li>
-<li>Count the units that took you there</li>
-<li>Write down this value. We call it <span class="math">\(\Delta y\)</span>
-</li>
-<li>Do <span class="math">\(\frac{\Delta y}{\Delta x}\)</span>
-</li>
-<li>Result is $a$</li>
-</ol>
-</div>
-<div class="section" id="test-what-you-ve-leanred">
-<h3>Test what you've leanred</h3>
-<div class="section" id="finding-parameters">
-<h4>Finding parameters</h4>
+<li><p>Step on a point that belongs to the line (a solution, an $x$,$y$ pair)</p></li>
+<li><p>Run to the right (left will be ok too, you'll se later) any given units you want (1,2,3)</p></li>
+<li><p>Write down this value. We call it <span class="math">\(\Delta x\)</span></p></li>
+<li><p>Rise (or go down) until you  reach the line again</p></li>
+<li><p>Count the units that took you there</p></li>
+<li><p>Write down this value. We call it <span class="math">\(\Delta y\)</span></p></li>
+<li><p>Do <span class="math">\(\frac{\Delta y}{\Delta x}\)</span></p></li>
+<li><p>Result is $a$</p></li>
+</ol></section><section id="test-what-you-ve-leanred"><h3>Test what you've leanred</h3>
+<section id="finding-parameters"><h4>Finding parameters</h4>
 <ol class="arabic simple">
-<li>Write a linear equation with $a=2$ and $b=-1$ .Plot it</li>
-<li>What's $b$ value in <span class="math">\(y=\frac{2}{3}x+2\)</span>
-</li>
-<li>What's $a$ value in <span class="math">\(y=\frac{1}{3}x+2\)</span>
-</li>
-<li>What's $b$ value in <span class="math">\(y+2=3x+1\)</span>
-</li>
-<li>What's $a$ value in <span class="math">\(2y=\frac{2}{3}x+2\)</span>
-</li>
-</ol>
-</div>
-<div class="section" id="from-plot-to-equation">
-<h4>From plot to equation</h4>
+<li><p>Write a linear equation with $a=2$ and $b=-1$ .Plot it</p></li>
+<li><p>What's $b$ value in <span class="math">\(y=\frac{2}{3}x+2\)</span></p></li>
+<li><p>What's $a$ value in <span class="math">\(y=\frac{1}{3}x+2\)</span></p></li>
+<li><p>What's $b$ value in <span class="math">\(y+2=3x+1\)</span></p></li>
+<li><p>What's $a$ value in <span class="math">\(2y=\frac{2}{3}x+2\)</span></p></li>
+</ol></section><section id="from-plot-to-equation"><h4>From plot to equation</h4>
 <p>Write the equation for each plot</p>
 <iframe src="https://www.desmos.com/calculator/qflbg09tdw?embed" width="90%" style="min-height:400px" frameborder="0"></iframe>
 
@@ -219,12 +190,9 @@ because one has to look at $y$ axis interception. But ¿what about $a$?. A metho
 
 <br><iframe src="https://www.desmos.com/calculator/lh8ynrb5jh?embed" width="90%" style="min-height:400px" frameborder="0"></iframe>
 
-<br><iframe src="https://www.desmos.com/calculator/bhs94scauu?embed" width="90%" style="min-height:400px" frameborder="0"></iframe>
+<br><iframe src="https://www.desmos.com/calculator/bhs94scauu?embed" width="90%" style="min-height:400px" frameborder="0"></iframe></section></section></section>
 </div>
-</div>
-</div>
-    </div>
-    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
                 renderMathInElement(document.body,
                     {
                         
@@ -240,7 +208,7 @@ delimiters: [
                     }
                 );
             </script></article><!--End of body content--><footer id="footer">
-            Contents © 2020         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2022         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
 <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="dct:title">FEDE AR</span></a>
 by <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="cc:attributionName">Federico Arabolaza</span></a>

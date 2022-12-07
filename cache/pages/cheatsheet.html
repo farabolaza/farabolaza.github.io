@@ -1,116 +1,118 @@
-<div class="contents topic" id="contenido">
+<nav class="contents" id="contenido" role="doc-toc">
 <p class="topic-title">Contenido</p>
 <ul class="simple">
-<li><a class="reference internal" href="#como-hice-esta-pagina" id="id1">Cómo hice esta página</a><ul>
-<li><a class="reference internal" href="#instalacion" id="id2">Instalación</a><ul>
-<li><a class="reference internal" href="#modificando-conf-py" id="id3">Modificando conf.py</a></li>
-<li><a class="reference internal" href="#instalar-un-theme-en-especial" id="id4">Instalar un theme en especial</a></li>
-<li><a class="reference internal" href="#templates-customizados" id="id5">Templates Customizados</a></li>
+<li><p><a class="reference internal" href="#como-hice-esta-pagina" id="toc-entry-1">Cómo hice esta página</a></p>
+<ul>
+<li><p><a class="reference internal" href="#instalacion" id="toc-entry-2">Instalación</a></p>
+<ul>
+<li><p><a class="reference internal" href="#modificando-conf-py" id="toc-entry-3">Modificando conf.py</a></p></li>
+<li><p><a class="reference internal" href="#instalar-un-theme-en-especial" id="toc-entry-4">Instalar un theme en especial</a></p></li>
+<li><p><a class="reference internal" href="#templates-customizados" id="toc-entry-5">Templates Customizados</a></p></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#la-estructura-del-sitio" id="id6">La estructura del sitio</a><ul>
-<li><a class="reference internal" href="#la-barra-de-navegacion" id="id7">La barra de navegación</a></li>
-<li><a class="reference internal" href="#pages-y-posts" id="id8"><em>pages</em> y <em>posts</em></a><ul>
-<li><a class="reference internal" href="#nombre-de-los-archivos" id="id9">Nombre de los archivos</a></li>
+<li><p><a class="reference internal" href="#la-estructura-del-sitio" id="toc-entry-6">La estructura del sitio</a></p>
+<ul>
+<li><p><a class="reference internal" href="#la-barra-de-navegacion" id="toc-entry-7">La barra de navegación</a></p></li>
+<li><p><a class="reference internal" href="#pages-y-posts" id="toc-entry-8"><em>pages</em> y <em>posts</em></a></p>
+<ul>
+<li><p><a class="reference internal" href="#nombre-de-los-archivos" id="toc-entry-9">Nombre de los archivos</a></p></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#links-de-interes" id="id10">Links de interes</a></li>
-<li><a class="reference internal" href="#el-flujo-de-trabajo" id="id11">El flujo de trabajo</a></li>
-<li><a class="reference internal" href="#los-examenes" id="id12">Los exámenes</a></li>
+<li><p><a class="reference internal" href="#links-de-interes" id="toc-entry-10">Links de interes</a></p></li>
+<li><p><a class="reference internal" href="#el-flujo-de-trabajo" id="toc-entry-11">El flujo de trabajo</a></p></li>
+<li><p><a class="reference internal" href="#los-examenes" id="toc-entry-12">Los exámenes</a></p></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#github-deploy" id="id13">Github_deploy</a></li>
+<li><p><a class="reference internal" href="#github-deploy" id="toc-entry-13">Github_deploy</a></p></li>
 </ul>
-</div>
-<div class="section" id="como-hice-esta-pagina">
-<h1><a class="toc-backref" href="#id1">Cómo hice esta página</a></h1>
+</nav>
+<section id="como-hice-esta-pagina">
+<h1><a class="toc-backref" href="#toc-entry-1" role="doc-backlink">Cómo hice esta página</a></h1>
 <p>Este apartado recolecta todo lo que hice para poder armar este sitio con Nikola,
 y detalla las configuraciones que tuve que hacer. El objetivo es que no me olvide de lo que hice,
 como suele suceder con todo lo que no ejercito seguido. El alemán me persigue. Uh, uh, los alemanes!</p>
-<div class="section" id="instalacion">
-<h2><a class="toc-backref" href="#id2">Instalación</a></h2>
+<section id="instalacion">
+<h2><a class="toc-backref" href="#toc-entry-2" role="doc-backlink">Instalación</a></h2>
 <p>Para instalar Nikola primero que hay que tener instalado <em>virtualenv</em> en anaconda, para poder instalar los paquetes necesarios sin cagar la instalación principal de python. En <a class="reference external" href="https://randlow.github.io/posts/python/create-nikola-coding-blog/">este sitio</a> está casi todo, pero lo voy a ir traduciendo y agregando a este apartado.</p>
-<div class="section" id="modificando-conf-py">
-<h3><a class="toc-backref" href="#id3">Modificando conf.py</a></h3>
+<section id="modificando-conf-py">
+<h3><a class="toc-backref" href="#toc-entry-3" role="doc-backlink">Modificando conf.py</a></h3>
 <p>Algo que Nikola te deja hacer, y es muy bueno si sos un amateur completo del diseño web, es configurar el esqueleto
 de todo el sitio modificando solo algunas cosas del del archivo <em>conf.py</em></p>
-</div>
-<div class="section" id="instalar-un-theme-en-especial">
-<h3><a class="toc-backref" href="#id4">Instalar un theme en especial</a></h3>
-<pre class="code python"><a name="rest_code_f133cf33521445478b212fc7b1b674f5-1"></a><span class="n">nikola</span> <span class="n">install_theme</span> <span class="n">nombretheme</span>
+</section>
+<section id="instalar-un-theme-en-especial">
+<h3><a class="toc-backref" href="#toc-entry-4" role="doc-backlink">Instalar un theme en especial</a></h3>
+<div class="code"><pre class="code python"><a id="rest_code_55e5717105c94f0296be2929c71b03db-1" name="rest_code_55e5717105c94f0296be2929c71b03db-1" href="#rest_code_55e5717105c94f0296be2929c71b03db-1"></a><span class="n">nikola</span> <span class="n">install_theme</span> <span class="n">nombretheme</span>
 </pre></div>
-<div class="section" id="templates-customizados">
-<h3><a class="toc-backref" href="#id5">Templates Customizados</a></h3>
+</section>
+<section id="templates-customizados">
+<h3><a class="toc-backref" href="#toc-entry-5" role="doc-backlink">Templates Customizados</a></h3>
 <p>Tanto la homepage como otras páginas se procesan usando templates modificados a los que Nikola provee. Para que una página o post
 usen un template en particuar hay que modificar en el archivo '.rst' los metadatos para incluirlo, por ejemplo;</p>
 <p>Si quiero que una página use el template 'storyb', los metadatos deben quedar asi:</p>
-<pre class="code rest"><a name="rest_code_069c9b09a3874db995099b082f73f5a1-1"></a><span class="cp">..title: titulo</span>
-<a name="rest_code_069c9b09a3874db995099b082f73f5a1-2"></a><span class="cp">..slug: nombre que se muestra en la barra de direcciones</span>
-<a name="rest_code_069c9b09a3874db995099b082f73f5a1-3"></a><span class="cp">..date: fecha</span>
-<a name="rest_code_069c9b09a3874db995099b082f73f5a1-4"></a><span class="cp">..tags: separadas por coma, una, otra</span>
-<a name="rest_code_069c9b09a3874db995099b082f73f5a1-5"></a><span class="cp">..template: storyb.tmpl</span>
-</pre><table border="1" class="docutils">
-<colgroup>
-<col width="8%" />
-<col width="92%" />
-</colgroup>
-<thead valign="bottom">
-<tr><th class="head">templates</th>
-<th class="head">descripción</th>
+<div class="code"><pre class="code rest"><a id="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-1" name="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-1" href="#rest_code_492ce095b0db4f2d91f9866b0b1ef26d-1"></a><span class="cp">..title: titulo</span>
+<a id="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-2" name="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-2" href="#rest_code_492ce095b0db4f2d91f9866b0b1ef26d-2"></a><span class="cp">..slug: nombre que se muestra en la barra de direcciones</span>
+<a id="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-3" name="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-3" href="#rest_code_492ce095b0db4f2d91f9866b0b1ef26d-3"></a><span class="cp">..date: fecha</span>
+<a id="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-4" name="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-4" href="#rest_code_492ce095b0db4f2d91f9866b0b1ef26d-4"></a><span class="cp">..tags: separadas por coma, una, otra</span>
+<a id="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-5" name="rest_code_492ce095b0db4f2d91f9866b0b1ef26d-5" href="#rest_code_492ce095b0db4f2d91f9866b0b1ef26d-5"></a><span class="cp">..template: storyb.tmpl</span>
+</pre></div>
+<table>
+<thead>
+<tr><th class="head"><p>templates</p></th>
+<th class="head"><p>descripción</p></th>
 </tr>
 </thead>
-<tbody valign="top">
-<tr><td>hpage</td>
-<td>se usa en la home, 3sm izquierda y 9sm derecha, el ontenido que hay en la parte d e3sm esta hardcodeado en el template</td>
+<tbody>
+<tr><td><p>hpage</p></td>
+<td><p>se usa en la home, 3sm izquierda y 9sm derecha, el ontenido que hay en la parte d e3sm esta hardcodeado en el template</p></td>
 </tr>
-<tr><td>storyb</td>
-<td>genera una <em>page</em> con una barra lateral sticky que usa la tabla de contenidos del documento</td>
+<tr><td><p>storyb</p></td>
+<td><p>genera una <em>page</em> con una barra lateral sticky que usa la tabla de contenidos del documento</p></td>
 </tr>
-<tr><td>postb</td>
-<td>genera un <em>post</em> con una barra lateral sticky que usa la tabla de contenidos del documento</td>
+<tr><td><p>postb</p></td>
+<td><p>genera un <em>post</em> con una barra lateral sticky que usa la tabla de contenidos del documento</p></td>
 </tr>
 </tbody>
 </table>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-</div>
-</div>
-<div class="section" id="la-estructura-del-sitio">
-<h2><a class="toc-backref" href="#id6">La estructura del sitio</a></h2>
+</section>
+</section>
+<section id="la-estructura-del-sitio">
+<h2><a class="toc-backref" href="#toc-entry-6" role="doc-backlink">La estructura del sitio</a></h2>
 <p>Como Nikola sólo permite una categoría por POST, dejando el lugar más flexible para las TAGS, decidí que sólo las Materias sean
 categorías. Cada menú de la barra de navegación, cuyo detalle se puede ver en <a class="reference internal" href="#modificando-conf-py">Modificando conf.py</a> representa un apartado que está orientado a diferentes usos. Los TAGS se usan para otras secciones que no sean específicamente material de clase de cada materia.</p>
-<div class="section" id="la-barra-de-navegacion">
-<h3><a class="toc-backref" href="#id7">La barra de navegación</a></h3>
+<section id="la-barra-de-navegacion">
+<h3><a class="toc-backref" href="#toc-entry-7" role="doc-backlink">La barra de navegación</a></h3>
 <p>El primer bloque o sección del menú contiene las <strong>Clases</strong> (es decir los contenidos que se dieron o darán en determinada asignatura)
 y cada elemento lleva al INDEX de esa <strong>categoría</strong>.</p>
 <ul class="simple">
-<li>CATEGORY 1 = matematica3</li>
-<li>CATEGORY 2 = matematica5</li>
-<li>CATEGORY 3 = fisicoquimica3</li>
-<li>CATEGORY 4 = fisicacontempo1</li>
+<li><p>CATEGORY 1 = matematica3</p></li>
+<li><p>CATEGORY 2 = matematica5</p></li>
+<li><p>CATEGORY 3 = fisicoquimica3</p></li>
+<li><p>CATEGORY 4 = fisicacontempo1</p></li>
 </ul>
 <p>El segundo bloque, <strong>Bibliografía</strong> está apuntando a una <em>tag</em> específica creada para la bibliografía de cada materia</p>
 <ul class="simple">
-<li>TAG 1 = bib-matematica5</li>
-<li>TAG 2 = bib-matematica3</li>
-<li>TAG 3 = bib-fisicoquimica3</li>
+<li><p>TAG 1 = bib-matematica5</p></li>
+<li><p>TAG 2 = bib-matematica3</p></li>
+<li><p>TAG 3 = bib-fisicoquimica3</p></li>
 </ul>
 <p>El tercer bloque, <strong>Planificaciones</strong> hace lo propio pero con las planificaciones docentes de cada año. La estructura de nombre
 para cada categoría sería:</p>
 <ul class="simple">
-<li>TAG A = plan-matematica3</li>
-<li>TAG B = plan-matematica5</li>
+<li><p>TAG A = plan-matematica3</p></li>
+<li><p>TAG B = plan-matematica5</p></li>
 </ul>
 <p>Cada bloque subsiguiente del menú de la <em>navbar</em> utiliza la misma estructura de TAGS generadas manualmente a partir
 de las categorías. Esta estructura se puede replicar todo lo necesario. Si uno quiere tener una vista &quot;Argegada&quot; de
 todos los posts de cierto tipo, esta bueno usar una TAG que lo haga. Por ejemplo, una TAG &quot;planififaciones&quot; debería
 agregarse ademas de plan-matematica3 para poder visualizarlas todas juntas en el INDEX que Nikola genera automáticamente.</p>
-</div>
-<div class="section" id="pages-y-posts">
-<h3><a class="toc-backref" href="#id8"><em>pages</em> y <em>posts</em></a></h3>
+</section>
+<section id="pages-y-posts">
+<h3><a class="toc-backref" href="#toc-entry-8" role="doc-backlink"><em>pages</em> y <em>posts</em></a></h3>
 <p>Como Nikola aplica toda su escturucta de BLOG para generar las páginas INDEX  de cada categoría (y de cada TAG), el año de validez
 para cada planificación, bibliografía, etc. queda determinado por la inClusión de ese dato tanto en la fecha de la publicación
 del POST como en su título, descripción, etc.</p>
@@ -118,51 +120,50 @@ del POST como en su título, descripción, etc.</p>
 estrictamente material  de aula no llevarán categoría. Solamente se llenarán los tags.</p>
 <p>Como regla básica:</p>
 <ul class="simple">
-<li>Los POSTS es todo lo que quiero que se indexe</li>
-<li>Los POSTS sin categoría, es todo lo que NO es una clase</li>
-<li>Las PAGES son paginas que no quiero que se indexen, como esta misma.</li>
+<li><p>Los POSTS es todo lo que quiero que se indexe</p></li>
+<li><p>Los POSTS sin categoría, es todo lo que NO es una clase</p></li>
+<li><p>Las PAGES son paginas que no quiero que se indexen, como esta misma.</p></li>
 </ul>
-<div class="section" id="nombre-de-los-archivos">
-<h4><a class="toc-backref" href="#id9">Nombre de los archivos</a></h4>
+<section id="nombre-de-los-archivos">
+<h4><a class="toc-backref" href="#toc-entry-9" role="doc-backlink">Nombre de los archivos</a></h4>
 <p>La estructura de los nombres para los posts, es</p>
-<pre class="literal-block">
-tipo-materia-año-numero-titulo
+<pre class="literal-block">tipo-materia-año-numero-titulo
 plan-matematica3-2020
-cla-matematica3-2020-01-diagnostico
-</pre>
-</div>
-</div>
-</div>
-<div class="section" id="links-de-interes">
-<h2><a class="toc-backref" href="#id10">Links de interes</a></h2>
+cla-matematica3-2020-01-diagnostico</pre>
+</section>
+</section>
+</section>
+<section id="links-de-interes">
+<h2><a class="toc-backref" href="#toc-entry-10" role="doc-backlink">Links de interes</a></h2>
 <p>En los siguientes links hay información interesante que voy a ir agregando.</p>
 <ul class="simple">
-<li>Plugin para sublimetext que hace mas facil trabajar con restructuerdtext <a class="reference external" href="https://packagecontrol.io/packages/Restructured%20Text%20%28RST%29%20Snippets#headers">acá</a></li>
-<li><a class="reference external" href="http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html#inserting-code-and-literal-blocks">Buena guía de atajos para rest</a></li>
-<li><a class="reference external" href="https://jiaweizhuang.github.io/blog/nikola-guide/">una página</a> con un tutorial básico sobre Nikola y links a otros tutoriales.</li>
+<li><p>Plugin para sublimetext que hace mas facil trabajar con restructuerdtext <a class="reference external" href="https://packagecontrol.io/packages/Restructured%20Text%20%28RST%29%20Snippets#headers">acá</a></p></li>
+<li><p><a class="reference external" href="http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html#inserting-code-and-literal-blocks">Buena guía de atajos para rest</a></p></li>
+<li><p><a class="reference external" href="https://jiaweizhuang.github.io/blog/nikola-guide/">una página</a> con un tutorial básico sobre Nikola y links a otros tutoriales.</p></li>
 </ul>
-</div>
-<div class="section" id="el-flujo-de-trabajo">
-<h2><a class="toc-backref" href="#id11">El flujo de trabajo</a></h2>
-<p>Êl contenido online se tipea en <tt class="docutils literal">restructuredtext</tt>  usando <tt class="docutils literal"><span class="pre">sublime-text</span></tt> o <tt class="docutils literal">visual sutdio code</tt>
-(editor que aún no consigo hacer funcionar del toodo bien con <tt class="docutils literal"><span class="pre">restructuredtext``luego,</span> usando ``pandoc</tt>
+</section>
+<section id="el-flujo-de-trabajo">
+<h2><a class="toc-backref" href="#toc-entry-11" role="doc-backlink">El flujo de trabajo</a></h2>
+<p>Êl contenido online se tipea en <code class="docutils literal">restructuredtext</code>  usando <code class="docutils literal"><span class="pre">sublime-text</span></code> o <code class="docutils literal">visual sutdio code</code>
+(editor que aún no consigo hacer funcionar del toodo bien con <code class="docutils literal"><span class="pre">restructuredtext``luego,</span> usando ``pandoc</code>
 se convierten  a latex para generar una versión imprimible de cada clase.
 Este flujo aún está en proceso.</p>
-</div>
-<div class="section" id="los-examenes">
-<h2><a class="toc-backref" href="#id12">Los exámenes</a></h2>
-<p>Los examenes se hacen en <tt class="docutils literal">latex</tt> aprovechando la clase <em>exam</em>, para tener mas detalles de esto, va
+</section>
+<section id="los-examenes">
+<h2><a class="toc-backref" href="#toc-entry-12" role="doc-backlink">Los exámenes</a></h2>
+<p>Los examenes se hacen en <code class="docutils literal">latex</code> aprovechando la clase <em>exam</em>, para tener mas detalles de esto, va
 a ser mejor tener una entrada de blog específica.</p>
-</div>
-</div>
-<div class="section" id="github-deploy">
-<h1><a class="toc-backref" href="#id13">Github_deploy</a></h1>
+</section>
+</section>
+<section id="github-deploy">
+<h1><a class="toc-backref" href="#toc-entry-13" role="doc-backlink">Github_deploy</a></h1>
 <p>En conf.py si estamos usando un repositorio de usuario, &quot;usuario.github.io&quot;
 la rama de deploy es la master.</p>
 <p>Si estamos usando otro repositorio la rama es &quot;gh-pages&quot;. No olvidar darle &quot;nikola build&quot; luego de estos cambios.</p>
 <p>Para que la página pueda ser publicada debemos hacer, desde el terminal y en la carpeta donde
 esta nuestra página</p>
-<pre class="code text"><a name="rest_code_c17b64e9f5164aa7a7941a7048e45eb4-1"></a>git init .
-<a name="rest_code_c17b64e9f5164aa7a7941a7048e45eb4-2"></a>
-<a name="rest_code_c17b64e9f5164aa7a7941a7048e45eb4-3"></a>remote add origin https://github.com/usuario/repositorio.git
+<div class="code"><pre class="code text"><a id="rest_code_87747078db294bb99eac4e3220c19821-1" name="rest_code_87747078db294bb99eac4e3220c19821-1" href="#rest_code_87747078db294bb99eac4e3220c19821-1"></a>git init .
+<a id="rest_code_87747078db294bb99eac4e3220c19821-2" name="rest_code_87747078db294bb99eac4e3220c19821-2" href="#rest_code_87747078db294bb99eac4e3220c19821-2"></a>
+<a id="rest_code_87747078db294bb99eac4e3220c19821-3" name="rest_code_87747078db294bb99eac4e3220c19821-3" href="#rest_code_87747078db294bb99eac4e3220c19821-3"></a>remote add origin https://github.com/usuario/repositorio.git
 </pre></div>
+</section>

@@ -1,0 +1,152 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="751px" height="401px" viewBox="-0.5 -0.5 751 401" content="&lt;mxfile&gt;&lt;diagram id=&quot;zfLfPURot5jM9WYAcK8P&quot; name=&quot;Página-1&quot;&gt;1ZrNcpswFIWfhm1G4iIEy8RJm007nabTrmVQbLWy5REQJ336CiNsE5HEbiiizkxsrn4sjj7pHjQOYLZ6/KjZZvlJ5VwGIcofA7gOwhADjcxbHXlqIilGTWChRW4rHQJ34je3wbZaJXJedCqWSslSbLrBTK3XPCs7Maa12nar3SvZ/dYNW3AncJcx6UZ/iLxc2rtA6BC/5WKxbL85bktWrK1sA8WS5Wp7FIKbAGZaqbL5tHqccVmL1+rStPvwQul+YJqvy1MahE2DByYre293fBHMILi6XNfDq2ppxUbVk8XNP7XhmmViVwPW9h7Kp1YY07mZA3NxdS+knCmp9K4A7kn9V8fVujyKNy8TL0qtfvGjknj3MiV2hFyX/PHFu8R77Qx0XK14qZ9MFdsAEGmaWN4iq/72MHmY2tjyaOLaGLO8LPY9HyQ1H6yq/QqDo/AVMwo9V06rap3zug121csJT/KoT6UknMNQKmGAC4QowSkBHBKEk45omLiqJT2iwQCiRY5oLmq5WZL2ksu52t4cAle7gCmo9RBm3e4Fqlt15ClUpTPeWQwl0wtedmbvBBE1l6wUD93e36MBcTT4wuV+IbJFxaYIUYQMQxFNCCaxy9AejhEYir0wBC5DxB9DqcuQyNQb3DCd2ZSLejbyJONZ1kfRPCERQQNt2KTGCCU0SVGNUdilKB2PotZy+N+KUn8YYeyIcCtyXbuAS1xJc1tFUK83wLv5n4XBJZqr1Zy/hZoXuIwd6+AE9DSchnAD2DVcY+CUujjh03UbnifXFH3lBdcPZ6Y0jk1So328pDEFNlBKi8N6MzL2B5rNCDr04IiMtxlNxhdhj8YIu87oc5VJboZSnMfPWL4aXdBpeCI8GVOEPboiTB0VvlV6LtbMyWJsV21jsJggWOFuY4I4olGMUkiePeWOClYyGbCoR7Bcv12DpRbszI1pHCPUPKxhjCFMeh74T/VFQ/AT+rHZfb7Io88O3/TZ7gaVVatKvnIkNwHOIEov0pTShGKTBzGi/jCbjP0+Q8XhMXPt97Uw/ltOEZ4IdvAkEKLmVDLyR48f+91Hj0f73XMw+b1xSGjOfipnhzIjzMVKmHFO8jSARH93GhAPAZQfO/4PMpxt+kUJ0+NB2+QFbdsuGqZtq2e67YdxmpSup3dSJzpi8315c5yDh+gZmnuX9Aaa0RBo+jH0uMfRhx4dfc8JeuPoG7CKLlRqXijJy0meYhF47RTrVLSGSKPgx+v3ouXR7INr9ts8+p8g9frB6KhI+fH1fUiBR2MPwxj7ceiheDL0+PH1vfSMZ+zN5eF3Ro3jOvxaC27+AA==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <ellipse cx="350" cy="35" rx="85" ry="35" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+        <g fill="#333333" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="349.5" y="39.5">
+                Según su tipo de operación
+            </text>
+        </g>
+        <rect x="93.01" y="110" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="132.51" y="129.5">
+                Base
+            </text>
+        </g>
+        <path d="M 350 70 L 350 80 Q 350 90 340 90 L 143.01 90 Q 133.01 90 133.01 96.82 L 133.01 103.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 133.01 108.88 L 129.51 101.88 L 133.01 103.63 L 136.51 101.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="0" y="190" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="39.5" y="209.5">
+                Pelo de agua
+            </text>
+        </g>
+        <path d="M 133.01 140 L 133.01 155 Q 133.01 165 123.01 165 L 50 165 Q 40 165 40 174.32 L 40 183.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 40 188.88 L 36.5 181.88 L 40 183.63 L 43.5 181.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="310" y="250" width="80" height="30" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="349.5" y="269.5">
+                Pico
+            </text>
+        </g>
+        <path d="M 350 70 L 350 150 Q 350 160 350 170 L 350 243.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 350 248.88 L 346.5 241.88 L 350 243.63 L 353.5 241.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="120" y="330" width="80" height="70" rx="10.5" ry="10.5" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="159.5" y="362.5">
+                Hidráulicas
+            </text>
+            <text x="159.5" y="376.5">
+                bombeo
+            </text>
+        </g>
+        <path d="M 350 280 L 350 295 Q 350 305 340 305 L 170 305 Q 160 305 160 314.32 L 160 323.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 160 328.88 L 156.5 321.88 L 160 323.63 L 163.5 321.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="580" y="105" width="80" height="30" rx="4.5" ry="4.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="619.5" y="124.5">
+                Reserva
+            </text>
+        </g>
+        <path d="M 350 70 L 350 79 Q 350 88 360 88 L 610 88 Q 620 88 620 93.32 L 620 98.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 620 103.88 L 616.5 96.88 L 620 98.63 L 623.5 96.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="90.7" y="190" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="130.2" y="209.5">
+                Nucleares
+            </text>
+        </g>
+        <path d="M 133.01 140 L 133.01 155 Q 133.01 165 131.86 165 L 131.28 165 Q 130.7 165 130.7 174.32 L 130.7 183.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 130.7 188.88 L 127.2 181.88 L 130.7 183.63 L 134.2 181.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="180" y="190" width="80" height="30" rx="4.5" ry="4.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="219.5" y="202.5">
+                Turbina
+            </text>
+            <text x="219.5" y="216.5">
+                a vapor
+            </text>
+        </g>
+        <path d="M 133.01 140 L 133.01 155 Q 133.01 165 143.01 165 L 210 165 Q 220 165 220 174.32 L 220 183.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 220 188.88 L 216.5 181.88 L 220 183.63 L 223.5 181.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="200" y="330" width="80" height="30" rx="4.5" ry="4.5" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="239.5" y="349.5">
+                Turbogas
+            </text>
+        </g>
+        <path d="M 350 280 L 350 295 Q 350 305 340 305 L 250 305 Q 240 305 240 314.32 L 240 323.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 240 328.88 L 236.5 321.88 L 240 323.63 L 243.5 321.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="310" y="330" width="80" height="30" rx="4.5" ry="4.5" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="349.5" y="342.5">
+                Hidráulica
+            </text>
+            <text x="349.5" y="356.5">
+                acumulación
+            </text>
+        </g>
+        <path d="M 350 280 L 350 295 Q 350 305 350 314.32 L 350 323.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 350 328.88 L 346.5 321.88 L 350 323.63 L 353.5 321.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="400" y="330" width="80" height="30" rx="4.5" ry="4.5" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="439.5" y="349.5">
+                Diesel
+            </text>
+        </g>
+        <path d="M 350 280 L 350 295 Q 350 305 360 305 L 430 305 Q 440 305 440 314.32 L 440 323.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 440 328.88 L 436.5 321.88 L 440 323.63 L 443.5 321.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="500" y="330" width="80" height="60" rx="9" ry="9" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="539.5" y="357.5">
+                Vapor bajo
+            </text>
+            <text x="539.5" y="371.5">
+                rendimiento
+            </text>
+        </g>
+        <path d="M 350 280 L 350 295 Q 350 305 360 305 L 530 305 Q 540 305 540 314.32 L 540 323.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 540 328.88 L 536.5 321.88 L 540 323.63 L 543.5 321.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="400" y="180" width="80" height="40" rx="6" ry="6" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="439.5" y="197.5">
+                Hidráulica
+            </text>
+            <text x="439.5" y="211.5">
+                acumulación
+            </text>
+        </g>
+        <path d="M 620 135 L 620 148 Q 620 158 610 158 L 450 158 Q 440 158 440 165.82 L 440 173.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 440 178.88 L 436.5 171.88 L 440 173.63 L 443.5 171.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="490" y="180" width="80" height="30" rx="4.5" ry="4.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="529.5" y="192.5">
+                Turbogás
+            </text>
+            <text x="529.5" y="206.5">
+                obsoleta
+            </text>
+        </g>
+        <path d="M 620 135 L 620 148 Q 620 158 610 158 L 540 158 Q 530 158 530 165.82 L 530 173.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 530 178.88 L 526.5 171.88 L 530 173.63 L 533.5 171.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="580" y="180" width="80" height="30" rx="4.5" ry="4.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="619.5" y="192.5">
+                Vapor
+            </text>
+            <text x="619.5" y="206.5">
+                obsoleta
+            </text>
+        </g>
+        <path d="M 620 135 L 620 148 Q 620 158 620 165.82 L 620 173.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 620 178.88 L 616.5 171.88 L 620 173.63 L 623.5 171.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="670" y="180" width="80" height="30" rx="4.5" ry="4.5" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="709.5" y="199.5">
+                Diesel
+            </text>
+        </g>
+        <path d="M 620 135 L 620 148 Q 620 158 630 158 L 700 158 Q 710 158 710 165.82 L 710 173.63" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 710 178.88 L 706.5 171.88 L 710 173.63 L 713.5 171.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+</svg>

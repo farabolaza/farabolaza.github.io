@@ -20,6 +20,8 @@ para las clases.
 
 .. [SO] Algun libro, de algun autor, de alguna editorial, 1994
 
+.. publication_list:: D:/Proyectos_Python/blogs/farabolaza/posts/bib-m3.bib
+
 Otros materiales
 ----------------
 

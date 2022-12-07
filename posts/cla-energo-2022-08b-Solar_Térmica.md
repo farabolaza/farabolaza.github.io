@@ -1,0 +1,410 @@
+---
+title: 08 Energía solar térmica
+slug: cla-energo-2022-08b-solar-termica
+date: 2022-12-05
+tags: 
+category: energo
+link: 
+description: 
+type: text
+has_math: true
+hidetitle: true
+template: postb.tmpl
+---
+
+# Energía Solar Térmica
+
+## Formas de aprovechamiento
+Los flujos que la Tierra recibe de las denominadas energías renovables derivan, en su mayor parte, de la energía radiante procedente del Sol que intercepta la Tierra. En cierta medida, todo flujo de energía en la tierra tiene su origen en la radiación que recibe del Sol.
+
+Esta radiación es la responsable de la existencia de todas las formas de vida que se han producido en eras pretéritas y de las existentes en el presente. Para que la vida pueda desarrollarse en la diversidad de formas en que aparece, en la atmósfera son necesarias determinadas condiciones de temperatura, presión y con centración de oxígeno, e incluso la existencia de moléculas con efecto invernadero, que son una consecuencia de procesos desencadenados por la energía que llega desde el Sol.
+
+Los seres humanos reconocieron desde antiguo la conexión que el Sol tiene con la vida y los ciclos de la Naturaleza, e inicialmente lo consideraron como una deidad. Más adelante aprendieron a hacer uso racional de la luz y el calor.
+
+En el momento presente se consigue hacer un uso directo de la radiación solar aprovechando de forma activa la radiación térmica por medio de **colectores solares**, que son dispositivos que convierten energía radiante en calor de baja temperatura (<100 *C), para suministro de calefacción y agua caliente en viviendas y edificios institucionales y para calentar el agua de piscinas. 
+
+```
+Una de las primeras documentaciones de las aplicaciones de la energía solar térmica se encuentra en el Código de Regulaciones de Zhou, un documento gubernamental sobre la organización y las leyes de la dinastía Zhou Occidental (siglo XI a. C. - 771 a. C.) . Una entrada en ese libro dice: “El fabricante de fuego usa un encendedor solar para encender un fuego usando la luz del sol”. Mo-zı, un filósofo y físico que vivió en la dinastía Zhou (468 a. C. - 376 a. C.), expuso las propiedades de imagen de los espejos cóncavos. En ese momento se había logrado una buena comprensión cuantitativa. Hasta la fecha, se han encontrado numerosos encendedores solares de este tipo en varias tumbas de la dinastía Zhou.
+```
+
+Otra forma de aprovechamiento de la energía solar térmica se lleva a cabo en los **motores térmicos solares**. En estos dispositivos se consiguen, por medio de concentradores de radiación, temperaturas suficientemente elevadas como para evaporar un fluido y dotarlo de una energía de expansión que permite imprimir rotación a rotores de turbinas, cuyo eje transmite energía cinética de rotación al eje de un generador eléctrico, dando lugar a la producción de electricidad, una forma de energía de grado elevado. 
+
+![test](/images/test.drawio.svg)
+
+Estos procesos de transformación de energía térmica, que es una energía de bajo grado termodinámico, en energía eléctrica, de grado termodinámico elevado, son derendimiento bajo, como se explicó en el capítulo anterior, y su eficiencia de conversión ideal es la de un ciclo de Carnot. Por lo tanto, dicha eficiencia crece al aumentar la temperatura de la fuente caliente y disminuir la temperatura de expulsión del vapor o de los gases que salen de la turbina. Por ello se están investigando sistemas concentradores de radiación que permitan alcanzar temperaturas elevadas, con el fin de conseguir eficiencias de conversión de calor en electricidad lo más elevadas que sea posible.
+
+Otra forma de hacer uso de la energía térmica solar es por medio de los **sistemas de calefacción pasiva**. Se trata de conseguir que paredes, muros o cualquier otro elemento empleado en la construcción de un edificio sea capaz de absorber directamente la energía solar, de modo que reduzca o satisfaga totalmente las necesidades de calefacción del mismo. En los sistemas de calefacción pasivos se hace uso de corrientes convectivas de aire para hacer circular la energía solar almacenada en un muro u otro componente del edificio.
+
+Una forma más general de aprovechamiento de la energía solar térmica consiste en construir los edificios basándose en proyectos que permitan un uso mínimo de calefacción e iluminación artificiales. En estos casos, los arquitectos tienen que tener en cuenta las características climáticas y la latitud del lugar donde se construye el edificio, la orientación del mismo y de sus espacios interiores, y deben buscar un uso inteligente de sombras y materiales aislantes. A esta forma de construir se le denomina **arquitectura bioclimática** y, en realidad, ha sido utilizada en todas las épocas históricas. Con este tipo de edificios se trataría de conseguir un gasto energético mínimo y, consiguientemente, una mínima contaminación ambiental.
+
+## Disponibilidad de la radiación solar
+
+La energía radiante proveniente del Sol tiene su origen en una serie de reacciones de fusión, de las cuales la más importante es aquella en que cuatro átomos de hidrógeno se fusionan para dar un átomo de helio, dos positrones y dos neutrinos y energía.
+
+En la reacción se produce una transformación de masa en energía, de acuerdo con la ecuación de Einstein: $E=mc^2$, que explica la emisión: de 26,2 MeV de energía radiante por cada cuatro átomos de hidrógeno que se fusionan. El Sol emite energía al espacio aun ritmo de $3,85\cdot 10^{26} \; \mathrm{W}$. Si toda la energía generada proviniera de la reacción de fusión del hidrógeno, debería consumir 611 millones de toneladas de hidrógeno por segundo.
+
+A la Tierra está llegando energía radiante a un ritmo de $175.945 \, \mathrm{TW}$, que se ha de comparar con el ritmo global actual de consumo de energía primaria, que es de $13 \, \mathrm{TW}$. Por lo tanto, el ritmo al que llega energía solar a la Tierra es $13.534$ veces el de consumo por los seres humanos, en el momento actual. 
+
+### La constante solar $G$
+
+Si se divide $3,85\cdot 10^{26} \; \mathrm{W}$ por la super ficie de la esfera con centro en el Sol y radio igual a la distancia media Sol-Tierra ($150\cdot 10^6 \; \mathrm{Km}$), se tiene: 
+$$\text{Constante solar} = G = \frac{3,85\cdot 10^{26} \; \mathrm{W}}{4 \pi (1,5\cdot 10^{11})^2 \; \mathrm{m}^2}= 1362 \mathrm{Wm^{-2}}$$
+
+Como la trayectoria que describe la Tierra alrededor del Sol es una elipse, denominada eclíptica, uno de cuyos focos está ocupado por el Sol la irradiancia o energía solar que alcanza la Tierra varía para cada día del año siguiendo una curva.
+
+![Figura 2.1](/images/fig2-1.png)
+
+
+### Absorción y dispersión de la luz por la atmósfera
+
+La energía producida en el Sol se transmite por el espacio en forma de ondas electromagnéticas, que se desplazan a una velocidad c = 300 000 km s. Tardan, por lo tanto, 500 segundos (8 minutos y 20 segundos) en cubrir los 150 millones de kilómetros de distancia que existen entre el Sol y la Tierra. Este tipo
+de ondas no precisan de un medio material para propagarse. Las ondas electro magnéticas que llegan a la Tierra procedentes del Sol tienen longitudes de onda comprendidas entre unos 250.y 6000 nm, de la cuales la radiación visible corresponde al intervalo comprendido entre 380 y 780 nm. El conjunto de estas radiaciones forman el denominado espectro solar, que es una distribución de la densidad de potencia relativa por unidad de intervalo de longitud de onda) frente a longitud de onda.
+
+La radiación electromagnética procedente del Sol interacciona con las moléculas de los gases componentes de la atmósfera, dando lugar a la absorción y la conversión de energía radiante en calor, que es reemitido al espacio en forma de radiación de onda larga. También se producen dispersión, que es un cambio de dirección de la radiación, que depende de la longitud de onda, y reflexión, que no depende de la longitud de onda. Una parte de la luz dispersada llega a la superficie de la Tierra como radiación difusa. Como la difusión de la luz por las moléculas de los gases componentes del aire, de acuerdo con la ecuación de Rayleigh, es inversamente proporcional a la cuarta potencia de la longitud de onda, las radiaciones más dispersadas del espectro visible serán las de menor longitud de onda. Por eso el cielo tiene color azul, al ser la radiación azul más difundida que la roja. La luz solar que parece proceder directamente del Sol se denomina radiación directa, mientras que la radiación solar procedente de todas
+las demás direcciones se denomina radiación difusa. Para distinguir entre la luz reflejada por el suelo y la dispersada por la atmósfera, la radiación difusa se considera compuesta por una radiación reflejada y por una radiación celeste. En un día despejado la densidad de potencia que llega a mediodía sobre una superficie perpendicular a la dirección de la radiación es próxima a $1 \mathrm{kWm^{-1}}$ y se le denomina un sol, en la jerga de los montadores de colectores solares.
+
+En la península ibérica se tienen porcentajes de hasta un 70% de radiación directa (la que es útil para la generación de temperaturas elevadas en concen tradoresde radiación), salvo en la franja Norte, donde se pueden tener un 50% de radiación directa y un 50% de radiación difusa por término medio a lo largo del año, mientras que en Europa Central la radiación directa alcanza, por término medio, el 50%, y la difusa, un 20%. La radiación difusa puede ser útil para aplicaciones de baja temperatura, como la producción de agua caliente para calefacción y usos domésticos por medio de colectores solares.
+
+Toda la radiación ultravioleta con 4 < 0,3 um es eliminada del espectro solar que llega a la superficie por absorción por moléculas de O», Oz, O y N, y por iones derivados de ellas. De la región del ultravioleta próximo (0,3 hm < 4< 0,4 um) llega una pequeña fracción que es la causante de
+quemaduras y melanomas.
+
+La atmósfera no contaminada es casi totalmente transparente a la radia ción visible (0,4 um < 4 < 0,7 um)que forma el 45% de la irradiancia solar. Sin embargo, esta transparencia puede disminuir debido a los efectos absorbentes, con respecto a las radiaciones de estas longitudes de onda, que presentan ciertos aerosoles o partículas sólidas en suspensión, así como algunos gases contaminantes.
+
+La región del infrarrojo próximo (0,7 hm < A< 2,5 um) constituye el 46% de la irradiancia, y, de ella, hasta alrededor del 20% puede ser absorbida por vapor de agua y dióxido de carbono, que presentan bandas de absorción en este intervalo de longitudes de onda. La concentración de CO, tiene un valor, en el momento actual, de 0,03% en volumen casi constante, pero la concentración de vapor de agua puede aumentar hasta un 4% en volumen. Estas variaciones en la concentración de vapor de agua pueden dar
+lugar a fluctuaciones significativas en el flujo de radiación infrarroja cercana en ciertos puntos geográficos, y más aún si el efecto viene incrementado por la presencia de nubes. Finalmente, la atmósfera es prácticamente opaca a radiaciones del infrarrojo lejano (4 > 12 um).
+
+La Figura 2.3 muestra las distribuciones espectrales para la radiación fuera de la atmósfera, y la que se obtiene sobre la superficie de la Tierra, después de haberse producido la absorción de parte de la radiación, por los gases componentes de la atmósfera.
+
+![Figura 2.3](/images/fig2-3.png)
+
+### Reflexión de la luz solar y efecto invernadero
+
+Por término medio, de la intensidad solar extraterrestre que le llega, la Tierra refleja de nuevo al espacio alrededor del 30%. De este proceso son responsables fundamentales las nubes, aunque la superficie de la Tierra participa también en pequeña proporción, sobre todo en aquellas partes que están recubiertas de nieve y hielo. 
+
+Como la temperatura media de la biosfera puede ser de alrededor de 15 *C = 288 K, ello quiere decir que la Tierra está más caliente de lo debido y la causa es que su emitancia no es igual a la unidad, sino menor que ella, como consecuencia de que existen moléculas invernadero.
+
+Por lo tanto, para tener una temperatura media en la biosfera que permita la vida que conocemos, es necesario que £< 1, lo cual se logra gracias a la presencia de sustancias que capturan radiación térmica y no la reemiten. La emitancia, €, es una función inversa de la concentración de moléculas. invernadero, por lo que un incremento de la concentración de moléculas invernadero hace disminuir su valor , lo cual, según la Ecuación 2.7, llevaría a un incremento de la temperatura media, con el consiguiente impacto sobre el equilibrio ecológico.
+
+
+### Variación de la insolación diaria con la latitud y con la estación del año
+
+La insolación diaria, H, se define como la energía solar total por unidad de área recibida en un punto de la Tierra a lo largo de un día, y viene dada por una ecuación integral del tipo:
+$$H =\int G\cdot dt $$
+
+donde G es la irradiancia solar total (la suma de la proveniente de la radiación directa y de la difusa) en W m?, la cual varía con la inclinación con que inciden los rayos solares sobre una superficie, y con la inclinación de la propia superficie, medida por el ángulo que forma la perpendicular al plano de referencia con la vertical en el punto.
+
+Para medir el valor de H se emplean los solarímetros y también los radiómetros de cavidad activa. Esencialmente, estos dispositivos están formados por una superficie cuya temperatura se incrementa al absorber la radiación incidente, temperatura que se puede medir. Si una superficie igual, pero no iluminada, se calienta eléctricamente hasta alcanzar la misma temperatura que la superficie iluminada, la energía eléctrica consumida en este proceso sería igual a la solar recibida en en esta última superficie.
+
+Estos aparatos se utilizan para medir la radiación total, suma de las componentes directa y difusa,O bien estas componentes por separado bloqueando convenientemente con paredes protectoras la radiación que no interese.
+
+Con los resultados de estas medidas se pueden construir mapas en los que aparecen dibujadas líneas de igual insolación que permiten una buena noción de las cantidades de radiación solar que inciden sobre un país o un continente durante una determinada época del año.
+
+El valor de la insolación diaria, H, cambia cada día del año debido a los movimientos de rotación y traslación de la Tierra alrededor del Sol. La insolación recibida depende también de la inclinación que presente la superficie receptora de la radiación con respecto a la horizontal. En verano, los rayos inciden más perpendicularmente con respecto a una superficie horizontal, por lo que la radiación recibida será mayor cuanto más se aproxime el ángulo de latitud al de declinación. En el invierno en latitudes templadas, los rayos solares inciden más sesgadamente, por lo que la superficie receptora se encontrará mejor orientada en esta época del año en posiciones próximas a la vertical. Si una superficie se encuentra inclinada un ángulo igual a la latitud, se encontrará en dirección perpendicular a los rayos solares a mediodía en los meses de marzo y septiembre, como se ve en la Figura 2.9. Si se quiere conseguir que llegue más radiación en invierno, el ángulo de inclinación de la superficie deberá ser algo mayor que la latitud, mientras que la radiación recibida es mayor en verano si el ángulo de inclinación es menor que la latitud, como se ve en la Figura 2.10.
+La Figura 2.11 muestra cómo varía la insolación recibida sobre una superficie horizontal en días despejados, H;, a lo largo de los meses del año . y como función de la latitud.
+
+![H en función del día](/images/fig2-11.png)
+
+En verano puede observarse que Hj, alcanza un valor de alrededor de 25 MJ m*día”? cualquiera que sea la latitud. En invierno se ve que la latitud influye mucho en los valores medidos para A, ya que, al aumentar la latitud, el día se hace más corto, la luz del sol incide más oblicuamente y tiene que atravesar mayor espesor de atmósfera, lo que causa una mayor atenua
+ción de la radiación debido a la mayor absorción provocada por un espesor más elevado de atmósfera.
+
+En la Figura 2.12 puede verse cómo varía la insolación diaria promedio sobre una superficie con diferentes inclinaciones, en función de la época del año, en un punto situado a una latitud de 459 N. En cualquier caso, los efectos de la orientación y de la inclinación no
+son decisivos, como puede verse en la Tabla 2.1 para medidas llevadas a cabo en una localidad situada a 50% N.
+
+De forma análoga, cuando la orientación se aleja del Sur, tampoco se producen efectos particularmente drásticos sobre la insolación diaria O anual recibida sobre la superficie. En el hemisferio Norte un colector de radiación se puede adoptar cualquier orientación que se encuentre comprendida entre el Sudeste y el Sudoeste, sin que la radiación total recibida
+muestre cambios demasiado importantes. En otras palabras, una gran proporción de edificios y viviendas tienen tejados con una orientación adecuada para montar sobre ellos sistemas de aprovechamiento térmico de la energía solar.
+
+
+## Colectores solares
+
+El calor solar de baja temperatura se puede aprovechar, por medio de los denominados colectores solares, para suministrar calefacción y agua caliente a viviendas y para calentar agua para piscinas. También se pueden calentar fluidos de elevada presión de vapor y que se vaporizan a temperaturas menores de 100 *C y utilizarlos para la generación de electricidad en turbogeneradores adecuados.
+
+````
+En 1767, el científico franco-suizo Horace Benedict de Saussure diseñó y construyó el primer atrapador de calor solar que podría usarse para cocinar. La Figura  muestra el dispositivo. Está hecho de dos cajas de madera, una pequeña dentro de una grande, con aislamiento (corcho) en el medio. El interior de la caja pequeña está pintado de negro.
+````
+![plano](/images/saussure.png)
+
+La parte superior de la caja pequeña está cubierta por tres láminas de vidrio separadas, con aire entre láminas de vidrio adyacentes. Al orientar la parte superior de la caja hacia el Sol y moviéndola para mantener el vidrio perpendicular a la luz del sol, en unas pocas horas, la temperatura dentro de la caja pequeña alcanza más de 100°C. Para identificar la fuente del calor, de Saussure llevó una caja caliente a la cima del monte Cramont. Descubrió que, aunque la temperatura del aire allí es entre 5 y 10 °C más baja que en la llanura, el interior de la caja también podría alcanzar el punto de ebullición del agua. Atribuyó este efecto a la claridad del aire en la cima de la montaña, donde la radiación solar es más fuerte. 
+
+El experimento de Horace de Saussure es una demostración del efecto invernadero y motivó a Joseph Fourier a explicar la temperatura de equilibrio de la Tierra mediante la absorción infrarroja de la atmósfera terrestre haciendo una analogía con la caja caliente de Saussure donde las láminas de vidrio mantienen el calor en su interior.
+
+Para todas las aplicaciones de energía solar térmica, el primer paso es convertir la energía de la radiación solar en calor. Tanto desde el punto de vista de los materiales como de la estructura mecánica, el requisito clave es absorber la mayor cantidad posible de luz solar y perder la menor cantidad de energía térmica posible. 
+
+Se utilizan tres métodos: superficie de absorción selectiva, vacío para bloquear la conducción y convección de calor, y luz solar enfocada para cambiar la proporción del área de superficie absorbente y el área de superficie emisora.
+
+### Clasificación de los colectores
+
+<img src="/images/colectores.drawio.svg" alt="drawing" width="800"/>
+
+Los métodos empleados en el principio de funcionamiento pueden resultar complementarios, existiendo superficies de absorción selectiva en los colectores de tubos de vacío de vidrio (para bajas presiones) o en los de otros materiales más resistentes que suelen utilizarse para altas presiones.
+
+### Superficies de absorción selectiva
+
+En la siguiente figura se muestra la densidad de potencia espectral relativa de la radiación solar y de los cuerpos calientes. Como se muestra, el pico de radiación solar es de alrededor de 0,5 μm. Por otro lado, la radiación de un cuerpo caliente a 400◦Cis4 μm y la del agua hirviendo es de 8 μm. El espectro de radiación de cuerpo negro de un líquido caliente está bien separado del de la radiación solar. Por lo tanto, al diseñar un material que tenga una alta capacidad de absorción para longitudes de onda inferiores a 2 μm y una baja emisividad para longitudes de onda más largas, se puede maximizar la absorción de la radiación solar y minimizar la pérdida de radiación.
+
+<img src="/images/espectrocompara.png" width="600"/>
+
+Por lo tanto, el requisito de una superficie absorbente selectiva ideal es una baja reflectividad para longitudes de onda inferiores a 2 μm y una alta reflectividad para longitudes de onda más largas.
+
+Los requisitos para un recubrimiento de absorción selectiva son los siguientes: 
+1. Alta absorbencia solar, idealmente α = 90% a 97% 
+2. Baja emisividad térmica, idealmente ε = 3% a 10%
+3. Durable a la temperatura de trabajo, por ejemplo, 30 años a 400° 
+4. Estable en el aire 
+5. Fabricación a gran escala de bajo costo
+
+Existen varios tipos de superficies de absorción selectiva: 
+
+1. Absorbentes selectivos intrínsecos, como los semiconductores 
+2. Espejo metálico recubierto con una fina capa de absorción 
+3. Película fina con una ventana de transmitividad sobre una cubierta transparente. 
+4. Película de interferencia multicapa
+
+Debido a la alta estabilidad, alto contraste y relativa facilidad de producción en masa, un 
+espejo de metal recubierto con una fina capa de absorción es el tipo más popular de superficie selectiva. El espejo puede estar hecho de cualquier metal de alta reflectividad para la radiación infrarroja, como cobre, aluminio, níquel y acero inoxidable. La película de absorción se hace de óxidos metálicos y se los denomina "espejos oscuros".
+
+<img src="/images/reflectividad.png" width="800"/>
+
+### Colectores planos
+
+Una de las formas más sencillas de utilizar la energía solar es en aplicaciones en
+las que no es necesario alcanzar temperaturas elevadas, como calentar aire y agua para calefacción y agua para usos domésticos. Este tipo de dispositivos, que no forman parte del edificio al que se adosan, se denominan de calefacción solar activa, para distinguirlos de la calefacción solar pasiva, que es la que se obtiene por acumulación de calor en muros u otros elementos pertenecientes al edificio, los colectores planos, forman parte de esta categoría.
+
+Los colectores planos absorben tanto la radiación directa como la difusa, por lo que siguen calentando aire o agua incluso en días nublados. Además, son relativamente baratos, por lo que cada vez está más extendida su utilización.
+
+Algunos modelos de colectores de placa plana junto con los aumentos de temperatura a
+que pueden dar lugar.
+
+![](/images/fig2-18.png)
+
+Para sistemas de alta temperatura, por ejemplo, sistemas de energía solar térmica que funcionan a 400–500 C, especialmente con un requisito de estabilidad en el aire, se prefiere un recubrimiento de cermet. Un cermet es un material compuesto, mezcla De materiales cerámicos (cer) y metálicos (met) que pueden tener las propiedades tanto de una cerámica, como resistencia a altas temperaturas y dureza, como de un metal, como la capacidad de sufrir deformación plástica. 
+
+Por lo tanto, los recubrimientos cermet diseñados correctamente pueden soportar altas temperaturas y son estables en el aire. La Figura debajo muestra el espectro de reflectividad de una superficie con un compuesto de cermet AlN sobre una base de acero inoxidable. Como se ve, se aproxima al comportamiento ideal.
+
+<img src="/images/selectivas.png" width="600"/>
+
+### Cálculo del balance de calor en un colector de placa plana
+
+Los colectores de placa metálica y tubos consisten en una placa de metal ennegrecida a la que se encuentran adosados una serie de tubos dispuestos paralelamente, a través de los cuales circula agua. Todo ello lleva un aislamiento térmico en los costados y en la parte posterior, y va cubierto con una placa de vidrio que actúa como protección delantera. Al recibir la energía solar, la temperatura de la placa se eleva desde la temperatura ambiente temperatura Ta a Tp (temperatura de placa).
+
+El componente principal del colector es la placa, la cual está protegida por una cubierta transparente, de vidrio o plástico que se caracteriza por una transmitancia que es elevada para las radiaciones componentes del espectro solar y muy baja para las radiaciones del infrarrojo lejano y que protege a la placa del viento.
+
+La resistencia térmica entre la placa y los tubos y en el espacio existente entre los tubos tiene que ser lo menor posible. Los tubos pueden tener un diámetro de unos 2 cm y estar separados 20 cm entre sí. El espesor de la placa puede ser de unos 0,3 cm.
+
+Si la diferencia de temperaturas no es demasiado grande, la pérdida de calor es proporcional a la diferencia de temperatura. En todos los casos prácticos, el área del panel, FA, es mucho mayor que el área del borde, por este motivo, se puede despreciar el efecto de borde. Así, La pérdida de calor también es proporcional al área de la placa caliente.
+
+$$Q_l = U_lFA(T_p-T_a) $$
+
+Como la energía recibida por la placa esta dada por
+
+$$Q_i = FA\tau\alpha P_0 $$
+
+La eficiencia resulta de reacomodar estas dos expresiones
+
+$$\eta = \frac{Q_i-Q_l}{P_0 A} = F \left( \tau \alpha \frac{1}{P_0}U_l(T_p-T_A) \right) $$
+
+$F$ es la porción de area que efectivamente absorve del área total $A$, $\alpha$ el coeficiente de absorción y $P_0$ es a potencia recibida en la entrada. Por lo tanto, el problema de la eficiencia del colector de calor solar se reduce a la evaluación del coeficiente de pérdida de calor $U_l$. La determinación analítica no es algo trivial, debido a que muchos factores contribuyen a este factor de pérdida. A saber:
+
+1. La conducción a través del aislamiento de la parte posterior es fácil de cuantificar, ya que el factor de pérdida correspondiente es igual a $k_i/h_i$, la conductividad térmica y el grosor del material aislante.
+2. La conducción a través del espacio de aire también es fácil de cuantificar, ya que el factor de pérdida correspondiente es igual a $k_a/h_a$, la conductividad térmica y el espesor del aire.
+3. La convección en el espacio aéreo es difícil de cuantificar. Tiene una dependencia complicada del espaciado y el ángulo de inclinación.
+4. La convección fuera de la cubierta de vidrio depende no solo de la temperatura sino también de la velocidad del viento del aire ambiente.
+5. Radiación. La radiación térmica del panel llega primero al panel de vidrio. Esencialmente absorbe la mayor parte de la radiación. El panel de vidrio, al ser calentado, irradia nuevamente al ambiente.
+
+![colectorplano](/images/fig2-19.png)
+
+
+<img src="/images/plano.png" width="800"/>
+
+En la práctica se aplican fórmulas empíricas y programas de ordenador que permiten calcular en poco tiempo los coeficientes de pérdida de colectores de diferente forma y tamaño con una precisión relativamente buena.
+
+El funcionamiento de un colector de placa plana, y sobre todo su eficiencia a temperaturas elevadas, se puede mejorar reduciendo la transferencia convectiva entre la placa y la cubierta de vidrio externa añadiendo otra cubierta de vidrio y reduciendo las pérdidas radiativas de la débilmente emisora.
+
+La curva F1 muestra la eficiencia a plena luz del sol, 1 kW/m2, con una cubierta de vidrio; F2 para dos tapas de vidrio. La curva H1 muestra la eficiencia bajo la mitad de la luz solar total, 0,5 kW/m2, con una cubierta de vidrio; H2 para dos tapas de vidrio. A medida que aumenta la temperatura de la placa, la eficiencia se deteriora rápidamente debido a la pérdida de calor a través de la cubierta de vidrio superior. En algún momento, la pérdida de calor supera la energía solar recibida por el panel y la eficiencia se vuelve cero.
+
+<img src="/images/eficienciaplano.png" width="500"/>
+
+El agua o el fluido utilizado para transportar el calor, una vez calentado en los tubos, pasa a un depósito de almacenaje aislado, que para usos domésticos puede contener un volumen de 100 a 200 litros de agua caliente. El agua puede llevarse de los tubos al depósito por circulación forzada mediante una bomba (véase la Figura 2.23), o bien colocando el depósito a una altura mayor que la del colector para aprovechar el poder ascensional que le confiere al agua caliente su menor densidad con respecto al agua fría, sistema denominado de circulación de agua por efecto termosifón. En el primer caso, la velocidad de bombeo de agua suele ajustarse de tal modo que la temperatura del agua aumente alrededor de 4 C cada vez que pasa a través del colector, utilizando bombas baratas de una sola velocidad de bombeo. Como el aumento de temperatura en cada paso depende de la irradiancia solar, G, y de la temperatura de entrada en los tubos, el incremento de 4 C solo será posible si se cumplen una serie de condiciones.
+
+Los colectores solares térmicos se aplican en la producción de agua caliente para usos domésticos, hoteleros, hospitalarios, en instalaciones comerciales, deportivas, industriales, agrícolas, para calefacción doméstica por suelo radiante, calefacción de piscinas, etc.
+En algunos países del Norte de Europa, como Inglaterra o Dinamarca se ha tratado de extender el concepto de calor solar activo no sólo para proveer de agua caliente sanitaria, sino tratando de cubrir todas las necesidades térmicas de baja temperatura de una vivienda o de una urbanización. Para ello se recurre a superficies suficientemente extensas de colectores solares, situados sobre los tejados y orientados hacia el Sur. En el Reino Unido. se construyó una vivienda experimental sobre cuyo tejado se fijaron 36 $m^2$ de colectores solares, que producían agua caliente que se llevaba a un depósito de 4,5 $m^3$ que estaba conectado a un calentador de gas. Se comprobó que con ese dispositivo era posible atender alrededor de la mitad de las necesidades energéticas de baja temperatura de la casa. Análogamente, pudo estimarse que el mismo ahorro energético se podía conseguir en una vivienda construida con buenos materiales aislantes y con la orientación adecuada.
+
+### Tubos de vacío de vidrio
+
+Como se vió antes, el factor individual más importante que afecta la eficiencia de los colectores de calor solar es la pérdida de calor a través de la cubierta superior. Ya en 1911, William L. R. Emmet inventó los colectores de calor de tubos de vacío que, en principio, podrían resolver por completo el problema de la pérdida de calor por la cubierta superior. Se necesitaron 80 años para hacerlos aptos para la producción en masa. La figura siguiente muestra un moderno colector solar térmico de tubos de vacío. Está hecho de dos tubos de vidrio concéntricos sellados en un extremo. El espacio intermedio está evacuado, a vacíos no muy elevados.
+
+<img src="/images/vacio.png" width="800"/>
+
+Se coloca un espaciador de metal entre los tubos para sostener los tubos y como fuente para el absorbente, generalmente una mezcla de bario y titanio. Después de ser sellado, el soporte del abosrobente se calienta desde el exterior utilizando energía de microondas para evaporar el material absorbente sobre la superficie interna de los tubos de vidrio. Por lo tanto, se puede mantener un alto vacío. Los tubos de vacío de buena calidad deben tener un vacío superior a $10^-4$ Pa o $10^−6$ Torr. 
+
+Se aplica un revestimiento de absorción selectivo en la superficie exterior del tubo de vidrio interior. Por lo tanto, el recubrimiento selectivo siempre se realiza bajo alto vacío, por lo que tiene una ventaja significativa sobre el colector de calor de panel plano, ya que no se requiere un recubrimiento selectivo estable en el aire y el recubrimiento podría permanecer intacto prácticamente para siempre. Además, se puede aplicar una película antirreflectante sobre el revestimiento de absorción selectiva incluso si la película no es estable en el aire.
+
+Otra ventaja sobre el colector de calor de panel plano es que los materiales son económicos y abundantes y se pueden producir en masa a un costo muy bajo. Hasta la fecha, en China se producen anualmente 200 millones de tubos de vacío. Una consideración importante es que la relación de área F es mucho menor que 1 para los tubos de vacío, porque el diámetro del tubo interior determina el área efectiva de absorción, y cuando los tubos se instalan en un sistema, debe haber espacio entre los tubos exteriores adyacentes. Normalmente, el espacio es de 20 mm. La relación de área típica F =47/(58 + 20) ≈ 0,6. El factor F más pequeño en realidad no es una desventaja seria siendo que en aplicaciones residenciales, siempre hay más espacio en el techo del necesario.
+
+A continuación vemos diferentes tipos de colectores planos y de tubos de vació para distintas temperaturas de operación: Para clima soleado y requisitos bajos de Tp-Ta, el sistema de panel plano claramente tiene una ventaja debido a la alta relación de área F. Para clima nublado y requisitos altos de Tp-Ta, el sistema de tubo de vacío es mejor porque las pérdidas por convección y conducción son eliminadas. En la gráfica, las pérdidas en los sistemas de tubos de vacío incluyen a las del tanque al que generalmente se conectan en los sistemas de calentamiento de agua.
+
+<img src="/images/vaciovsplano.png" width="500"/>
+
+### Colectores de termosifón
+
+Los colectores de energía solar de tubos de vacío se utilizan principalmente para calentadores de agua solares de flujo directo, donde el agua utilizable va directamente a los tubos y las diferencias de presión son debidas a la gravedad. Sin embargo, el sistema podría contaminar el agua caliente. Para los sistemas que requieren agua caliente a presión y un saneamiento más estricto, se utilizan colectores de calor solar termosifón.
+
+<img src="/images/termosifon1.png" width="500"/>
+
+La figura de arriba muestra una sección transversal de un colector de calor solar termosifón.El  centro es un tubo de metal sellado típicamente hecho de cobre. Hay una pequeña cantidad de líquido volátil en el tubo de metal, generalmente agua. El tubo de metal está conectado con aletas de metal cubiertas con recubrimientos de absorción selectiva. El tubo de metal central está montado sobre una brida también metalica, normalmente de acero inoxidable. Se forma una junta vidrio-metal entre la brida y el tubo de vidrio. Se genera un vacío en el tubo de vidrio. El tubo debe instalarse en una posición inclinada con el evaporador en la parte superior. Con la luz del sol cayendo sobre las aletas de metal, el líquido en el tubo de metal se evapora y luego se condensa en la parte superior, que se conecta térmicamente a donde se desee calentar.
+
+Un problema técnico clave es la formación de la unión vidrio-metal. Una tecnología ampliamente utilizada es una junta de metal de punto de fusión relativamente bajo, como estaño, plomo o aluminio. Calentando la junta bajo presión a una temperatura más baja pero cercana al punto de fusión de la junta metálica, se puede formar una buena junta. El alto vacío en el tubo ejerce una presión constante sobre la unión vidrio-metal; por lo tanto, la probabilidad de una fuga es pequeña. En comparación con los tubos de vacío de vidrio, los colectores de calor solar por termosifón tienen varias ventajas. Primero, debido a que no hay agua corriente en los tubos,puede soportar el frío intenso sin romper el vidrio. En segundo lugar, debido a que la masa térmica del tubo es mucho menor que la del agua en los tubos de vidrio, el tiempo de puesta en marcha es mucho más corto. En tercer lugar, incluso si uno de los tubos de vidrio se rompe, por ejemplo, por impacto de granizo, no hay fugas de agua. En cuarto lugar, debido a que el agua caliente no fluye por los tubos, el tanque se puede presurizar y hacer funcionar agua limpia a presión. Por último, debido a que el líquido regresa al fondo del tubo sifón por gravedad, hay un efecto de diodo térmico: el calor solo fluye del colector al tanque y no se puede revertir. Sin embargo, debido a la estructura de metal y la junta de vidrio y metal, el costo es mucho más alto que los tubos de vidrio.
+
+### Colectores de tubos de vacío para altas presiones
+
+Para aplicaciones de energía solar térmica, el fluido de trabajo dentro del tubo no es agua caliente. Es aceite a alta temperatura (300°C o más) o vapor sobrecalentado a alta presión (10 – 100 atm). El tubo de vidrio no resistiría tal temperatura y presión. El tubo interior debe estar hecho de un metal fuerte, típicamente acero inoxidable. El tubo exterior debe ser transparente, de vidrio. Por lo tanto, existe un problema de desajuste de los coeficientes de expansión térmica y se requiere una junta de metal y vidrio. La estructura típica de un colector de calor solar de este tipo se muestra en la figura de abajo. El núcleo es un tubo de acero inoxidable recubierto con una película de absorción selectiva. Ambos extremos están equipados con fuelles de extensión. A través de una junta de vidrio y metal, cada lado se une a un extremo del tubo de vidrio. Se dibuja un vacío entre el tubo de acero inoxidable y el tubo de vidrio. Se incluye un captador (getter) para mantener un buen vacío.
+
+<img src="/images/termosifon2.png" width="700"/>
+
+## Calentadores de agua
+
+<img src="/images/calentadores.drawio.svg" width="600"/>
+
+### Flujo directo
+Los sistemas de calentamiento de agua utilizan algunas de las técnicas descritas mas arriba para los colectores. El calentador de agua solar más popular es el sistema de flujo directo de agua que utiliza colectores de calor solar de tubo de vacío de vidrio.
+Por lo general, se instala en el techo de una casa unifamiliar o un edificio de apartamentos. El agua caliente fluye simplemente por gravedad. Debido al bajo costo de fabricación como resultado de la producción en masa a gran escala, siempre que se pueda usar un sistema de este tipo, la inversión se puede recuperar en unos pocos años. Después de pagar el costo inicial, el sistema puede funcionar correctamente durante 20 a 30 años sin mantenimiento. El problema con estos sistemas son la contaminación del agua y la rotura de los tubos que deja a todo el equipo fuera de servicio. Como alternativa, se tienen los sistemas con tubos de vacío de termosifón y tanques de almacenamiento que pueden ser presurizados.
+
+### Termosfión y tanque
+
+Al utilizar los colectores de termosifón en lugar de los tubos de vacío de vidrio, el agua caliente corriente no entra en contacto con los colectores de calor. La transferencia de calor se realiza a través de los evaporadores del colector y los bloques (generalmente de cobre) dentro del tanque de agua. El agua dentro del tanque se puede limpiar a fondo. Si uno de los tubos colectores se rompe, el resto de los tubos colectores mantendrán el sistema funcionando, aunque la potencia se reduce ligeramente, hasta que se vuelva a instalar un tubo colector de repuesto. La Figura de abajo muestra una foto de dicho sistema en un techo después de más de 10 años de funcionamiento. No se observa degradación.
+
+<img src="/images/calientavacio.png" width="600"/>
+
+### Presurizados con intercambiadores de calor
+
+Se puede formar un sistema mucho más limpio instalando una serpentina de intercambio de calor dentro del tanque de agua aislado. El agua de los tubos de vacío y del depósito de agua aislado se utiliza entonces únicamente para el intercambio de calor. El agua caliente utilizable corre solo en la serpentína de intercambio de calor y, por lo tanto, puede presurizarse y no se contaminará con el sistema de recolección de calor.
+
+<img src="/images/presurizada1.png" width="600"/>
+
+### Con un tanque intercambiador separado
+
+Usando un tanque de agua separado y una serpentina de intercambio de calor dentro del tanque, el agua caliente utilizable está completamente aislada de los colectores de calor. La estructura típica de tal sistema se muestra debajo. El colector de calor solar se llena con un fluido de intercambio de calor que puede ser agua o un líquido anticongelante, por ejemplo, una mezcla de agua y glicerol. En un colector solar de panel plano, en regiones con temperaturas bajo cero, el líquido anticongelante es una necesidad. En los colectores de tubos de vacío, debido al magnífico aislamiento, se puede utilizar agua corriente. El fluido de intercambio de calor circula con una bomba. La temperatura del depósito de agua se mide con un termómetro. La temperatura del agua de salida se puede preestablecer mediante un controlador, que controla la estación de bombeo.
+
+<img src="/images/contanque.png" width="800"/>
+
+
+## Generación de energía eléctrica a partir de energía solar térmica de alta temperatura
+
+
+El primer dispositivo térmico solar producido en masa es el horno solar inventado por W. Adams en la década de 1870 en Bombay, India [3]. Agregó un modesto dispositivo de concentración de energía solar a la caja caliente de Saussure, como se muestra en la figura 11.3. Ocho espejos de vidrio (A) forman un reflector en forma de octágono. La luz del sol concentrada inunda la caja de madera cubierta con vidrio (B), que contiene una maceta (C). Los espejos y el cristal están inclinados para que los rayos del Sol caigan perpendiculares a la caja. Cuando el Sol se mueve, la caja se puede girar con la mano para alinearla con la luz del sol. En un artículo publicado en 1878 en Scientific American [3], Adams informó: “Las raciones de siete soldados, que consisten en carne y verduras, se cocinan completamente en dos horas, en enero, el mes más frío del año en Bombay, y los hombres declaran que la comida se cocina mucho mejor que de la manera ordinaria”. Su horno solar fue entonces producido en masa en la India y se hizo bastante popular. En los Estados Unidos, el horno solar Adams se ha convertido en un producto popular para acampar y un dispositivo educativo para estudiantes adolescentes.
+
+![adams](/images/adams.png)
+
+Ocho espejos de cristal plateado (A) forman un reflector octogonal. La luz del sol se concentra e inunda una caja de madera cubierta con vidrio (B), que contiene una olla (C). La caja se puede girar a mano para alinearla con la luz del sol. La temperatura en la caja podría superar los 200◦C [3]. El principio de concentración de la radiación es lo que utilizan casi todos los sistemas de generación de energía eléctrica a partir de energía solar térmica y su eficiencia máxima teórica es la de un ciclo de Carnot. 
+
+Para mejorar la eficiencia, la temperatura de la fuente caliente debe ser lo más alta posible. Dado que TL no puede ser inferior a la temperatura atmosférica, en promedio 300 K, para lograr una eficiencia del 50%, TH debe ser al menos 600 K, o 327 °C. Sin concentración, la temperatura difícilmente puede alcanzar los 150◦C. Para lograr una temperatura tan alta, la concentración de la radiación solar es una necesidad.
+
+Un colector concentrador está formado por un receptor que absorbe la radiación y la convierte en otra forma de energía, y por un concentrador, que es el sistema óptico que dirige la radiación solar hacia el receptor. 
+
+La forma más empleada para concentrar energía solar es por medio de reflectores parabólicos o reflectores de tipo Fresnel. Si el absorbente se coloca en el foco sobre el eje de simetría y sus dimensiones coinciden con las de la imagen del Sol cuando éste se encuentra sobre el eje de simetría del eje óptico, entonces puede conseguirse que entre radiación directa, pero sólo si se hace que el eje óptico siga al Sol. 
+
+En el caso del espejo parabólico, todos los rayos solares que entran en dirección paralela al eje del espejo son reflejados sobre el foco. A poco que la dirección de los rayos seseparase de la del eje, los rayos reflejados ya no pasarían por el foco, por lo que se hace necesario mantener el espejo siempre orientado. Esto exige hacer uso de un dispositivo que siga la trayectoria del Sol. Los espejos pueden fabricarse de modo que su foco sea un punto o una línea (que suele denominarse colector en canal). La imagen del Sol puede concentrarse en una estrecha región rectilínea sobre un tubo absorbente situado en el foco. Para mantener enfocado el Sol, el espejo suele orientarse hacia el Sur (O norte en nuestro hemisferio), por lo que el dispositivo orientador sólo precisa seguir la posición del Sol por elevación.
+
+En el caso de un concentrador sobre foco puntual, la imagen del sol se concentra sobre un evaporador situado en el centro del espejo. Para que el funcionamiento sea óptimo, el
+eje Óptico ha de apuntar en cualquier momento directamente al Sol, y por lo tanto tiene que seguir la trayectoria de éste, tanto por elevación como por azimut.
+
+Una propiedad importante de los sistemas concentradores es la relación de concentración de radiación, que viene dada por la relación entre el área del espejo reflector y la del absorbente. Un concentrador parabólico bien diseñado puede llegar a alcanzar una relación de concentración de hasta más de 1000, mientras que un colector cilíndrico parabólico podría alcanzar una relación de concentración de 50, lo que resulta suficiente para conseguir temperaturas capaces de generar vapor para mover turbinas del tipo de las que se emplean en centrales térmicas convencionales. La relación de concentración a emplear dependerá de la temperatura a la que se pretenda llegar en el punto ocupado por el foco.
+
+Como se puede ver debajo, la producción de potencia a 110 *C es nula, y alcanza un máximo de unos 30 W m? a unos 65 *C, que es una temperatura a la que es imposible generar vapor de agua. Para lograr temperaturas más elevadas hay que concentrar más radiación sobre el absorbente. La parte (b) de la figura muestra la curva de producción de electricidad en función de la
+temperatura, que se consigue con una relación de concentración de 50. Se ve que se puede alcanzar una producción máxima de unos 180 W m1? a una temperatura 7, = 500 *C. A esta temperatura se puede generar vapor de agua que actúe sobre un sistema turbina de vaporgenerador eléctrico.
+
+<img src="/images/tempcolector.png" width="800"/>
+
+La eficiencia de un concentrador de radiación, a la que también se designa como rendimiento fototérmico, trabajando en las condiciones ideales descritas, vendría dada por la relación entre la potencia extraída y la potencia que llega al absorbente procedente del espejo concentrador. La potencia que llega al absorbente viene dada por el producto A Gg, donde A es el área del espejo y Ga la irradiancia solar en el visible (radiaciones de onda corta) y con el espejo concentrador orientado en dirección perpendicular a la radiación solar do que se
+indica por medio del subíndice $\Omega$.
+
+Para poder hacer una estimación, aunque sólo sea de una forma aproximada, de las temperaturas máximas que pueden alcanzar los absorbentes solares, dependiendo del sistema de concentración utilizado, se ha llegado a alcanzar temperaturas superiores a los 700 K por medio de concentradores bidimensionales y por encima de los 4000 K empleando espejos parabólicos. Estas temperaturas son suficientemente elevadas como para lograr rendimientos relativamente elevados de conversión de calor en electricidad o en trabajo mecánico y como para llevar a cabo procesos industriales a temperaturas elevadas, logradas sin tener que recurrir a la combustión de combustibles convencionales. De ese modo se evita la genera ción de productos contaminantes que pueden influir negativamente en el transcurso del proceso.
+
+### Generación de hidrógeno verde
+
+En la Plataforma Solar de Almería (España), el Centro de Investigaciones Energéticas y Medioambientales (CIEMAT) ha montado una planta piloto degeneración de hidrógeno por medio de energía solar. El proceso de producción de hidrógeno se lleva a cabo en un reactor instalado en una torre, sobre la que se enfocan los rayos solares reflejados sobre espejos. El reactor, denominado Hydrosol II, recibe la radiación solar concentrada por los ferritas.
+
+Cuando se hace circular vapor de agua a los 800 “C. que se alcanzan, las ferritas reaccionan con el oxígeno del agua, liberando hidrógeno. El generador de hidrógeno alcanza una potencia de 100 kW térmicos y llega a producir tres kilogramos de hidrógeno por hora.
+
+
+### Motores solares
+La primera conversión de calor solar concentrado en trabajo mecánico tuvo lugar en Francia, hacia 1860. Mouchot, un profesor de Matemáticas de Tours,fabricó una imprenta movida por calor solar, destiladores solares de vino y motores solares para refrigeradores. Para ello utilizó concentradores parabólicos con un evaporador montado en el foco del espejo. El vapor se llevaba,
+por medio de tuberías, hasta un motor a vapor parecido al empleado para mover locomotoras. Debido a la baja densidad de la radiación con que trabajaban, precisaban de una superficie de unos 40 $m^2$ para mover un motor de medio caballo de potencia.
+
+A comienzos del siglo XX, Shuman aplicó en un lugar de Egipto el principio de concentración de radiación con concentradores parabólicos cilíndricos. Utilizaba cinco concentradores parabólicos de 80 m de longitud y 4 m de anchura, en cuyo foco se había colocado una tubería de hierro en la
+que: se producía vapor de agua, que se usaba para mover un motor de vapor.
+
+En 1913 este sistema llegó a producir 55 HP y, teniendo en cuenta que en Egipto el carbón era muy caro en aquel tiempo, se calculó que el tiempo de amortización del aparato podía haber sido de tan solo cuatro años.
+Hacia 1914, Shuman planeaba extender colectores solares en un área de unos 50000 $km^2$ en el Sahara, y calculaba que podrían producir 270 millones de caballos de potencia, con los cuales hubiera igualado el total de la energía obtenible a partir de todos los combustibles fósiles que se extraían entonces. Tras la Primera Guerra Mundial, los precios del petróleo disminuyeron y se olvidaron ese tipo de proyectos.
+
+En la década de 1970 se desarrollaron tres configuraciones de uso común para los sistemas de energía solar térmica autónomos: 
+
+1. El sistema de concentración cilindroparabólica 
+2. Un sistema de un receptor central con helióstatos
+3. El sistema de concentración de disco paraboloidal.
+
+Más recientemente se desarrollaron
+
+1. El sistema de Ciclo Combinado Solar Integrado (ISCC)
+2. El sistema Compact Linear Fresnel Reflector (CLFR) (muy adecuado para el ciclo combinado)
+
+En la siguiente figura vemos los datos a 2009 de a instalación de estos dispositivos:
+
+<img src="/images/produccion.png" width="800"/>
+
+### Generadores cilindro-parabólicos
+
+Hasta la fecha, alrededor de dos tercios de la electricidad generada por las centrales termosolares de concentración proviene de sistemas cilindroparabólicos. La estructura del sistema se muestra en la foto debajo. Los espejos parabólicos están montados sobre un eje para seguir al Sol. En la línea focal de los espejos parabólicos hay un colector lineal, típicamente un tubo de vacío de alta temperatura.Las plantas de energía solar más grandes son los Sistemas de Generación de Energía Solar (SEGS) en el desierto de Mojave de California. Las nueve centrales eléctricas de SEGS construidas entre 1984 y 1990 tienen una capacidad total de 354 MW. El área total de los 232.500 espejos parabólicos es de 6,5 km2, con una longitud total de 370km. La luz del sol rebota en los espejos y se dirige a un tubo central lleno de aceite sintético que se calienta a más de 400°C. La luz reflejada enfocada en el tubo central es de 71 a 80 veces más intensa que la luz solar ordinaria. El aceite sintético transfiere su calor al agua, que hierve y acciona la turbina de vapor de ciclo Rankine, generando así electricidad. 
+
+Se utiliza aceite sintético para transportar el calor (en lugar de agua) para mantener la presión dentro de parámetros manejables. El eje de los espejos parabólicos es norte-sur, que gira de este a oeste todos los días. Las piezas más caras son los espejos curvos. Los daños causados por el viento ocurren con frecuencia y cada año se reemplazan alrededor de 3000 espejos. Los espejos se limpian periódicamente con una máquina especial. Para evitar las sombras de los espejos vecinos, la distancia entre los espejos es aproximadamente el doble del ancho de los espejos. El costo de la electricidad del SEGS aún no es competitivo con las centrales eléctricas de carbón.
+
+<a href="https://www.youtube.com/watch?v=Hx1hEIOC2KI" target="_blank">ManchaSol</a>
+
+
+### Captador central con heliostatos
+
+Para lograr alta potencia en un receptor centralizado, se disponen cientos o miles de helióstatos, espejos montados en un eje bidimensional para rastrear la posición del Sol por una computadora centralizada distribuida en un campo típicamente circular u ovalado. Debido a que se pueden alcanzar temperaturas muy altas (p. ej., 565 ◦C), normalmente se utiliza vapor sobrecalentado o sal fundida como fluido de trabajo. Finalmente, impulsa una turbina de vapor de ciclo Rankine estándar para generar energía eléctrica.
+El primer proyecto piloto, Solar One, en el desierto de Mojave, se completó en 1981, y estuvo operativo de 1982 a 1986. Cuenta con 1818 espejos, cada uno de 40 m2. Se usó aceite o agua como fluido de trabajo. Se demostró una eficiencia del 6%.
+
+En 1995, Solar One se actualizó a Solar Two. Como material de trabajo se utilizó sal fundida, nitruro de sodio al 60 % y nitruro de potasio al 40 %. Se consigueron diez megavatios de potencia y se mejoró su eficiencia al 16%. 
+
+El 25 de noviembre de 2009 se demolió la torre Solar Two. Para su uso como planta de energía independiente, se requiere un sistema de almacenamiento de energía. El calor latente de la sal fundida se utiliza para el almacenamiento de energía. Sin embargo, el costo por kilovatio hora aumenta de $ 0.08 - $ 0.15 a $ 0.15 - $ 0.20 al agregar la unidad de almacenamiento de energía.
+
+<img src="/images/heliostatos.png" width="800"/>
+
+El proyecto de Cerro domador en Chile es una aplicación de esta tecnología. Ver video de
+<a href="https://www.youtube.com/watch?v=CmUT4gZ1l8c" target="_blank">Cerro Domador</a> y
+<a href="https://www.youtube.com/watch?v=LRXVBu09YoM" target="_blank">Cerro Domador2</a>.
+
+
+
+### Disco parbólico com motor Stirling
+
+El tercer tipo de planta de energía solar de concentración es el concentrador de plato paraboloidal con motor Stirling. Según un informe publicado por el Laboratorio Nacional Sandia en febrero de 2008, el sistema de motor Stirling ha demostrado una eficiencia de conversión de energía solar a red de 31.25%, la más alta de todas las conversiones de energía solar a electricidad, registrada en un día de invierno perfectamente claro y frío en Nuevo México. 
+
+
+El motor Stirling fue inventado en 1816 por Robert Stirling, un sacerdote que estudiaba ingeniería mecánica como afición y que construyó el primer motor de este tipo en el taller mecánico de su casa.
+
+<img src="/images/stirling1.png" width="800"/>
+
+Este motor es diferente de los dos motores térmicos populares, el motor de vapor y el motor de combustión interna. Similar a la máquina de vapor, utiliza una fuente de calor externa. Sin embargo, en lugar de evaporar constantemente el agua en vapor y luego desecharla, el motor Stirling usa un cuerpo fijo de gas en un cilindro cerrado. Es el motor térmico más simple: No hay válvulas. Puede acercarse a la eficiencia de Carnot. Puede funcionar con cualquier tipo de fuente de calor única; por lo tanto, la luz solar concentrada es perfecta.
+
+El calor lo proporciona la quema de madera o carbón. Un pistón encaja firmemente en un cilindro que impulsa un volante a través de un cigüeñal. Un desplazador de gas, encajado holgadamente en el cilindro, es accionado por el cigüeñal con un cambio de fase en el movimiento del pistón. El medio de trabajo, el gas, siempre está contenido en el cilindro. Los detalles de sus ciclos de trabajo se muestran en la Fig. 11.22. Durante el paso (A), el gas está frío, el desplazador está en la posición más interna y el pistón empuja hacia el interior del cilindro. Luego, la fuente caliente calienta el gas en el paso (B). Durante el paso (C), el gas caliente en expansión empuja el pistón hacia afuera. Finalmente, en el paso (D), el desplazador vuelve a la posición más interna y el gas es enfriado por el entorno. Para lograr una operación efectiva, el gas debe tener una alta conductividad térmica. El gas más utilizado es el hidrógeno. Sin embargo, el coeficiente de difusión del hidrógeno en el acero es muy alto. Por lo tanto, se utiliza un material especial con bajo coeficiente de difusión para el hidrógeno para construir el cilindro o se complementa periódicamente con hidrógeno. El motor Stirling no es adecuado para aplicaciones en vehículos debido a su gran volumen y al requisito de un mecanismo de refrigeración eficaz.
+
+<img src="/images/stirling2.png" width="800"/>
+
+### Central de ciclo combinado solar
+
+Debido a la naturaleza intermitente de la energía solar, se requieren amplias instalaciones de almacenamiento de energía, como el uso de calor sensible y calor latente durante la transición de fase, así como baterías. Sin embargo, el almacenamiento de energía a gran escala es muy costoso. Además, las plantas de energía solar pura a menudo requieren equipos especiales, como el motor Stirling, convertidores CC-CA o instalaciones de transferencia de calor de sales fundidas. Una tendencia reciente en la exploración de la energía solar es no competir con los tradicionales centrales eléctricas, como las calderas a base de combustibles fósiles o las calderas de energía nuclear, sino para complementarlas. Se denomina Ciclo Combinado Solar Integrado ISCC. En este modelo, el campo solar es una adición a una planta de energía tradicional. El campo solar puede tomar agua como entrada, calentarla para generar vapor sobrecalentado y luego suministrar el vapor ya sea en el punto de temperatura máxima (operación a alta temperatura) o en un punto con temperatura inferior a la máxima (temperatura media o baja)
+
+<img src="/images/combinado.png" width="800"/>
+
+Una ventaja significativa del ISCC es que el componente de energía solar se construye utilizando una tecnología de generación de energía tradicional y bien desarrollada con una inversión adicional limitada y aprovechando al máximo la inclusión de la energía solar. Incluso es posible adaptar una planta de energía de combustibles fósiles existente agregando un componente solar sin interrumpir el funcionamiento de la planta de energía. Por lo tanto, el ISCC es ucombinación ganadora para plantas tradicionales y solares en términos de costo de capital reducido y suministro de energía continuo. Otra ventaja del ISCC es que produce energía cuando más se necesita durante las horas pico del día y del año, cuando los acondicionadores de aire funcionan a plena capacidad. Por lo tanto, al agregar un campo solar, la capacidad nominal de la planta se puede reducir sustancialmente para el mismo servicio en un área determinada. Desde 2008, se han construido ocho centrales eléctricas de este tipo, sobre todo en el norte de África. El porcentaje de energía solar oscila entre el 5 y el 20%.
+
+
+### Con colector Fresnel Lineal
+
+El concentrador cilindroparabólico utiliza grandes espejos diseñados individualmente para formar un enorme sistema mecánico. El costo del sistema mecánico es alto y es vulnerable al daño causado por el viento. La limpieza y la reparación también son costosas. Una solución a este problema es el concentrador lineal de Fresnel (LFR). 
+En lugar de usar espejos grandes, diseñados a la medida, se usan espejos planos largos y angostos. Estos espejos están montados en un eje unidimensional y giran individualmente para reflejar la luz solar en el pequeño espejo cóncavo lineal y luego concentrarla en el absorbedor de tubo de vacío. El fluido de transferencia de calor suele ser agua, para generar vapor sobrecalentado hasta aproximadamente 365 °C directamente para hacer funcionar la turbina. En tal disposición, los espejos se pueden colocar muy cerca del suelo. Hay varias ventajas. Primero, hay muchos receptores lineales en el sistema. Si están lo suficientemente cerca, los reflectores individuales tienen la opción de dirigir la radiación solar reflejada a al menos dos receptores. Esta variable adicional en la orientación del reflector permite arreglos mucho más densamente empaquetados y alturas de torre de absorción más bajas, porque se pueden configurar patrones de orientación alternativa del reflector de manera que los reflectores muy juntos se puedan colocar sin bloqueo mutuo. El efecto de sombra se puede reducir, y se mejora la eficiencia del uso de la tierra. Las estructuras mecánicas están cerca del suelo y el costo se reduce sustancialmente. Además, la limpieza y la reparación resultan mucho más sencillas que con el sistema cilindroparabólico.
+
+<img src="/images/fresnel.png" width="800"/>
+

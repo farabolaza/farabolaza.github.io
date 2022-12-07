@@ -141,7 +141,8 @@ NAVIGATION_LINKS = {
     (
     	(
         ("/categories/cat_matematica5/", "MATEMÁTICA 5º"),   
-    	  ("/categories/cat_matematica3/", "MATEMÁTICA 3º"),
+    	("/categories/cat_matematica3/", "MATEMÁTICA 3º"),
+        ("/categories/cat_matematica2/", "MATEMÁTICA 2º"),
         ("/categories/cat_math2/", "MATH SENIOR 2"),        
         ("/categories/cat_fisica4/", "FÍSICA 4º"),
         ("/categories/cat_fisicoquimica3/", "FISICOQUÍMICA 3º"),                
@@ -153,7 +154,7 @@ NAVIGATION_LINKS = {
         ("/posts/bib-matematica5-2020/index.html", "MATEMÁTICA 5º"),
         ("/posts/bib-matematica3-2020/index.html", "MATEMÁTICA 3º"),
         ("/posts/bib-math2-2020/index.html", "MATH SENIOR 2"),
-        ("/posts/bib-fisica4-2020/index.html", "FISICA 4º"),
+        ("/posts/bib-fisica4-2021/index.html", "FISICA 4º"),
         ("/posts/bib-fisicoquimica3-2020/index.html", "FISICOQUÍMICA 3º"),
       ),
       "BIBLIOGRAFÍA"
@@ -173,8 +174,8 @@ NAVIGATION_LINKS = {
     	(
     		("/categories/cat_fisicacontempo1/", "FÍSICA CONTEMPORÁNEA 1"),
     		("/categories/cat_fisicacontempo2/", "FÍSICA CONTEMPORÁNEA 2"),
-    		("/categories/cat_fisicacontempo2/", "ENERGOTECNIA"),
-    		("/categories/cat_fisicacontempo2/", "ELECTRÓNICA"),
+    		("/categories/cat_energo/", "ENERGOTECNIA"),
+    		("/categories/cat_electronica/", "ELECTRÓNICA"),
     	),
     	"OTROS"
     ),
@@ -293,7 +294,7 @@ DATE_FORMAT = 'MMMM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
-JS_DATE_FORMAT = 'MMm-DD'
+MOMENTJS_DATE_FORMAT = 'MMm-DD'
 
 # Date fanciness.
 #
@@ -329,7 +330,8 @@ LOCALES = {'es':'es_AR'}
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
     "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
+    "myst": ['.md', '.mdown', '.markdown'],
+    # "markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -415,10 +417,10 @@ TAG_DESCRIPTIONS = {
        "bib-fisica4": "Acá iría una descripción y html",
        "plan": "Planificaciones docentes de las materias que doy",
        "plan-math2": "Syllabus for math senior 2",
-       "plan-matematica3": "Acá iría una descripción y html",
-       "plan-matematica5": "Acá iría una descripción y html",
-       "plan-fisicoquimica3": "Acá iría una descripción y html",
-       "plan-fisica4": "Acá iría una descripción y html",
+       "plan-matematica3": "Planificación de la materia",
+       "plan-matematica5": "Planificación de la materia",
+       "plan-fisicoquimica3": "Planificación de la materia",
+       "plan-fisica4": "Planificación de la materia",
    },
 }
 
@@ -436,7 +438,7 @@ TAG_TITLES = {
        "plan-matematica3": "Planificación anual Matemática 3º",
        "plan-matematica5": "Planificación anual Matemática 5º",
        "plan-fisicoquimica3": "Planificación anual Fisicoquímica 3º",
-       "plan-fisicoquimica3": "Planificación anual Física 4º",
+       "plan-fisica4": "Planificación anual Física 4º",
    },
 }
 
@@ -524,7 +526,7 @@ CATEGORY_DESCRIPTIONS = {
        "fisicacontempo2": "Principales temas de la materia",       
        "energo": ''' 
        <p><h4>Resumen para examen final <h4></p>
-       <p>Resumen de temas para coloquio</p>
+       <p>Resumen de temas para final</p>
        <hr>''',
        "electro": ''' 
        <p><h4>Resumen para examen final<h4></p>

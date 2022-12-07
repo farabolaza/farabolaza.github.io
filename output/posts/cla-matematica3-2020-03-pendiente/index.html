@@ -31,7 +31,7 @@ Repaso
 Vimos previamente que">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2020-05-28T11:35:57-03:00">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target="#toc">
 
@@ -61,6 +61,7 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_matematica5/" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/categories/cat_matematica3/" class="dropdown-item">MATEMÁTICA 3º</a>
+                    <a href="/categories/cat_matematica2/" class="dropdown-item">MATEMÁTICA 2º</a>
                     <a href="/categories/cat_math2/" class="dropdown-item">MATH SENIOR 2</a>
                     <a href="/categories/cat_fisica4/" class="dropdown-item">FÍSICA 4º</a>
                     <a href="/categories/cat_fisicoquimica3/" class="dropdown-item">FISICOQUÍMICA 3º</a>
@@ -72,7 +73,7 @@ navbar-dark bg-primary
                     <a href="/posts/bib-matematica5-2020/index.html" class="dropdown-item">MATEMÁTICA 5º</a>
                     <a href="/posts/bib-matematica3-2020/index.html" class="dropdown-item">MATEMÁTICA 3º</a>
                     <a href="/posts/bib-math2-2020/index.html" class="dropdown-item">MATH SENIOR 2</a>
-                    <a href="/posts/bib-fisica4-2020/index.html" class="dropdown-item">FISICA 4º</a>
+                    <a href="/posts/bib-fisica4-2021/index.html" class="dropdown-item">FISICA 4º</a>
                     <a href="/posts/bib-fisicoquimica3-2020/index.html" class="dropdown-item">FISICOQUÍMICA 3º</a>
             </div>
             </li>
@@ -91,8 +92,8 @@ navbar-dark bg-primary
             <div class="dropdown-menu">
                     <a href="/categories/cat_fisicacontempo1/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 1</a>
                     <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">FÍSICA CONTEMPORÁNEA 2</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ENERGOTECNIA</a>
-                    <a href="/categories/cat_fisicacontempo2/" class="dropdown-item">ELECTRÓNICA</a>
+                    <a href="/categories/cat_energo/" class="dropdown-item">ENERGOTECNIA</a>
+                    <a href="/categories/cat_electronica/" class="dropdown-item">ELECTRÓNICA</a>
             </div>
                 </li>
 <li class="nav-item">
@@ -121,18 +122,12 @@ navbar-dark bg-primary
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-                    <div class="section" id="la-pendiente-de-una-linea-recta">
-<h2>La pendiente de una línea recta</h2>
-<div class="admonition admonition-ojbetivos-de-esta-clase">
-<p class="first admonition-title">Ojbetivos de esta clase</p>
-<ol class="last arabic simple">
-<li>Conocer y diferenciar <em>Variable</em> y <em>Parámetro</em>
-</li>
-<li>Interpretar la ecuación de la recta en forma pendiente/intersección</li>
-</ol>
-</div>
-<div class="section" id="repaso">
-<h3>Repaso</h3>
+                    <section id="la-pendiente-de-una-linea-recta"><h2>La pendiente de una línea recta</h2>
+<aside class="admonition admonition-ojbetivos-de-esta-clase"><p class="admonition-title">Ojbetivos de esta clase</p>
+<ol class="arabic simple">
+<li><p>Conocer y diferenciar <em>Variable</em> y <em>Parámetro</em></p></li>
+<li><p>Interpretar la ecuación de la recta en forma pendiente/intersección</p></li>
+</ol></aside><section id="repaso"><h3>Repaso</h3>
 <p>Vimos previamente que una ecuación lineal de dos variables tenía como
 gráfico una línea recta, y que sus infinitos pares solución eran los que,
 cuando los ubicabamos en un par de ejes coordenados (o ejes de coordenadas
@@ -177,48 +172,46 @@ estan todos <em>en fila</em> uno atrás de otro, <strong>alineados</strong>. Vea
 diciendo cosas que parecen ser <a class="reference external" href="https://www.google.com/search?sa=X&amp;biw=1448&amp;bih=935&amp;sxsrf=ALeKk01nkFRbaajQWzWAwpGBjirhZSYOSQ:1590677787681&amp;q=Diccionario&amp;stick=H4sIAAAAAAAAAONQesSoyi3w8sc9YSmZSWtOXmMU4-LzL0jNc8lMLsnMz0ssqrRiUWJKLeZZxMoNFEsGi2XmAwCSYWV3OAAAAA&amp;zx=1590677791312#dobs=redundante">redundantes</a> pero que su buena interpretación
 nos lleva esto:</p>
 <blockquote>
-Para gráficar correctamente una línea recta, sólo necesito conocer
-dos puntos que le pertenezcan</blockquote>
+<p>Para gráficar correctamente una línea recta, sólo necesito conocer
+dos puntos que le pertenezcan</p>
+</blockquote>
 <p>Uno marca los dos puntos (cada punto tiene un valor de $x$ y otro de $y$)
 en un par de ejes, y luego traza con regla o con imaginación, o con un software
 una línea que une esos dos puntos.</p>
 <blockquote>
-De las infinitas rectas que hay, existe <strong>sólo una</strong> que pasa
-por esos dos puntos, y es la que uno acaba de dibujar</blockquote>
+<p>De las infinitas rectas que hay, existe <strong>sólo una</strong> que pasa
+por esos dos puntos, y es la que uno acaba de dibujar</p>
+</blockquote>
 <p>Mira ahora el gráfico</p>
 <iframe src="https://www.desmos.com/calculator/gdsendixrt" width="100%" style="min-height:400px" frameborder="0"></iframe><p>¿Tiene sentido lo que estuve diciendo hasta ahora? Tratá de imaginar otra recta, diferente
 a la del gráfico y que <strong>También pase por los dos puntos que dije más arriba</strong></p>
-</div>
-<div class="section" id="la-pendiente">
-<h3>La pendiente</h3>
+</section><section id="la-pendiente"><h3>La pendiente</h3>
 <p>Ahora, mirá este gráfico donde hay varias rectas:</p>
 <iframe src="https://www.desmos.com/calculator/nbxofqsunr" width="100%" style="min-height:400px" frameborder="0"></iframe><p>¿Qué es lo que hace que algunas sean mas "empinadas" hacia arriba (si las miramos de izquierda
 a derecha, por ejemplo)? ¿Que hace que algunas apunten "para abajo"? ¿Por que algunas apuntan
 <em>mas</em> para arriba (o abajo) que otras?</p>
 <p>Mirá el recuadro, ¿en qué se parecen y en que se diferencian estas ecuaciones?</p>
 <ol class="arabic simple">
-<li><span class="math">\(y=3x\)</span></li>
-<li><span class="math">\(y=-x\)</span></li>
-<li><span class="math">\(y=\frac{1}{4}x\)</span></li>
+<li><p><span class="math">\(y=3x\)</span></p></li>
+<li><p><span class="math">\(y=-x\)</span></p></li>
+<li><p><span class="math">\(y=\frac{1}{4}x\)</span></p></li>
 </ol>
 <p>Ahora ¿en que se diferencian de esta otra?</p>
 <ol class="arabic simple">
-<li><span class="math">\(y=\frac{3}{2}x+-\frac{1}{2}\)</span></li>
+<li><p><span class="math">\(y=\frac{3}{2}x+-\frac{1}{2}\)</span></p></li>
 </ol>
-<div class="admonition important">
-<p class="first admonition-title">Importante</p>
-<p class="last">Las respuestas las vamos a analizar en una actividad, así que simplemente quiero
+<aside class="admonition important"><p class="admonition-title">Importante</p>
+<p>Las respuestas las vamos a analizar en una actividad, así que simplemente quiero
 que pienses.</p>
-</div>
-<div class="section" id="variables-y-parametros">
-<h4>Variables y parámetros</h4>
+</aside><section id="variables-y-parametros"><h4>Variables y parámetros</h4>
 <p>Hasta ahora, usé la palabra <strong>Variable</strong> para referirme a las letras $x$ e $y$ que usamos
 en las ecuaciones. Se las llama variables, justamente porque al <em>Variar</em> sus valores
 vamos construyendo el gráfico (quen o es otra cosa que un dibujo de todas las soluciones
 de la ecuación). Reitero:</p>
 <blockquote>
-El gráfico de la recta <strong>es</strong> un dibujo de todos los puntos solución de la
-ecuación. Gráfico, recta y soluciones <strong>son</strong> la misma cosa.</blockquote>
+<p>El gráfico de la recta <strong>es</strong> un dibujo de todos los puntos solución de la
+ecuación. Gráfico, recta y soluciones <strong>son</strong> la misma cosa.</p>
+</blockquote>
 <p>Se suele además ser mas específico y llamar a una <em>Variable dependiente</em> y la otra
 variable <em>independiente</em> ¿por qué?, veamos esta ecuación:</p>
 <div class="math">
@@ -252,13 +245,11 @@ tiene que ser el mismo, porque los puntos solución son los mismos, y por lo tan
 estamos hablando de la misma línea, da igual como lo hagamos, tenemos que obtener
 lo mismo como resultado.</p>
 <blockquote>
-Los pares de puntos solucíón se pueden obtener tomando como valor
+<p>Los pares de puntos solucíón se pueden obtener tomando como valor
 de entrada (variable independiente) las $x$, quedando así el valor de $y$
-como salida (variable dependiente), pero también se puede hacer al revés</blockquote>
-</div>
-</div>
-<div class="section" id="parametros">
-<h3>Parámetros</h3>
+como salida (variable dependiente), pero también se puede hacer al revés</p>
+</blockquote>
+</section></section><section id="parametros"><h3>Parámetros</h3>
 <p>Tenemos ahora el siguiente gráfico</p>
 <br><iframe src="https://www.desmos.com/calculator/57x85okl3x" width="100%" style="min-height:400px" frameborder="0"></iframe>
 <br><p>Y el gráfico tiene un control que nos permite cambiar el número que multiplica
@@ -279,17 +270,13 @@ los que forman la imagen que vemos en la pantalla.</p>
 creando una <strong>nueva</strong> recta que tendrá sus pares $(x,y)$, y que serán
 por lo tanto diferentes a los puntos de la anterior, porque estamos
 ante una recta diferente.</p>
-<div class="admonition hint">
-<p class="first admonition-title">Sugerencia</p>
-<p class="last">Usamos la palabra <strong>variable</strong> para las letras que representan
+<aside class="admonition hint"><p class="admonition-title">Sugerencia</p>
+<p>Usamos la palabra <strong>variable</strong> para las letras que representan
 a los pares de puntos que son solución de la ecuación, y que
 graficados construyen la recta. Y usamos la palabra <strong>parámetro</strong>
 para aquellos elementos que nos permiten construir diferentes
 rectas.</p>
-</div>
-</div>
-<div class="section" id="ecuacion-generica">
-<h3>Ecuación genérica</h3>
+</aside></section><section id="ecuacion-generica"><h3>Ecuación genérica</h3>
 <p>¿Hay una forma de escribir una recta que sea a su vez "todas las rectas",
 una especie de recta "genérica"?
 Si, la hay, hay varias, y una es esta:</p>
@@ -311,16 +298,12 @@ y=2x+4
 <p>Así, eligiendo valores para $m$ y $b$ uno puede <em>generar</em> todas las rectas
 posibles del universo, mientras uno va pasando por todas las posibles
 combinaciones de números que se nos ocurran.</p>
-<div class="section" id="el-otro-parametro">
-<h4>El otro parámetro</h4>
+<section id="el-otro-parametro"><h4>El otro parámetro</h4>
 <p>¿Que cambia en una recta cuando cambiamos $b$?</p>
 <br><iframe src="https://www.desmos.com/calculator/rsd0319jy1" width="100%" style="min-height:400px" frameborder="0"></iframe>
 <br><p>Si tuvieras que decir ¿Que función cumple el parámetro $b$? ¿Cómo se
 vincula con el punto de la recta $(0,b)$?</p>
-</div>
-</div>
-<div class="section" id="juntando-todo">
-<h3>Juntando todo</h3>
+</section></section><section id="juntando-todo"><h3>Juntando todo</h3>
 <p>Los parámetros que construyen las ecuaciones, nos permiten entender cómo
 están construidas las rectas y en qué se diferencian o parecen.</p>
 <p>En la ecuación "genérica" el parámetro $m$ se le llama <strong>pendiente</strong>
@@ -331,16 +314,14 @@ interpretación mas a todo el tema este de las ecuaciones de las rectas.</p>
 <p>Lo relevante es entender e interpretar que rol juega cada parámetro mas allá de su
 nombre, y que cambia cuando uno los modifica.</p>
 <ul class="simple">
-<li>¿Cómo es una recta con pendiente igual a cero?</li>
-<li>¿Cómo debe ser una recta para que pase por el centro de coordenadas, es decir
-el punto $(0,0)$</li>
-<li>¿Cómo influye el signo de la pendiente? ¿Y su valor absoluto? (es decir si es
-muy grande o muy chico sin importar el signo)</li>
-</ul>
+<li><p>¿Cómo es una recta con pendiente igual a cero?</p></li>
+<li><p>¿Cómo debe ser una recta para que pase por el centro de coordenadas, es decir
+el punto $(0,0)$</p></li>
+<li><p>¿Cómo influye el signo de la pendiente? ¿Y su valor absoluto? (es decir si es
+muy grande o muy chico sin importar el signo)</p></li>
+</ul></section></section>
 </div>
-</div>
-                    </div>
-                    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha256-ExtbCSBuYA7kq1Pz362ibde9nnsHYPt6JxuxYeZbU+c=" crossorigin="anonymous"></script><script>
+                    <aside class="postpromonav"><nav><hr></nav></aside><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script><script>
                 renderMathInElement(document.body,
                     {
                         
@@ -364,12 +345,14 @@ delimiters: [
         </div>
     <!-- </div>-->        
 
+    
+
 
 
         <!--End of body content-->
 
         <footer id="footer">
-            Contents © 2020         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            Contents © 2022         <a href="mailto:federico.arabolaza@gmail.com">Federico Arabolaza</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
 <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="dct:title">FEDE AR</span></a>
 by <a rel="cc:attributionURL" href="https://farabolaza.github.io/"><span rel="cc:attributionName">Federico Arabolaza</span></a>

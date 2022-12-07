@@ -5,9 +5,9 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1597769153.206648
+_modified_time = 1670440192.3761437
 _enable_loop = True
-_template_filename = 'c:/users/fede/anaconda3/lib/site-packages/nikola/data/themes/base/templates/annotation_helper.tmpl'
+_template_filename = 'C:/Users/feder/Anaconda3/envs/blog/lib/site-packages/nikola/data/themes/base/templates/annotation_helper.tmpl'
 _template_uri = 'annotation_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['css', 'code']
@@ -47,6 +47,6 @@ def render_code(context):
 
 """
 __M_BEGIN_METADATA
-{"filename": "c:/users/fede/anaconda3/lib/site-packages/nikola/data/themes/base/templates/annotation_helper.tmpl", "uri": "annotation_helper.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 3, "22": 16, "28": 1, "32": 1, "38": 5, "42": 5, "48": 42}}
+{"filename": "C:/Users/feder/Anaconda3/envs/blog/lib/site-packages/nikola/data/themes/base/templates/annotation_helper.tmpl", "uri": "annotation_helper.tmpl", "source_encoding": "utf-8", "line_map": {"16": 0, "21": 3, "22": 16, "28": 1, "32": 1, "38": 5, "42": 5, "48": 42}}
 __M_END_METADATA
 """
