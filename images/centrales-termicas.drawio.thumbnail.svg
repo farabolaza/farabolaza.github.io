@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" host="65bd71144e" version="1.1" viewBox="-0.5 -0.5 451 51" content="&lt;mxfile&gt;&lt;diagram id=&quot;Pkk3sI02aVhmb8ynFgz6&quot; name=&quot;P&#225;gina-1&quot;&gt;xZZPs5sgFMU/jduOghqzbH1pu3mr15muEa7KFCVzxfzppy9GjLHkvWmmmSSLBA6XwDn8cAxo3hy+IdvWr1qACkgoDgF9CQiJaWa/B+E4CusoHIUKpRilaBbe5G9w4lTWSwHdotBorYzcLkWu2xa4WWgMUe+XZaVWy1W3rAJPeONM+epPKUztXIThrH8HWdXTyuk00rCp2AldzYTeX0h0E9ActTZjqznkoIbsplzGeV/fGT1vDKE1/zSBjDN2TPXOnNuYOU5uQVjzrtvq1v58qU2jbC+yzbF8qHl3C07qdI/cVblVDMMKXBU927fYgG7A4NGWIChm5G7578wdYHWumz3ahrN53bLvONdN0XdGFspC5blXymI1mC6lUrlWGk8DtCwh5dzqnUH9Cy5GxGpd2BOfstkBGjh8nI7v201YOVCO0w1w/f3MXeak+gK5JPz/oCL6HDaoz0byIDZ8x5sWsApyGnx+YcFwmVJ7wNFwuD9O6hobyZmXC+q+FSBcDn+Tk3G4Tk6RJXFyJ3JISD7RJJw/5Hkkxc8hKfFJWj2IpOQGkl6Bn/SovRklwSArr6KU8gyK8j4oUfK8p9DqhiA3aryT3ODtSSaQifhakhkpaJreJ8k4fliStju/R5zGLl7G6OYP&lt;/diagram&gt;&lt;/mxfile&gt;" viewport="0 0 1600px 180px">
+    <defs/>
+    <g>
+        <path d="M 80 25 L 125.98 25" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 131.23 25 L 124.23 28.5 L 125.98 25 L 124.23 21.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="40" cy="25" rx="40" ry="25" fill="#ffe6cc" stroke="#d79b00" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="39.5" y="29.5">
+                Combustibles
+            </text>
+        </g>
+        <path d="M 212.35 25 L 243.63 25" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 248.88 25 L 241.88 28.5 L 243.63 25 L 241.88 21.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="132.35" y="0" width="80" height="50" rx="7.5" ry="7.5" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="171.85" y="22.5">
+                Energ&#237;a
+            </text>
+            <text x="171.85" y="36.5">
+                T&#233;rmica
+            </text>
+        </g>
+        <path d="M 330 25 L 363.63 25" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 368.88 25 L 361.88 28.5 L 363.63 25 L 361.88 21.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="250" y="0" width="80" height="50" rx="7.5" ry="7.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="289.5" y="22.5">
+                Energ&#237;a
+            </text>
+            <text x="289.5" y="36.5">
+                Mec&#225;nica
+            </text>
+        </g>
+        <rect x="370" y="0" width="80" height="50" rx="7.5" ry="7.5" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" text-anchor="middle" font-size="12px">
+            <text x="409.5" y="22.5">
+                Energ&#237;a
+            </text>
+            <text x="409.5" y="36.5">
+                El&#233;ctrica
+            </text>
+        </g>
+    </g>
+</svg>

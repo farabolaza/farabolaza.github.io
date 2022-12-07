@@ -1,0 +1,1550 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" host="65bd71144e" version="1.1" viewBox="-0.5 -0.5 421 5022" content="&lt;mxfile&gt;&lt;diagram id=&quot;tWnUajcXZOiT2n1HFeE1&quot; name=&quot;P&#225;gina-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;" viewport="0 0 33px 400px">
+    <defs>
+        <clipPath id="mx-clip-4-31-412-26-0">
+            <rect x="4" y="31" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-57-412-26-0">
+            <rect x="4" y="57" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-83-412-26-0">
+            <rect x="4" y="83" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-109-412-26-0">
+            <rect x="4" y="109" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-135-412-26-0">
+            <rect x="4" y="135" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-161-412-26-0">
+            <rect x="4" y="161" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-187-412-26-0">
+            <rect x="4" y="187" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-213-412-26-0">
+            <rect x="4" y="213" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-239-412-26-0">
+            <rect x="4" y="239" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-265-412-26-0">
+            <rect x="4" y="265" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-291-412-26-0">
+            <rect x="4" y="291" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-317-412-26-0">
+            <rect x="4" y="317" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-343-412-26-0">
+            <rect x="4" y="343" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-369-412-26-0">
+            <rect x="4" y="369" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-395-412-26-0">
+            <rect x="4" y="395" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-421-412-26-0">
+            <rect x="4" y="421" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-447-412-26-0">
+            <rect x="4" y="447" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-473-412-26-0">
+            <rect x="4" y="473" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-499-412-26-0">
+            <rect x="4" y="499" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-525-412-26-0">
+            <rect x="4" y="525" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-551-412-26-0">
+            <rect x="4" y="551" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-577-412-26-0">
+            <rect x="4" y="577" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-603-412-26-0">
+            <rect x="4" y="603" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-629-412-26-0">
+            <rect x="4" y="629" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-655-412-26-0">
+            <rect x="4" y="655" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-681-412-26-0">
+            <rect x="4" y="681" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-707-412-26-0">
+            <rect x="4" y="707" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-733-412-26-0">
+            <rect x="4" y="733" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-759-412-26-0">
+            <rect x="4" y="759" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-785-412-26-0">
+            <rect x="4" y="785" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-811-412-26-0">
+            <rect x="4" y="811" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-837-412-26-0">
+            <rect x="4" y="837" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-863-412-26-0">
+            <rect x="4" y="863" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-889-412-26-0">
+            <rect x="4" y="889" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-915-412-26-0">
+            <rect x="4" y="915" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-941-412-26-0">
+            <rect x="4" y="941" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-967-412-26-0">
+            <rect x="4" y="967" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-993-412-26-0">
+            <rect x="4" y="993" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1019-412-26-0">
+            <rect x="4" y="1019" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1045-412-26-0">
+            <rect x="4" y="1045" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1071-412-26-0">
+            <rect x="4" y="1071" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1097-412-26-0">
+            <rect x="4" y="1097" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1123-412-26-0">
+            <rect x="4" y="1123" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1149-412-26-0">
+            <rect x="4" y="1149" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1175-412-26-0">
+            <rect x="4" y="1175" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1201-412-26-0">
+            <rect x="4" y="1201" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1227-412-26-0">
+            <rect x="4" y="1227" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1253-412-26-0">
+            <rect x="4" y="1253" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1279-412-26-0">
+            <rect x="4" y="1279" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1305-412-26-0">
+            <rect x="4" y="1305" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1331-412-26-0">
+            <rect x="4" y="1331" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1357-412-26-0">
+            <rect x="4" y="1357" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1383-412-26-0">
+            <rect x="4" y="1383" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1409-412-26-0">
+            <rect x="4" y="1409" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1435-412-26-0">
+            <rect x="4" y="1435" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1461-412-26-0">
+            <rect x="4" y="1461" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1487-412-26-0">
+            <rect x="4" y="1487" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1513-412-26-0">
+            <rect x="4" y="1513" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1539-412-26-0">
+            <rect x="4" y="1539" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1565-412-26-0">
+            <rect x="4" y="1565" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1591-412-26-0">
+            <rect x="4" y="1591" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1617-412-26-0">
+            <rect x="4" y="1617" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1643-412-26-0">
+            <rect x="4" y="1643" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1669-412-26-0">
+            <rect x="4" y="1669" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1695-412-26-0">
+            <rect x="4" y="1695" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1721-412-26-0">
+            <rect x="4" y="1721" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1747-412-26-0">
+            <rect x="4" y="1747" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1773-412-26-0">
+            <rect x="4" y="1773" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1799-412-26-0">
+            <rect x="4" y="1799" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1825-412-26-0">
+            <rect x="4" y="1825" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1851-412-26-0">
+            <rect x="4" y="1851" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1877-412-26-0">
+            <rect x="4" y="1877" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1903-412-26-0">
+            <rect x="4" y="1903" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1929-412-26-0">
+            <rect x="4" y="1929" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1955-412-26-0">
+            <rect x="4" y="1955" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-1981-412-26-0">
+            <rect x="4" y="1981" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2007-412-26-0">
+            <rect x="4" y="2007" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2033-412-26-0">
+            <rect x="4" y="2033" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2059-412-26-0">
+            <rect x="4" y="2059" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2085-412-26-0">
+            <rect x="4" y="2085" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2111-412-26-0">
+            <rect x="4" y="2111" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2137-412-26-0">
+            <rect x="4" y="2137" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2163-412-26-0">
+            <rect x="4" y="2163" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2189-412-26-0">
+            <rect x="4" y="2189" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2215-412-26-0">
+            <rect x="4" y="2215" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2241-412-26-0">
+            <rect x="4" y="2241" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2267-412-26-0">
+            <rect x="4" y="2267" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2293-412-26-0">
+            <rect x="4" y="2293" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2319-412-26-0">
+            <rect x="4" y="2319" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2345-412-26-0">
+            <rect x="4" y="2345" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2371-412-26-0">
+            <rect x="4" y="2371" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2397-412-26-0">
+            <rect x="4" y="2397" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2423-412-26-0">
+            <rect x="4" y="2423" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2449-412-26-0">
+            <rect x="4" y="2449" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2475-412-26-0">
+            <rect x="4" y="2475" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2501-412-26-0">
+            <rect x="4" y="2501" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2527-412-26-0">
+            <rect x="4" y="2527" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2553-412-26-0">
+            <rect x="4" y="2553" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2579-412-26-0">
+            <rect x="4" y="2579" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2605-412-26-0">
+            <rect x="4" y="2605" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2631-412-26-0">
+            <rect x="4" y="2631" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2657-412-26-0">
+            <rect x="4" y="2657" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2683-412-26-0">
+            <rect x="4" y="2683" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2709-412-26-0">
+            <rect x="4" y="2709" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2735-412-26-0">
+            <rect x="4" y="2735" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2761-412-26-0">
+            <rect x="4" y="2761" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2787-412-26-0">
+            <rect x="4" y="2787" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2813-412-26-0">
+            <rect x="4" y="2813" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2839-412-26-0">
+            <rect x="4" y="2839" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2865-412-26-0">
+            <rect x="4" y="2865" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2891-412-26-0">
+            <rect x="4" y="2891" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2917-412-26-0">
+            <rect x="4" y="2917" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2943-412-26-0">
+            <rect x="4" y="2943" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2969-412-26-0">
+            <rect x="4" y="2969" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-2995-412-26-0">
+            <rect x="4" y="2995" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3021-412-26-0">
+            <rect x="4" y="3021" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3047-412-26-0">
+            <rect x="4" y="3047" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3073-412-26-0">
+            <rect x="4" y="3073" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3099-412-26-0">
+            <rect x="4" y="3099" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3125-412-26-0">
+            <rect x="4" y="3125" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3151-412-26-0">
+            <rect x="4" y="3151" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3177-412-26-0">
+            <rect x="4" y="3177" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3203-412-26-0">
+            <rect x="4" y="3203" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3229-412-26-0">
+            <rect x="4" y="3229" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3255-412-26-0">
+            <rect x="4" y="3255" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3281-412-26-0">
+            <rect x="4" y="3281" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3307-412-26-0">
+            <rect x="4" y="3307" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3333-412-26-0">
+            <rect x="4" y="3333" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3359-412-26-0">
+            <rect x="4" y="3359" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3385-412-26-0">
+            <rect x="4" y="3385" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3411-412-26-0">
+            <rect x="4" y="3411" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3437-412-26-0">
+            <rect x="4" y="3437" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3463-412-26-0">
+            <rect x="4" y="3463" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3489-412-26-0">
+            <rect x="4" y="3489" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3515-412-26-0">
+            <rect x="4" y="3515" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3541-412-26-0">
+            <rect x="4" y="3541" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3567-412-26-0">
+            <rect x="4" y="3567" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3593-412-26-0">
+            <rect x="4" y="3593" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3619-412-26-0">
+            <rect x="4" y="3619" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3645-412-26-0">
+            <rect x="4" y="3645" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3671-412-26-0">
+            <rect x="4" y="3671" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3697-412-26-0">
+            <rect x="4" y="3697" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3723-412-26-0">
+            <rect x="4" y="3723" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3749-412-26-0">
+            <rect x="4" y="3749" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3775-412-26-0">
+            <rect x="4" y="3775" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3801-412-26-0">
+            <rect x="4" y="3801" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3827-412-26-0">
+            <rect x="4" y="3827" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3853-412-26-0">
+            <rect x="4" y="3853" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3879-412-26-0">
+            <rect x="4" y="3879" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3905-412-26-0">
+            <rect x="4" y="3905" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3931-412-26-0">
+            <rect x="4" y="3931" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3957-412-26-0">
+            <rect x="4" y="3957" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-3983-412-26-0">
+            <rect x="4" y="3983" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4009-412-26-0">
+            <rect x="4" y="4009" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4035-412-26-0">
+            <rect x="4" y="4035" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4061-412-26-0">
+            <rect x="4" y="4061" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4087-412-26-0">
+            <rect x="4" y="4087" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4113-412-26-0">
+            <rect x="4" y="4113" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4139-412-26-0">
+            <rect x="4" y="4139" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4165-412-26-0">
+            <rect x="4" y="4165" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4191-412-26-0">
+            <rect x="4" y="4191" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4217-412-26-0">
+            <rect x="4" y="4217" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4243-412-26-0">
+            <rect x="4" y="4243" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4269-412-26-0">
+            <rect x="4" y="4269" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4295-412-26-0">
+            <rect x="4" y="4295" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4321-412-26-0">
+            <rect x="4" y="4321" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4347-412-26-0">
+            <rect x="4" y="4347" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4373-412-26-0">
+            <rect x="4" y="4373" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4399-412-26-0">
+            <rect x="4" y="4399" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4425-412-26-0">
+            <rect x="4" y="4425" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4451-412-26-0">
+            <rect x="4" y="4451" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4477-412-26-0">
+            <rect x="4" y="4477" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4503-412-26-0">
+            <rect x="4" y="4503" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4529-412-26-0">
+            <rect x="4" y="4529" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4555-412-26-0">
+            <rect x="4" y="4555" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4581-412-26-0">
+            <rect x="4" y="4581" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4607-412-26-0">
+            <rect x="4" y="4607" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4633-412-26-0">
+            <rect x="4" y="4633" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4659-412-26-0">
+            <rect x="4" y="4659" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4685-412-26-0">
+            <rect x="4" y="4685" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4711-412-26-0">
+            <rect x="4" y="4711" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4737-412-26-0">
+            <rect x="4" y="4737" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4763-412-26-0">
+            <rect x="4" y="4763" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4789-412-26-0">
+            <rect x="4" y="4789" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4815-412-26-0">
+            <rect x="4" y="4815" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4841-412-26-0">
+            <rect x="4" y="4841" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4867-412-26-0">
+            <rect x="4" y="4867" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4893-412-26-0">
+            <rect x="4" y="4893" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4919-412-26-0">
+            <rect x="4" y="4919" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4945-412-26-0">
+            <rect x="4" y="4945" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4971-412-26-0">
+            <rect x="4" y="4971" width="412" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-4-4997-412-26-0">
+            <rect x="4" y="4997" width="412" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 0 26 L 0 0 L 420 0 L 420 26" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 0 26 L 0 5018 L 420 5018 L 420 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 0 26 L 420 26" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" font-weight="bold" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="209.5" y="17.5">
+                Pa&#237;s	Consumo de electricidad per c&#225;pita (kWh por habitante)	A&#241;o
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-31-412-26-0)" font-size="12px">
+            <text x="5.5" y="43.5">
+                Islandia	50,409	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-57-412-26-0)" font-size="12px">
+            <text x="5.5" y="69.5">
+                Noruega	22,351	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-83-412-26-0)" font-size="12px">
+            <text x="5.5" y="95.5">
+                Kuwait	19,3	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-109-412-26-0)" font-size="12px">
+            <text x="5.5" y="121.5">
+                Bahr&#225;in	17,349	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-135-412-26-0)" font-size="12px">
+            <text x="5.5" y="147.5">
+                Qatar	15,236	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-161-412-26-0)" font-size="12px">
+            <text x="5.5" y="173.5">
+                Finlandia	14,859	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-187-412-26-0)" font-size="12px">
+            <text x="5.5" y="199.5">
+                Canad&#225;	13,854	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-213-412-26-0)" font-size="12px">
+            <text x="5.5" y="225.5">
+                Suecia	13,085	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-239-412-26-0)" font-size="12px">
+            <text x="5.5" y="251.5">
+                Estados Unidos	11,73	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-265-412-26-0)" font-size="12px">
+            <text x="5.5" y="277.5">
+                Emiratos &#193;rabes Unidos	11,329	2019
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-291-412-26-0)" font-size="12px">
+            <text x="5.5" y="303.5">
+                Luxemburgo	10,304	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-317-412-26-0)" font-size="12px">
+            <text x="5.5" y="329.5">
+                Taiw&#225;n	10,058	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-343-412-26-0)" font-size="12px">
+            <text x="5.5" y="355.5">
+                Liechtenstein	10,057	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-369-412-26-0)" font-size="12px">
+            <text x="5.5" y="381.5">
+                Islas Caim&#225;n	9,88	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-395-412-26-0)" font-size="12px">
+            <text x="5.5" y="407.5">
+                Corea del Sur	9,793	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-421-412-26-0)" font-size="12px">
+            <text x="5.5" y="433.5">
+                Nueva Caledonia	9,445	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-447-412-26-0)" font-size="12px">
+            <text x="5.5" y="459.5">
+                Australia	9,008	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-473-412-26-0)" font-size="12px">
+            <text x="5.5" y="485.5">
+                Arabia Saud&#237;	8,668	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-499-412-26-0)" font-size="12px">
+            <text x="5.5" y="511.5">
+                Macao	8,263	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-525-412-26-0)" font-size="12px">
+            <text x="5.5" y="537.5">
+                Trinidad y Tobago	8,163	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-551-412-26-0)" font-size="12px">
+            <text x="5.5" y="563.5">
+                Groenlandia	8,123	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-577-412-26-0)" font-size="12px">
+            <text x="5.5" y="589.5">
+                Brun&#233;i	8,119	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-603-412-26-0)" font-size="12px">
+            <text x="5.5" y="615.5">
+                Nueva Zelanda	8,02	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-629-412-26-0)" font-size="12px">
+            <text x="5.5" y="641.5">
+                Om&#225;n	7,957	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-655-412-26-0)" font-size="12px">
+            <text x="5.5" y="667.5">
+                Singapur	7,68	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-681-412-26-0)" font-size="12px">
+            <text x="5.5" y="693.5">
+                Jap&#243;n	7,519	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-707-412-26-0)" font-size="12px">
+            <text x="5.5" y="719.5">
+                Austria	7,292	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-733-412-26-0)" font-size="12px">
+            <text x="5.5" y="745.5">
+                Estonia	7,158	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-759-412-26-0)" font-size="12px">
+            <text x="5.5" y="771.5">
+                B&#233;lgica	7,01	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-785-412-26-0)" font-size="12px">
+            <text x="5.5" y="797.5">
+                Suiza	6,956	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-811-412-26-0)" font-size="12px">
+            <text x="5.5" y="823.5">
+                Alemania	6,693	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-837-412-26-0)" font-size="12px">
+            <text x="5.5" y="849.5">
+                Francia	6,644	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-863-412-26-0)" font-size="12px">
+            <text x="5.5" y="875.5">
+                Rusia	6,418	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-889-412-26-0)" font-size="12px">
+            <text x="5.5" y="901.5">
+                Eslovenia	6,373	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-915-412-26-0)" font-size="12px">
+            <text x="5.5" y="927.5">
+                Israel	6,34	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-941-412-26-0)" font-size="12px">
+            <text x="5.5" y="953.5">
+                Pa&#237;ses Bajos	6,296	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-967-412-26-0)" font-size="12px">
+            <text x="5.5" y="979.5">
+                Puerto Rico	6,108	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-993-412-26-0)" font-size="12px">
+            <text x="5.5" y="1005.5">
+                Rep&#250;blica Checa	5,825	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1019-412-26-0)" font-size="12px">
+            <text x="5.5" y="1031.5">
+                Hong Kong	5,771	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1045-412-26-0)" font-size="12px">
+            <text x="5.5" y="1057.5">
+                Dinamarca	5,626	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1071-412-26-0)" font-size="12px">
+            <text x="5.5" y="1083.5">
+                Islas Malvinas	5,525	2016
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1097-412-26-0)" font-size="12px">
+            <text x="5.5" y="1109.5">
+                Grecia	5,363	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1123-412-26-0)" font-size="12px">
+            <text x="5.5" y="1135.5">
+                Irlanda	4,961	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1149-412-26-0)" font-size="12px">
+            <text x="5.5" y="1161.5">
+                Kazajist&#225;n	4,936	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1175-412-26-0)" font-size="12px">
+            <text x="5.5" y="1187.5">
+                Bahamas	4,898	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1201-412-26-0)" font-size="12px">
+            <text x="5.5" y="1213.5">
+                Eslovaquia	4,897	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1227-412-26-0)" font-size="12px">
+            <text x="5.5" y="1239.5">
+                Espa&#241;a	4,788	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1253-412-26-0)" font-size="12px">
+            <text x="5.5" y="1265.5">
+                Italia	4,703	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1279-412-26-0)" font-size="12px">
+            <text x="5.5" y="1291.5">
+                Reino Unido	4,702	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1305-412-26-0)" font-size="12px">
+            <text x="5.5" y="1317.5">
+                Bulgaria	4,642	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1331-412-26-0)" font-size="12px">
+            <text x="5.5" y="1343.5">
+                Malta	4,641	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1357-412-26-0)" font-size="12px">
+            <text x="5.5" y="1369.5">
+                Montenegro	4,604	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1383-412-26-0)" font-size="12px">
+            <text x="5.5" y="1395.5">
+                Portugal	4,556	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1409-412-26-0)" font-size="12px">
+            <text x="5.5" y="1421.5">
+                Serbia	4,251	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1435-412-26-0)" font-size="12px">
+            <text x="5.5" y="1447.5">
+                Malasia	4,193	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1461-412-26-0)" font-size="12px">
+            <text x="5.5" y="1473.5">
+                Hungr&#237;a	4,029	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1487-412-26-0)" font-size="12px">
+            <text x="5.5" y="1499.5">
+                Chile	4,026	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1513-412-26-0)" font-size="12px">
+            <text x="5.5" y="1525.5">
+                China	3,991	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1539-412-26-0)" font-size="12px">
+            <text x="5.5" y="1551.5">
+                Libia	3,962	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1565-412-26-0)" font-size="12px">
+            <text x="5.5" y="1577.5">
+                Polonia	3,903	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1591-412-26-0)" font-size="12px">
+            <text x="5.5" y="1603.5">
+                Lituania	3,844	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1617-412-26-0)" font-size="12px">
+            <text x="5.5" y="1629.5">
+                Croacia	3,768	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1643-412-26-0)" font-size="12px">
+            <text x="5.5" y="1655.5">
+                Sud&#225;frica	3,668	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1669-412-26-0)" font-size="12px">
+            <text x="5.5" y="1681.5">
+                Letonia	3,614	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1695-412-26-0)" font-size="12px">
+            <text x="5.5" y="1707.5">
+                San Crist&#243;bal y Nieves	3,593	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1721-412-26-0)" font-size="12px">
+            <text x="5.5" y="1733.5">
+                Seychelles	3,391	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1747-412-26-0)" font-size="12px">
+            <text x="5.5" y="1759.5">
+                Barbados	3,361	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1773-412-26-0)" font-size="12px">
+            <text x="5.5" y="1785.5">
+                Bielorrusia	3,347	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1799-412-26-0)" font-size="12px">
+            <text x="5.5" y="1811.5">
+                Uruguay	3,179	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1825-412-26-0)" font-size="12px">
+            <text x="5.5" y="1837.5">
+                Antigua y Barbuda	3,135	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1851-412-26-0)" font-size="12px">
+            <text x="5.5" y="1863.5">
+                Bosnia y Hercegovina	3,095	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1877-412-26-0)" font-size="12px">
+            <text x="5.5" y="1889.5">
+                Ucrania	3,033	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1903-412-26-0)" font-size="12px">
+            <text x="5.5" y="1915.5">
+                Macedonia	3,02	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1929-412-26-0)" font-size="12px">
+            <text x="5.5" y="1941.5">
+                L&#237;bano	2,872	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1955-412-26-0)" font-size="12px">
+            <text x="5.5" y="1967.5">
+                Surinam	2,871	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-1981-412-26-0)" font-size="12px">
+            <text x="5.5" y="1993.5">
+                Turqu&#237;a	2,818	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2007-412-26-0)" font-size="12px">
+            <text x="5.5" y="2019.5">
+                But&#225;n	2,792	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2033-412-26-0)" font-size="12px">
+            <text x="5.5" y="2045.5">
+                Ir&#225;n	2,783	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2059-412-26-0)" font-size="12px">
+            <text x="5.5" y="2071.5">
+                Turkmenist&#225;n	2,729	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2085-412-26-0)" font-size="12px">
+            <text x="5.5" y="2097.5">
+                Tailandia	2,721	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2111-412-26-0)" font-size="12px">
+            <text x="5.5" y="2123.5">
+                Argentina	2,661	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2137-412-26-0)" font-size="12px">
+            <text x="5.5" y="2149.5">
+                Andorra	2,588	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2163-412-26-0)" font-size="12px">
+            <text x="5.5" y="2175.5">
+                Venezuela	2,512	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2189-412-26-0)" font-size="12px">
+            <text x="5.5" y="2201.5">
+                Georgia	2,509	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2215-412-26-0)" font-size="12px">
+            <text x="5.5" y="2227.5">
+                Brasil	2,405	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2241-412-26-0)" font-size="12px">
+            <text x="5.5" y="2253.5">
+                Rumania	2,33	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2267-412-26-0)" font-size="12px">
+            <text x="5.5" y="2279.5">
+                Nauru	2,281	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2293-412-26-0)" font-size="12px">
+            <text x="5.5" y="2305.5">
+                Panam&#225;	2,236	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2319-412-26-0)" font-size="12px">
+            <text x="5.5" y="2331.5">
+                Santa Luc&#237;a	2,061	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2345-412-26-0)" font-size="12px">
+            <text x="5.5" y="2357.5">
+                M&#233;xico	2,011	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2371-412-26-0)" font-size="12px">
+            <text x="5.5" y="2383.5">
+                Azerbaiy&#225;n	1,983	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2397-412-26-0)" font-size="12px">
+            <text x="5.5" y="2409.5">
+                Mauricio	1,976	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2423-412-26-0)" font-size="12px">
+            <text x="5.5" y="2435.5">
+                Costa Rica	1,925	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2449-412-26-0)" font-size="12px">
+            <text x="5.5" y="2461.5">
+                Mongolia	1,872	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2475-412-26-0)" font-size="12px">
+            <text x="5.5" y="2487.5">
+                Kirguizist&#225;n	1,764	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2501-412-26-0)" font-size="12px">
+            <text x="5.5" y="2513.5">
+                Armenia	1,751	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2527-412-26-0)" font-size="12px">
+            <text x="5.5" y="2539.5">
+                Albania	1,662	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2553-412-26-0)" font-size="12px">
+            <text x="5.5" y="2565.5">
+                Granada	1,637	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2579-412-26-0)" font-size="12px">
+            <text x="5.5" y="2591.5">
+                Uzbekist&#225;n	1,605	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2605-412-26-0)" font-size="12px">
+            <text x="5.5" y="2617.5">
+                Botsuana	1,569	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2631-412-26-0)" font-size="12px">
+            <text x="5.5" y="2643.5">
+                Jordania	1,554	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2657-412-26-0)" font-size="12px">
+            <text x="5.5" y="2669.5">
+                Egipto	1,534	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2683-412-26-0)" font-size="12px">
+            <text x="5.5" y="2695.5">
+                Paraguay	1,516	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2709-412-26-0)" font-size="12px">
+            <text x="5.5" y="2721.5">
+                Rep&#250;blica Dominicana	1,49	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2735-412-26-0)" font-size="12px">
+            <text x="5.5" y="2747.5">
+                Namibia	1,479	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2761-412-26-0)" font-size="12px">
+            <text x="5.5" y="2773.5">
+                Cuba	1,461	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2787-412-26-0)" font-size="12px">
+            <text x="5.5" y="2799.5">
+                Tayikist&#225;n	1,461	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2813-412-26-0)" font-size="12px">
+            <text x="5.5" y="2825.5">
+                Vietnam	1,451	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2839-412-26-0)" font-size="12px">
+            <text x="5.5" y="2851.5">
+                San Vicente y las Granadinas	1,44	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2865-412-26-0)" font-size="12px">
+            <text x="5.5" y="2877.5">
+                Per&#250;	1,398	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2891-412-26-0)" font-size="12px">
+            <text x="5.5" y="2903.5">
+                Dominica	1,395	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2917-412-26-0)" font-size="12px">
+            <text x="5.5" y="2929.5">
+                Colombia	1,39	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2943-412-26-0)" font-size="12px">
+            <text x="5.5" y="2955.5">
+                Ecuador	1,342	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2969-412-26-0)" font-size="12px">
+            <text x="5.5" y="2981.5">
+                Moldavia	1,308	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-2995-412-26-0)" font-size="12px">
+            <text x="5.5" y="3007.5">
+                T&#250;nez	1,303	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3021-412-26-0)" font-size="12px">
+            <text x="5.5" y="3033.5">
+                Argelia	1,302	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3047-412-26-0)" font-size="12px">
+            <text x="5.5" y="3059.5">
+                Suazilandia	1,296	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3073-412-26-0)" font-size="12px">
+            <text x="5.5" y="3085.5">
+                Belice	1,134	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3099-412-26-0)" font-size="12px">
+            <text x="5.5" y="3111.5">
+                Guyana	1,053	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3125-412-26-0)" font-size="12px">
+            <text x="5.5" y="3137.5">
+                Jamaica	1,014	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3151-412-26-0)" font-size="12px">
+            <text x="5.5" y="3163.5">
+                Iraq	989	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3177-412-26-0)" font-size="12px">
+            <text x="5.5" y="3189.5">
+                Gab&#243;n	928	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3203-412-26-0)" font-size="12px">
+            <text x="5.5" y="3215.5">
+                El Salvador	915	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3229-412-26-0)" font-size="12px">
+            <text x="5.5" y="3241.5">
+                Fiyi	908	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3255-412-26-0)" font-size="12px">
+            <text x="5.5" y="3267.5">
+                India	857	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3281-412-26-0)" font-size="12px">
+            <text x="5.5" y="3293.5">
+                Indonesia	799	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3307-412-26-0)" font-size="12px">
+            <text x="5.5" y="3319.5">
+                Marruecos	794	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3333-412-26-0)" font-size="12px">
+            <text x="5.5" y="3345.5">
+                Honduras	782	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3359-412-26-0)" font-size="12px">
+            <text x="5.5" y="3371.5">
+                Laos	735	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3385-412-26-0)" font-size="12px">
+            <text x="5.5" y="3397.5">
+                Siria	730	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3411-412-26-0)" font-size="12px">
+            <text x="5.5" y="3423.5">
+                Filipinas	717	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3437-412-26-0)" font-size="12px">
+            <text x="5.5" y="3449.5">
+                Bolivia	669	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3463-412-26-0)" font-size="12px">
+            <text x="5.5" y="3475.5">
+                Zambia	634	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3489-412-26-0)" font-size="12px">
+            <text x="5.5" y="3501.5">
+                Cabo Verde	630	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3515-412-26-0)" font-size="12px">
+            <text x="5.5" y="3527.5">
+                Samoa	603	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3541-412-26-0)" font-size="12px">
+            <text x="5.5" y="3553.5">
+                Guatemala	589	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3567-412-26-0)" font-size="12px">
+            <text x="5.5" y="3579.5">
+                Nicaragua	579	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3593-412-26-0)" font-size="12px">
+            <text x="5.5" y="3605.5">
+                Guinea Ecuatorial	556	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3619-412-26-0)" font-size="12px">
+            <text x="5.5" y="3631.5">
+                Sri Lanka	554	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3645-412-26-0)" font-size="12px">
+            <text x="5.5" y="3657.5">
+                Corea del Norte	542	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3671-412-26-0)" font-size="12px">
+            <text x="5.5" y="3683.5">
+                Zimbabue	489	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3697-412-26-0)" font-size="12px">
+            <text x="5.5" y="3709.5">
+                Tonga	456	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3723-412-26-0)" font-size="12px">
+            <text x="5.5" y="3735.5">
+                Pap&#250;a-Nueva Guinea	446	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3749-412-26-0)" font-size="12px">
+            <text x="5.5" y="3761.5">
+                Lesoto	430	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3775-412-26-0)" font-size="12px">
+            <text x="5.5" y="3787.5">
+                Yibuti	409	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3801-412-26-0)" font-size="12px">
+            <text x="5.5" y="3813.5">
+                Pakist&#225;n	395	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3827-412-26-0)" font-size="12px">
+            <text x="5.5" y="3839.5">
+                Mozambique	384	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3853-412-26-0)" font-size="12px">
+            <text x="5.5" y="3865.5">
+                Camboya	346	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3879-412-26-0)" font-size="12px">
+            <text x="5.5" y="3891.5">
+                Bangladesh	330	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3905-412-26-0)" font-size="12px">
+            <text x="5.5" y="3917.5">
+                Ghana	319	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3931-412-26-0)" font-size="12px">
+            <text x="5.5" y="3943.5">
+                Santo Tom&#233; y Pr&#237;ncipe	291	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3957-412-26-0)" font-size="12px">
+            <text x="5.5" y="3969.5">
+                Angola	278	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-3983-412-26-0)" font-size="12px">
+            <text x="5.5" y="3995.5">
+                Sud&#225;n	266	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4009-412-26-0)" font-size="12px">
+            <text x="5.5" y="4021.5">
+                Mauritania	264	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4035-412-26-0)" font-size="12px">
+            <text x="5.5" y="4047.5">
+                Birmania; Myanmar	264	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4061-412-26-0)" font-size="12px">
+            <text x="5.5" y="4073.5">
+                Kiribati	241	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4087-412-26-0)" font-size="12px">
+            <text x="5.5" y="4099.5">
+                Camer&#250;n	231	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4113-412-26-0)" font-size="12px">
+            <text x="5.5" y="4125.5">
+                Senegal	222	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4139-412-26-0)" font-size="12px">
+            <text x="5.5" y="4151.5">
+                Vanuatu	196	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4165-412-26-0)" font-size="12px">
+            <text x="5.5" y="4177.5">
+                Congo	172	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4191-412-26-0)" font-size="12px">
+            <text x="5.5" y="4203.5">
+                Nepal	164	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4217-412-26-0)" font-size="12px">
+            <text x="5.5" y="4229.5">
+                Mal&#237;	153	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4243-412-26-0)" font-size="12px">
+            <text x="5.5" y="4255.5">
+                Afganist&#225;n	151	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4269-412-26-0)" font-size="12px">
+            <text x="5.5" y="4281.5">
+                Kenia	147	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4295-412-26-0)" font-size="12px">
+            <text x="5.5" y="4307.5">
+                Togo	146	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4321-412-26-0)" font-size="12px">
+            <text x="5.5" y="4333.5">
+                Islas Salom&#243;n	140	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4347-412-26-0)" font-size="12px">
+            <text x="5.5" y="4359.5">
+                Gambia	130	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4373-412-26-0)" font-size="12px">
+            <text x="5.5" y="4385.5">
+                Yemen	123	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4399-412-26-0)" font-size="12px">
+            <text x="5.5" y="4411.5">
+                Nigeria	115	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4425-412-26-0)" font-size="12px">
+            <text x="5.5" y="4437.5">
+                Tanzania	97	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4451-412-26-0)" font-size="12px">
+            <text x="5.5" y="4463.5">
+                Ben&#237;n	89	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4477-412-26-0)" font-size="12px">
+            <text x="5.5" y="4489.5">
+                Etiop&#237;a	84	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4503-412-26-0)" font-size="12px">
+            <text x="5.5" y="4515.5">
+                Burkina Faso	74	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4529-412-26-0)" font-size="12px">
+            <text x="5.5" y="4541.5">
+                Rep&#250;blica Democr&#225;tica del Congo	73	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4555-412-26-0)" font-size="12px">
+            <text x="5.5" y="4567.5">
+                Uganda	72	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4581-412-26-0)" font-size="12px">
+            <text x="5.5" y="4593.5">
+                Malaui	62	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4607-412-26-0)" font-size="12px">
+            <text x="5.5" y="4619.5">
+                Madagascar	59	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4633-412-26-0)" font-size="12px">
+            <text x="5.5" y="4645.5">
+                Eritrea	58	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4659-412-26-0)" font-size="12px">
+            <text x="5.5" y="4671.5">
+                Liberia	55	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4685-412-26-0)" font-size="12px">
+            <text x="5.5" y="4697.5">
+                N&#237;ger	47	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4711-412-26-0)" font-size="12px">
+            <text x="5.5" y="4723.5">
+                Comoras	46	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4737-412-26-0)" font-size="12px">
+            <text x="5.5" y="4749.5">
+                Guinea	44	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4763-412-26-0)" font-size="12px">
+            <text x="5.5" y="4775.5">
+                Sierra Leona	42	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4789-412-26-0)" font-size="12px">
+            <text x="5.5" y="4801.5">
+                Ruanda	41	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4815-412-26-0)" font-size="12px">
+            <text x="5.5" y="4827.5">
+                Hait&#237;	37	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4841-412-26-0)" font-size="12px">
+            <text x="5.5" y="4853.5">
+                Burundi	32	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4867-412-26-0)" font-size="12px">
+            <text x="5.5" y="4879.5">
+                Somalia	27	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4893-412-26-0)" font-size="12px">
+            <text x="5.5" y="4905.5">
+                Rep&#250;blica Centroafricana	27	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4919-412-26-0)" font-size="12px">
+            <text x="5.5" y="4931.5">
+                Guinea-Bissau	19	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4945-412-26-0)" font-size="12px">
+            <text x="5.5" y="4957.5">
+                Chad	12	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4971-412-26-0)" font-size="12px">
+            <text x="5.5" y="4983.5">
+                Timor Oriental	0	2020
+            </text>
+        </g>
+        <g fill="rgb(0, 0, 0)" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-4-4997-412-26-0)" font-size="12px">
+            <text x="5.5" y="5009.5">
+                S&#225;hara Occidental	0	2020
+            </text>
+        </g>
+    </g>
+</svg>
