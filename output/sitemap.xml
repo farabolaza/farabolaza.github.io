@@ -22,8 +22,12 @@
   <lastmod>2022-12-05T22:04:00Z</lastmod>
  </url>
  <url>
+  <loc>https://farabolaza.github.io/2023/</loc>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://farabolaza.github.io/archive.html</loc>
-  <lastmod>2022-12-05T21:20:00Z</lastmod>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/</loc>
@@ -64,6 +68,10 @@
  <url>
   <loc>https://farabolaza.github.io/categories/cat_fisicacontempo1/</loc>
   <lastmod>2021-10-14T01:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/categories/cat_fisicacontempo2/</loc>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/categories/cat_fisicoquimica3/</loc>
@@ -218,6 +226,10 @@
   <lastmod>2021-10-14T01:09:00Z</lastmod>
  </url>
  <url>
+  <loc>https://farabolaza.github.io/posts/cla-fisicacontempo2-2022-01-temario/</loc>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://farabolaza.github.io/posts/cla-fisicoquimica3-2020-01-intro/</loc>
   <lastmod>2021-10-14T01:09:00Z</lastmod>
  </url>
@@ -287,19 +299,19 @@
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-1.html</loc>
-  <lastmod>2022-12-05T22:25:00Z</lastmod>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-2.html</loc>
-  <lastmod>2022-12-05T22:25:00Z</lastmod>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-3.html</loc>
-  <lastmod>2022-12-05T22:25:00Z</lastmod>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/index-4.html</loc>
-  <lastmod>2022-12-07T19:34:00Z</lastmod>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://farabolaza.github.io/posts/plan-fisica4-2020/</loc>
@@ -320,5 +332,9 @@
  <url>
   <loc>https://farabolaza.github.io/posts/plan-math2-2020/</loc>
   <lastmod>2021-10-14T01:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://farabolaza.github.io/posts/testnotebook/</loc>
+  <lastmod>2023-01-24T16:10:00Z</lastmod>
  </url>
 </urlset>

@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1670441777.0707705
+_modified_time = 1674845330.9991102
 _enable_loop = True
 _template_filename = 'themes/custom/templates/storyb.tmpl'
 _template_uri = 'storyb.tmpl'
@@ -40,14 +40,14 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         enable_comments = context.get('enable_comments', UNDEFINED)
-        pheader = _mako_get_namespace(context, 'pheader')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        math = _mako_get_namespace(context, 'math')
         def content():
             return render_content(context._locals(__M_locals))
+        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        pheader = _mako_get_namespace(context, 'pheader')
+        post = context.get('post', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         __M_writer = context.writer()
         __M_writer('\n')
         __M_writer('\n')
@@ -68,14 +68,14 @@ def render_content(context,**pageargs):
     __M_caller = context.caller_stack._push_frame()
     try:
         enable_comments = context.get('enable_comments', UNDEFINED)
-        pheader = _mako_get_namespace(context, 'pheader')
-        site_has_comments = context.get('site_has_comments', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
-        post = context.get('post', UNDEFINED)
-        comments = _mako_get_namespace(context, 'comments')
-        math = _mako_get_namespace(context, 'math')
         def content():
             return render_content(context)
+        math = _mako_get_namespace(context, 'math')
+        site_has_comments = context.get('site_has_comments', UNDEFINED)
+        pheader = _mako_get_namespace(context, 'pheader')
+        post = context.get('post', UNDEFINED)
+        comments = _mako_get_namespace(context, 'comments')
         __M_writer = context.writer()
         __M_writer('  \n    <div class="container">\n        <div class="row no-gutters">\n            <!-- sidebar, which will move to the top on a small screen -->\n            <div class="col-sm-3">\n                <nav id="toc" data-toggle="toc" class="sticky-top"></nav>\n            </div>\n            <div class="col-sm-9">\n                <article class="post-')
         __M_writer(str(post.meta('type')))

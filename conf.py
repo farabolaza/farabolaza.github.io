@@ -176,6 +176,7 @@ NAVIGATION_LINKS = {
     		("/categories/cat_fisicacontempo2/", "FÍSICA CONTEMPORÁNEA 2"),
     		("/categories/cat_energo/", "ENERGOTECNIA"),
     		("/categories/cat_electronica/", "ELECTRÓNICA"),
+            ("/categories/cat_computacion3/", "COMPUTACIÓN 3"),
     	),
     	"OTROS"
     ),
@@ -262,12 +263,14 @@ POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "", "page.tmpl"),
+    ("pages/*.ipynb", "pages", "post.tmpl"),
 )
 
 
@@ -528,9 +531,13 @@ CATEGORY_DESCRIPTIONS = {
        <p><h4>Resumen para examen final <h4></p>
        <p>Resumen de temas para final</p>
        <hr>''',
-       "electro": ''' 
+       "electronica": ''' 
        <p><h4>Resumen para examen final<h4></p>
        <p>Temas que voy a repasar</p>
+       <hr>''',
+       "computacion3": ''' 
+       <p><h4>Resumen para examen final<h4></p>
+       <p>Clases de la cursada</p>
        <hr>''',  
    },
 }
